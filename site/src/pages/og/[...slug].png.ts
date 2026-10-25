@@ -5,7 +5,7 @@ import fs from 'node:fs';
 import { createRequire } from 'node:module';
 import satori from 'satori';
 import sharp from 'sharp';
-import { AUTHOR, SITE_NAME } from '../../author';
+import { AUTHOR, SITE_NAME, langOfId, t } from '../../author';
 
 const require = createRequire(import.meta.url);
 const font = (pkg: string, file: string) => fs.readFileSync(require.resolve(`${pkg}/files/${file}`));
@@ -23,14 +23,18 @@ const logo = `data:image/svg+xml;base64,${fs.readFileSync(new URL('../../../publ
 
 export const getStaticPaths = (async () => {
 	const docs = await getCollection('docs');
-	return docs.map((entry) => ({
-		params: { slug: entry.id },
-		props: {
-			title: entry.data.title.replace(/^[^\p{L}\p{N}]+/u, '').trim(),
-			description: entry.data.description ?? '',
-			isHome: entry.id === 'index',
-		},
-	}));
+	return docs.map((entry) => {
+		const lang = langOfId(entry.id);
+		const isHome = ['', 'index', lang].includes(entry.id);
+		return {
+			params: { slug: entry.id || 'index' },
+			props: {
+				title: isHome ? t(lang).ogHeadline : entry.data.title.replace(/^[^\p{L}\p{N}]+/u, '').trim(),
+				description: entry.data.description ?? '',
+				url: `001123.github.io/my-awesome${lang === 'en' ? '' : '/' + lang}`,
+			},
+		};
+	});
 }) satisfies GetStaticPaths;
 
 type El = { type: string; props: Record<string, unknown> };
@@ -40,10 +44,9 @@ const h = (type: string, style: Record<string, unknown>, children?: unknown, ext
 });
 
 export const GET: APIRoute = async ({ props }) => {
-	const p = props as { title: string; description: string; isHome: boolean };
+	const p = props as { title: string; description: string; url: string };
 	const title = p.title.normalize('NFC');
 	const description = p.description.normalize('NFC');
-	const isHome = p.isHome;
 	const tree = h(
 		'div',
 		{ width: '100%', height: '100%', display: 'flex', padding: 48, background: '#F3F1EA', fontFamily: SANS },
@@ -70,7 +73,7 @@ export const GET: APIRoute = async ({ props }) => {
 					h(
 						'div',
 						{ fontFamily: SERIF, fontWeight: 600, fontSize: title.length > 28 ? 66 : 80, lineHeight: 1.08, color: '#141413', letterSpacing: -1 },
-						isHome ? 'Repo & website hay về tech, AI, web dev, UI' : title,
+						title,
 					),
 					h(
 						'div',
@@ -83,7 +86,7 @@ export const GET: APIRoute = async ({ props }) => {
 						h('div', { width: 14, height: 14, borderRadius: 999, background: '#D97757' }),
 						AUTHOR.name,
 					]),
-					'001123.github.io/my-awesome',
+					p.url,
 				]),
 			],
 		),

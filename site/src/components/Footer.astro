@@ -2,7 +2,9 @@
 // Footer mặc định của Starlight + phần tác giả.
 import Default from '@astrojs/starlight/components/Footer.astro';
 import { Icon } from '@astrojs/starlight/components';
-import { AUTHOR } from '../author';
+import { AUTHOR, t } from '../author';
+
+const s = t(Astro.locals.starlightRoute.lang);
 ---
 
 <Default><slot /></Default>
@@ -10,10 +12,10 @@ import { AUTHOR } from '../author';
 <div class="author not-content">
 	<img src={`${import.meta.env.BASE_URL.replace(/\/$/, '')}/favicon.svg`} alt="" width="40" height="40" />
 	<div class="info">
-		<span class="label">Tác giả</span>
+		<span class="label">{s.author}</span>
 		<a class="name" href={AUTHOR.url} rel="author">{AUTHOR.name}</a>
 	</div>
-	<nav aria-label="Liên kết của tác giả">
+	<nav aria-label={s.authorLinks}>
 		<a href={AUTHOR.url} title="Website"><Icon name="external" /><span class="sr-only">Website</span></a>
 		<a href={AUTHOR.github} title="GitHub" rel="me"><Icon name="github" /><span class="sr-only">GitHub</span></a>
 		<a href={AUTHOR.x} title="X" rel="me"><Icon name="x.com" /><span class="sr-only">X</span></a>

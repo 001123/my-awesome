@@ -9,9 +9,13 @@ export default defineConfig({
 	integrations: [
 		starlight({
 			title: 'My Awesome',
-			description: 'Tổng hợp repo, website hay về tech, AI, web dev, UI design. Tự động cập nhật mỗi 12 giờ.',
+			description: 'A curated list of great repos and websites on tech, AI, web dev and UI design, updated every 12 hours.',
+			// English ở gốc, các ngôn ngữ khác ở /<mã>/. Thêm ngôn ngữ: thêm một khoá ở đây và trong site/scripts/sync-content.mjs
 			defaultLocale: 'root',
-			locales: { root: { label: 'Tiếng Việt', lang: 'vi' } },
+			locales: {
+				root: { label: 'English', lang: 'en' },
+				vi: { label: 'Tiếng Việt', lang: 'vi' },
+			},
 			favicon: '/favicon.svg',
 			social: [
 				{ icon: 'github', label: 'GitHub', href: 'https://github.com/001123/my-awesome' },
@@ -39,10 +43,10 @@ export default defineConfig({
 				'./src/styles/custom.css',
 			],
 			sidebar: [
-				{ label: 'Trang chủ', link: '/' },
-				{ label: 'Danh mục', items: [{ autogenerate: { directory: 'categories' } }] },
-				{ label: 'Lịch sử cập nhật', link: '/changelog/' },
-				{ label: 'Quy tắc tổng hợp', link: '/curation/' },
+				{ label: 'Home', translations: { vi: 'Trang chủ' }, link: '/' },
+				{ label: 'Categories', translations: { vi: 'Danh mục' }, items: [{ autogenerate: { directory: 'categories' } }] },
+				{ label: 'Changelog', translations: { vi: 'Lịch sử cập nhật' }, slug: 'changelog' },
+				{ label: 'Curation rules', translations: { vi: 'Quy tắc tổng hợp' }, slug: 'curation' },
 			],
 		}),
 	],

@@ -2,7 +2,7 @@
 
 Tổng hợp các repo, website hay và hữu ích về **tech, AI, web development, UI design** và hơn thế nữa. Danh sách được tự động research và cập nhật mỗi 12 giờ.
 
-> Cập nhật lần cuối: **2026-10-25** · Tổng cộng **99** mục · Xem lịch sử ở [CHANGELOG](CHANGELOG.md)
+> Cập nhật lần cuối: **2026-10-25** · Tổng cộng **99** mục · Xem lịch sử ở [CHANGELOG](CHANGELOG.md) · [English](en/README.md)
 
 ## 📂 Danh mục
 

@@ -8,6 +8,7 @@ on:
       - 'CHANGELOG.md'
       - 'CURATION.md'
       - 'categories/**'
+      - 'en/**'
       - 'site/**'
       - '.github/workflows/deploy-site.yml'
   workflow_dispatch:

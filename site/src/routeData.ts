@@ -1,16 +1,17 @@
 // Bổ sung SEO cho từng trang: tiêu đề kèm tên tác giả, ảnh OG riêng, thẻ Twitter, JSON-LD.
 import { defineRouteMiddleware } from '@astrojs/starlight/route-data';
-import { AUTHOR, SITE_NAME } from './author';
+import { AUTHOR, SITE_NAME, langOfId, t } from './author';
 
 const stripEmoji = (s: string) => s.replace(/^[^\p{L}\p{N}]+/u, '').trim();
 
 export const onRequest = defineRouteMiddleware((context) => {
 	const route = context.locals.starlightRoute;
 	const { head, entry } = route;
-	const isHome = entry.id === 'index';
+	const lang = langOfId(entry.id);
+	const isHome = ['', 'index', lang].includes(entry.id);
 	const pageTitle = stripEmoji(entry.data.title);
 	const fullTitle = isHome
-		? `${SITE_NAME}: repo & website hay về tech, AI | ${AUTHOR.name}`
+		? `${SITE_NAME}: ${t(lang).homeTitle} | ${AUTHOR.name}`
 		: `${pageTitle} | ${SITE_NAME} · ${AUTHOR.name}`;
 
 	const set = (match: (t: (typeof head)[number]) => boolean, item: (typeof head)[number]) => {
@@ -26,7 +27,7 @@ export const onRequest = defineRouteMiddleware((context) => {
 	meta('property', 'og:type', isHome ? 'website' : 'article');
 
 	const base = import.meta.env.BASE_URL.replace(/\/$/, '');
-	const image = new URL(`${base}/og/${entry.id}.png`, context.site).href;
+	const image = new URL(`${base}/og/${entry.id || 'index'}.png`, context.site).href;
 	meta('property', 'og:image', image);
 	meta('property', 'og:image:width', '1200');
 	meta('property', 'og:image:height', '630');
@@ -57,7 +58,7 @@ export const onRequest = defineRouteMiddleware((context) => {
 					'@id': `${siteUrl}#website`,
 					name: SITE_NAME,
 					url: siteUrl,
-					inLanguage: 'vi',
+					inLanguage: ['en', 'vi'],
 					author: { '@id': `${AUTHOR.url}#person` },
 					publisher: { '@id': `${AUTHOR.url}#person` },
 				},
@@ -67,7 +68,7 @@ export const onRequest = defineRouteMiddleware((context) => {
 					url: pageUrl,
 					name: fullTitle,
 					...(description && { description }),
-					inLanguage: 'vi',
+					inLanguage: route.lang,
 					isPartOf: { '@id': `${siteUrl}#website` },
 					author: { '@id': `${AUTHOR.url}#person` },
 					primaryImageOfPage: image,
