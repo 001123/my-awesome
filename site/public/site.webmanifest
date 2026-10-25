@@ -1,0 +1,16 @@
+{
+	"name": "My Awesome · Bùi Khương Duy",
+	"short_name": "My Awesome",
+	"description": "Tổng hợp repo, website hay về tech, AI, web dev, UI design. Tự động cập nhật mỗi 12 giờ.",
+	"lang": "vi",
+	"start_url": "/my-awesome/",
+	"scope": "/my-awesome/",
+	"display": "standalone",
+	"background_color": "#F3F1EA",
+	"theme_color": "#D97757",
+	"icons": [
+		{ "src": "/my-awesome/icon-192.png", "sizes": "192x192", "type": "image/png" },
+		{ "src": "/my-awesome/icon-512.png", "sizes": "512x512", "type": "image/png" },
+		{ "src": "/my-awesome/icon-maskable-512.png", "sizes": "512x512", "type": "image/png", "purpose": "maskable" }
+	]
+}

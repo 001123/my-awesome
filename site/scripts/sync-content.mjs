@@ -33,6 +33,21 @@ function rewriteLinks(body, srcRel) {
 	});
 }
 
+// Đoạn văn đầu tiên làm meta description (bỏ markdown, tối đa ~160 ký tự)
+function describe(body) {
+	const para = body
+		.split(/\n{2,}/)
+		.map((p) => p.trim())
+		.find((p) => p && !/^(#|>|\||-|\*|```|\[←)/.test(p));
+	if (!para) return '';
+	const plain = para
+		.replace(/!?\[([^\]]*)\]\([^)]*\)/g, '$1')
+		.replace(/[*_`]/g, '')
+		.replace(/\s+/g, ' ')
+		.trim();
+	return plain.length > 160 ? plain.slice(0, 157).replace(/\s+\S*$/, '') + '…' : plain;
+}
+
 function convert(srcRel, destRel, extra = {}) {
 	let text = fs.readFileSync(path.join(repoDir, srcRel), 'utf8').replace(/\r\n/g, '\n');
 	let title = path.basename(srcRel, '.md');
@@ -44,7 +59,8 @@ function convert(srcRel, destRel, extra = {}) {
 	// bỏ dòng "← Về README" vì site đã có sidebar
 	text = text.replace(/^\[←[^\]]*\]\([^)]*README\.md\)\s*$/gm, '');
 	text = rewriteLinks(text, srcRel).replace(/^\n+/, '');
-	const fm = { title, editUrl: `https://github.com/001123/my-awesome/edit/main/${srcRel}`, ...extra };
+	const description = extra.description ?? describe(text);
+	const fm = { title, ...(description && { description }), editUrl: `https://github.com/001123/my-awesome/edit/main/${srcRel}`, ...extra };
 	const yaml = Object.entries(fm)
 		.map(([k, v]) => (typeof v === 'object' ? `${k}:\n${Object.entries(v).map(([a, b]) => `  ${a}: ${JSON.stringify(b)}`).join('\n')}` : `${k}: ${JSON.stringify(v)}`))
 		.join('\n');
