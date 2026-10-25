@@ -11,6 +11,8 @@ Thư viện component, animation, công cụ thiết kế và website lấy cả
 - [radix-ui/primitives](https://github.com/radix-ui/primitives) — Primitive UI không style, accessible, nền cho design system. ⭐ 19k · TypeScript · _thêm 2026-10-25_
 - [chakra-ui/chakra-ui](https://github.com/chakra-ui/chakra-ui) — Hệ component React cho sản phẩm SaaS, hỗ trợ dark mode và a11y. ⭐ 41k · TypeScript · _thêm 2026-10-25_
 - [lucide-icons/lucide](https://github.com/lucide-icons/lucide) — Bộ icon SVG đẹp, đồng nhất, có bản cho React, Vue, Figma. ⭐ 25k · TypeScript · _thêm 2026-10-25_
+- [assistant-ui/assistant-ui](https://github.com/assistant-ui/assistant-ui) — Thư viện React/TypeScript dựng giao diện chat AI hoàn chỉnh, tương thích shadcn và Vercel AI SDK. ⭐ 13k · TypeScript · _thêm 2026-10-25_
+- [adobe/react-spectrum](https://github.com/adobe/react-spectrum) — Bộ thư viện của Adobe (React Aria…) để xây design system accessible, hỗ trợ đa nền tảng và đa ngôn ngữ. ⭐ 16k · TypeScript · _thêm 2026-10-25_
 
 ## Animation & hiệu ứng
 
@@ -18,6 +20,7 @@ Thư viện component, animation, công cụ thiết kế và website lấy cả
 - [magicuidesign/magicui](https://github.com/magicuidesign/magicui) — Component và hiệu ứng động cho "design engineer", copy-paste dùng ngay. ⭐ 23k · MDX · _thêm 2026-10-25_
 - [motiondivision/motion](https://github.com/motiondivision/motion) — Thư viện animation cho React và JavaScript (trước là Framer Motion). ⭐ 35k · TypeScript · _thêm 2026-10-25_
 - [pmndrs/react-three-fiber](https://github.com/pmndrs/react-three-fiber) — Dùng Three.js theo cách React để làm 3D trên web. ⭐ 33k · TypeScript · _thêm 2026-10-25_
+- [heygen-com/hyperframes](https://github.com/heygen-com/hyperframes) — Viết HTML/CSS rồi render thành video, thiết kế để AI agent tạo motion graphics. ⭐ 72k · TypeScript · _thêm 2026-10-25_
 
 ## Công cụ thiết kế
 

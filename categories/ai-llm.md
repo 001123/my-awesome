@@ -25,8 +25,11 @@ Mô hình, công cụ chạy model local, inference, fine-tune và framework xâ
 - [langgenius/dify](https://github.com/langgenius/dify) — Nền tảng low-code xây workflow agent và pipeline RAG, tự host được. ⭐ 159k · Python · _thêm 2026-10-25_
 - [mem0ai/mem0](https://github.com/mem0ai/mem0) — Lớp bộ nhớ dài hạn cho agent và ứng dụng AI. ⭐ 68k · Python · _thêm 2026-10-25_
 - [headroomlabs-ai/headroom](https://github.com/headroomlabs-ai/headroom) — Nén log, file, chunk RAG trước khi gửi vào LLM để giảm token mà giữ nguyên kết quả. ⭐ 78k · Python · _thêm 2026-10-25_
+- [langfuse/langfuse](https://github.com/langfuse/langfuse) — Nền tảng observability và eval cho ứng dụng LLM/agent: trace, chấm điểm, quản lý prompt, tự host được. ⭐ 36k · TypeScript · _thêm 2026-10-25_
 
 ## Thu thập dữ liệu web cho AI
 
 - [firecrawl/firecrawl](https://github.com/firecrawl/firecrawl) — Biến website thành Markdown/dữ liệu sạch cho agent và RAG. ⭐ 195k · TypeScript · _thêm 2026-10-25_
 - [unclecode/crawl4ai](https://github.com/unclecode/crawl4ai) — Crawler mã nguồn mở, xuất Markdown thân thiện với LLM, tự chạy được. ⭐ 86k · Python · _thêm 2026-10-25_
+- [D4Vinci/Scrapling](https://github.com/D4Vinci/Scrapling) — Framework scraping thích ứng, vượt chống bot, từ một request đến crawl quy mô lớn, có sẵn MCP server. ⭐ 90k · Python · _thêm 2026-10-25_
+- [firecrawl/anydoc](https://github.com/firecrawl/anydoc) — Chuyển Word, PowerPoint, Excel, EPUB, PDF… sang Markdown sạch cho LLM, lõi Rust có binding Node.js và Python. ⭐ 23k · Rust · _thêm 2026-10-25_

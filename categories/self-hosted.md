@@ -11,3 +11,6 @@ Phần mềm tự host thay thế dịch vụ đám mây.
 - [usememos/memos](https://github.com/usememos/memos) — App ghi chú dạng timeline tự host, dữ liệu là của bạn. ⭐ 64k · Go · _thêm 2026-10-25_
 - [go-gitea/gitea](https://github.com/go-gitea/gitea) — Git server tự host nhẹ, có code review, package registry và CI/CD. ⭐ 59k · Go · _thêm 2026-10-25_
 - [siyuan-note/siyuan](https://github.com/siyuan-note/siyuan) — Không gian kiến thức tự host, ưu tiên quyền riêng tư, cộng tác với AI agent. ⭐ 47k · TypeScript · _thêm 2026-10-25_
+- [glanceapp/glance](https://github.com/glanceapp/glance) — Dashboard tự host gom RSS, Reddit, YouTube, thời tiết, trạng thái dịch vụ vào một trang khởi đầu gọn nhẹ. ⭐ 38k · Go · _thêm 2026-10-25_
+- [TriliumNext/Trilium](https://github.com/TriliumNext/Trilium) — App ghi chú phân cấp xây kho kiến thức cá nhân, có scripting và đồng bộ qua server tự host. ⭐ 39k · TypeScript · _thêm 2026-10-25_
+- [dgtlmoon/changedetection.io](https://github.com/dgtlmoon/changedetection.io) — Theo dõi thay đổi trang web, báo giảm giá hay có hàng lại qua nhiều kênh thông báo. ⭐ 35k · Python · _thêm 2026-10-25_

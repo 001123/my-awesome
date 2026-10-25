@@ -9,6 +9,7 @@ Agent tự động, trợ lý lập trình, MCP server và agent skills.
 - [anthropics/claude-code](https://github.com/anthropics/claude-code) — Agent lập trình chạy trong terminal, hiểu codebase, sửa code và xử lý git bằng ngôn ngữ tự nhiên. ⭐ 153k · TypeScript · _thêm 2026-10-25_
 - [google-gemini/gemini-cli](https://github.com/google-gemini/gemini-cli) — Agent AI mã nguồn mở của Google mang Gemini vào terminal. ⭐ 108k · TypeScript · _thêm 2026-10-25_
 - [OpenHands/OpenHands](https://github.com/OpenHands/OpenHands) — Nền tảng phát triển phần mềm bằng AI agent, mã nguồn mở. ⭐ 92k · TypeScript · _thêm 2026-10-25_
+- [xai-org/grok-build](https://github.com/xai-org/grok-build) — Agent lập trình chính chủ của xAI với giao diện TUI toàn màn hình, hỗ trợ chuột và dễ mở rộng. ⭐ 27k · Rust · _thêm 2026-10-25_
 
 ## Agent đa năng & điều phối
 
@@ -25,3 +26,5 @@ Agent tự động, trợ lý lập trình, MCP server và agent skills.
 - [Graphify-Labs/graphify](https://github.com/Graphify-Labs/graphify) — Biến codebase và tài liệu thành knowledge graph truy vấn được, dùng như skill cho coding agent. ⭐ 135k · Python · _thêm 2026-10-25_
 - [rtk-ai/rtk](https://github.com/rtk-ai/rtk) — CLI proxy giảm 60–90% token khi agent chạy các lệnh dev thường gặp. ⭐ 85k · Rust · _thêm 2026-10-25_
 - [kepano/obsidian-skills](https://github.com/kepano/obsidian-skills) — Agent skills giúp agent làm việc với Obsidian, Markdown, JSON Canvas. ⭐ 50k · _thêm 2026-10-25_
+- [punkpeye/awesome-mcp-servers](https://github.com/punkpeye/awesome-mcp-servers) — Danh sách MCP server lớn nhất, chia theo lĩnh vực, giúp tìm nhanh công cụ để gắn vào agent. ⭐ 97k · _thêm 2026-10-25_
+- [langchain-ai/openwiki](https://github.com/langchain-ai/openwiki) — CLI tự viết và cập nhật tài liệu codebase dành cho coding agent, giúp agent hiểu dự án nhanh hơn. ⭐ 17k · TypeScript · _thêm 2026-10-25_

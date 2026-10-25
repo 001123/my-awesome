@@ -12,6 +12,8 @@ Công cụ dòng lệnh, tiện ích và năng suất cho lập trình viên.
 - [sharkdp/bat](https://github.com/sharkdp/bat) — `cat` có tô màu cú pháp và tích hợp git. ⭐ 61k · Rust · _thêm 2026-10-25_
 - [tldr-pages/tldr](https://github.com/tldr-pages/tldr) — Cheatsheet ngắn gọn, có ví dụ cho các lệnh console. ⭐ 64k · Markdown · _thêm 2026-10-25_
 - [cli/cli](https://github.com/cli/cli) — CLI chính thức của GitHub: PR, issue, release từ terminal. ⭐ 47k · Go · _thêm 2026-10-25_
+- [sxyazi/yazi](https://github.com/sxyazi/yazi) — Trình quản lý file trong terminal cực nhanh nhờ async I/O, xem trước ảnh và code, phím tắt kiểu Vim. ⭐ 43k · Rust · _thêm 2026-10-25_
+- [ajeetdsouza/zoxide](https://github.com/ajeetdsouza/zoxide) — Lệnh `cd` thông minh, nhớ thư mục hay dùng để nhảy đến chỉ bằng vài ký tự, chạy trên mọi shell. ⭐ 40k · Rust · _thêm 2026-10-25_
 
 ## Tiện ích
 
