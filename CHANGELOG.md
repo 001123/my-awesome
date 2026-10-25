@@ -1,10 +1,10 @@
 # Changelog
 
-Mỗi lần tổng hợp được ghi ở đây, mới nhất ở trên cùng.
+Every curation run is logged here, newest first.
 
 ## 2026-10-25 12:35 UTC
 
-Thêm 14 mục (tổng 99):
+Added 14 entries (99 total):
 
 - AI Agents & MCP (3): xai-org/grok-build, punkpeye/awesome-mcp-servers, langchain-ai/openwiki
 - AI & LLM (3): langfuse/langfuse, D4Vinci/Scrapling, firecrawl/anydoc
@@ -14,4 +14,4 @@ Thêm 14 mục (tổng 99):
 
 ## 2026-10-25
 
-Lần tổng hợp đầu tiên: tạo 7 danh mục với 85 mục (AI & LLM 15, AI Agents & MCP 13, Web Development 15, UI Design 18, Dev Tools 9, Self-hosted 7, Học tập 8).
+First curation run: created 7 categories with 85 entries (AI & LLM 15, AI Agents & MCP 13, Web Development 15, UI Design 18, Dev Tools 9, Self-hosted 7, Learning 8).

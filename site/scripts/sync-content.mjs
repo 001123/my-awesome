@@ -16,8 +16,8 @@ const REPO = 'https://github.com/001123/my-awesome';
 
 // src: thư mục nguồn so với gốc repo; out: tiền tố URL ('' = locale gốc của site)
 const LANGS = [
-	{ code: 'en', src: 'en', out: '' },
-	{ code: 'vi', src: '.', out: 'vi' },
+	{ code: 'en', src: '.', out: '' },
+	{ code: 'vi', src: 'vi', out: 'vi' },
 ];
 
 // Ngôn ngữ của một file nguồn: thư mục con khớp trước, gốc repo cuối cùng
@@ -43,6 +43,14 @@ function routeFor(rel) {
 }
 
 function rewriteLinks(body, srcRel) {
+	// không đụng tới code (`...` và khối ```), chỉ sửa link trong phần chữ
+	return body
+		.split(/(```[\s\S]*?```|`[^`\n]*`)/)
+		.map((part, i) => (i % 2 ? part : rewritePart(part, srcRel)))
+		.join('');
+}
+
+function rewritePart(body, srcRel) {
 	return body.replace(/\]\(([^)\s]+)\)/g, (all, href) => {
 		if (/^([a-z]+:|#|\/)/i.test(href)) return all;
 		const [p, hash] = href.split('#');
@@ -79,6 +87,8 @@ function convert(srcRel, destRel) {
 	}
 	// bỏ dòng "← Về README" / "← Back to README" vì site đã có sidebar
 	text = text.replace(/^\[←[^\]]*\]\([^)]*README\.md\)\s*$/gm, '');
+	// bỏ dòng chuyển ngôn ngữ ở đầu README (site có nút chọn ngôn ngữ riêng)
+	text = text.replace(/^.*🌐 \[Website\]\([^)]*\)\s*$/gm, '');
 	text = rewriteLinks(text, srcRel).replace(/^\n+/, '');
 	const description = describe(text);
 	const fm = { title, ...(description && { description }), editUrl: `${REPO}/edit/main/${srcRel}` };

@@ -1,38 +1,38 @@
 # 🎨 UI Design & Components
 
-Thư viện component, animation, công cụ thiết kế và website lấy cảm hứng.
+Component libraries, animation, design tools and websites for inspiration.
 
-[← Về README](../README.md)
+[← Back to README](../README.md)
 
-## Thư viện component
+## Component libraries
 
-- [shadcn-ui/ui](https://github.com/shadcn-ui/ui) — Component đẹp, accessible, copy thẳng vào dự án và tuỳ biến thoải mái. ⭐ 126k · TypeScript · _thêm 2026-10-25_
-- [tailwindlabs/tailwindcss](https://github.com/tailwindlabs/tailwindcss) — CSS framework utility-first, nền tảng của hầu hết UI hiện đại. ⭐ 98k · TypeScript · _thêm 2026-10-25_
-- [radix-ui/primitives](https://github.com/radix-ui/primitives) — Primitive UI không style, accessible, nền cho design system. ⭐ 19k · TypeScript · _thêm 2026-10-25_
-- [chakra-ui/chakra-ui](https://github.com/chakra-ui/chakra-ui) — Hệ component React cho sản phẩm SaaS, hỗ trợ dark mode và a11y. ⭐ 41k · TypeScript · _thêm 2026-10-25_
-- [lucide-icons/lucide](https://github.com/lucide-icons/lucide) — Bộ icon SVG đẹp, đồng nhất, có bản cho React, Vue, Figma. ⭐ 25k · TypeScript · _thêm 2026-10-25_
-- [assistant-ui/assistant-ui](https://github.com/assistant-ui/assistant-ui) — Thư viện React/TypeScript dựng giao diện chat AI hoàn chỉnh, tương thích shadcn và Vercel AI SDK. ⭐ 13k · TypeScript · _thêm 2026-10-25_
-- [adobe/react-spectrum](https://github.com/adobe/react-spectrum) — Bộ thư viện của Adobe (React Aria…) để xây design system accessible, hỗ trợ đa nền tảng và đa ngôn ngữ. ⭐ 16k · TypeScript · _thêm 2026-10-25_
+- [shadcn-ui/ui](https://github.com/shadcn-ui/ui) — Beautiful, accessible components you copy straight into your project and customize freely. ⭐ 126k · TypeScript · _added 2026-10-25_
+- [tailwindlabs/tailwindcss](https://github.com/tailwindlabs/tailwindcss) — Utility-first CSS framework behind most modern UIs. ⭐ 98k · TypeScript · _added 2026-10-25_
+- [radix-ui/primitives](https://github.com/radix-ui/primitives) — Unstyled, accessible UI primitives to build design systems on. ⭐ 19k · TypeScript · _added 2026-10-25_
+- [chakra-ui/chakra-ui](https://github.com/chakra-ui/chakra-ui) — React component system for SaaS products with dark mode and a11y built in. ⭐ 41k · TypeScript · _added 2026-10-25_
+- [lucide-icons/lucide](https://github.com/lucide-icons/lucide) — Beautiful, consistent SVG icon set with packages for React, Vue and Figma. ⭐ 25k · TypeScript · _added 2026-10-25_
+- [assistant-ui/assistant-ui](https://github.com/assistant-ui/assistant-ui) — React/TypeScript library for complete AI chat interfaces, compatible with shadcn and the Vercel AI SDK. ⭐ 13k · TypeScript · _added 2026-10-25_
+- [adobe/react-spectrum](https://github.com/adobe/react-spectrum) — Adobe's libraries (React Aria…) for building accessible, cross-platform, internationalized design systems. ⭐ 16k · TypeScript · _added 2026-10-25_
 
-## Animation & hiệu ứng
+## Animation & effects
 
-- [DavidHDev/react-bits](https://github.com/DavidHDev/react-bits) — Thư viện lớn các component React có animation, tương tác ấn tượng. ⭐ 50k · JavaScript · _thêm 2026-10-25_
-- [magicuidesign/magicui](https://github.com/magicuidesign/magicui) — Component và hiệu ứng động cho "design engineer", copy-paste dùng ngay. ⭐ 23k · MDX · _thêm 2026-10-25_
-- [motiondivision/motion](https://github.com/motiondivision/motion) — Thư viện animation cho React và JavaScript (trước là Framer Motion). ⭐ 35k · TypeScript · _thêm 2026-10-25_
-- [pmndrs/react-three-fiber](https://github.com/pmndrs/react-three-fiber) — Dùng Three.js theo cách React để làm 3D trên web. ⭐ 33k · TypeScript · _thêm 2026-10-25_
-- [heygen-com/hyperframes](https://github.com/heygen-com/hyperframes) — Viết HTML/CSS rồi render thành video, thiết kế để AI agent tạo motion graphics. ⭐ 72k · TypeScript · _thêm 2026-10-25_
+- [DavidHDev/react-bits](https://github.com/DavidHDev/react-bits) — Large collection of animated, interactive React components. ⭐ 50k · JavaScript · _added 2026-10-25_
+- [magicuidesign/magicui](https://github.com/magicuidesign/magicui) — Animated components and effects for design engineers, ready to copy and paste. ⭐ 23k · MDX · _added 2026-10-25_
+- [motiondivision/motion](https://github.com/motiondivision/motion) — Animation library for React and JavaScript (formerly Framer Motion). ⭐ 35k · TypeScript · _added 2026-10-25_
+- [pmndrs/react-three-fiber](https://github.com/pmndrs/react-three-fiber) — Use Three.js the React way to build 3D on the web. ⭐ 33k · TypeScript · _added 2026-10-25_
+- [heygen-com/hyperframes](https://github.com/heygen-com/hyperframes) — Write HTML/CSS and render it to video, designed for AI agents making motion graphics. ⭐ 72k · TypeScript · _added 2026-10-25_
 
-## Công cụ thiết kế
+## Design tools
 
-- [penpot/penpot](https://github.com/penpot/penpot) — Công cụ thiết kế và prototype mã nguồn mở, thay thế Figma. ⭐ 62k · Clojure · _thêm 2026-10-25_
-- [excalidraw/excalidraw](https://github.com/excalidraw/excalidraw) — Bảng trắng vẽ sơ đồ phong cách vẽ tay, cộng tác realtime. ⭐ 135k · TypeScript · _thêm 2026-10-25_
-- [Leonxlnx/taste-skill](https://github.com/Leonxlnx/taste-skill) — Agent skills giúp coding agent thiết kế UI có "gu", tránh trang web AI chung chung. ⭐ 102k · JavaScript · _thêm 2026-10-25_
+- [penpot/penpot](https://github.com/penpot/penpot) — Open-source design and prototyping tool, a Figma alternative. ⭐ 62k · Clojure · _added 2026-10-25_
+- [excalidraw/excalidraw](https://github.com/excalidraw/excalidraw) — Hand-drawn style whiteboard for diagrams, with real-time collaboration. ⭐ 135k · TypeScript · _added 2026-10-25_
+- [Leonxlnx/taste-skill](https://github.com/Leonxlnx/taste-skill) — Agent skills that give coding agents design taste, so they avoid generic AI-looking websites. ⭐ 102k · JavaScript · _added 2026-10-25_
 
-## Website cảm hứng & tài nguyên
+## Inspiration & resources
 
-- [Mobbin](https://mobbin.com/) — Thư viện ảnh chụp màn hình UI thật từ app iOS, Android và web. _thêm 2026-10-25_
-- [Laws of UX](https://lawsofux.com/) — Tổng hợp các nguyên lý tâm lý học áp dụng vào thiết kế UX. _thêm 2026-10-25_
-- [Realtime Colors](https://www.realtimecolors.com/) — Thử bảng màu và font trực tiếp trên một trang web mẫu. _thêm 2026-10-25_
-- [Coolors](https://coolors.co/) — Tạo và khám phá bảng màu nhanh. _thêm 2026-10-25_
-- [Fontshare](https://www.fontshare.com/) — Font chất lượng cao miễn phí cho cả dự án thương mại. _thêm 2026-10-25_
-- [Godly](https://godly.website/) — Bộ sưu tập website đẹp, nhiều animation để lấy cảm hứng. _thêm 2026-10-25_
+- [Mobbin](https://mobbin.com/) — Library of real UI screenshots from iOS, Android and web apps. _added 2026-10-25_
+- [Laws of UX](https://lawsofux.com/) — Collection of psychology principles applied to UX design. _added 2026-10-25_
+- [Realtime Colors](https://www.realtimecolors.com/) — Try color palettes and fonts live on a sample website. _added 2026-10-25_
+- [Coolors](https://coolors.co/) — Generate and explore color palettes fast. _added 2026-10-25_
+- [Fontshare](https://www.fontshare.com/) — High-quality fonts, free even for commercial projects. _added 2026-10-25_
+- [Godly](https://godly.website/) — Gallery of beautiful, animation-rich websites for inspiration. _added 2026-10-25_

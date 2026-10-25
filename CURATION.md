@@ -1,72 +1,72 @@
-# Quy tắc tổng hợp
+# Curation rules
 
-File này là "luật chơi" cho mỗi lần cập nhật tự động (mỗi 12 giờ). Giữ file này ổn định để các lần chạy cho ra định dạng giống nhau.
+This file is the rulebook for every automatic update (every 12 hours). Keep it stable so every run produces the same format. The Vietnamese version is [vi/CURATION.md](vi/CURATION.md); if the rules change, update both.
 
-## Ngôn ngữ
+## Languages
 
-Danh sách có **hai bản song song, luôn phải đồng bộ**: tiếng Việt và tiếng Anh. Mỗi lần chạy phải cập nhật **cả hai bản trong cùng một commit**.
+The list has **two parallel versions that must always stay in sync**: Vietnamese and English. Every run updates **both versions in the same commit**.
 
-| Ngôn ngữ | Thư mục | Trên website |
+| Language | Folder | On the website |
 |---|---|---|
-| English (mặc định của site) | `en/` | `/my-awesome/` |
-| Tiếng Việt | gốc repo | `/my-awesome/vi/` |
+| English (default) | repo root | `/my-awesome/` |
+| Vietnamese | `vi/` | `/my-awesome/vi/` |
 
-Hai bản có cùng tên file, cùng danh mục, cùng nhóm `##`, cùng thứ tự mục và cùng số liệu (số sao, ngôn ngữ, ngày). Chỉ khác phần chữ: mô tả, tiêu đề, tên nhóm. File tiếng Việt `categories/x.md` tương ứng với `en/categories/x.md`.
+Both versions share the same file names, categories, `##` groups, entry order and data (stars, language, date). Only the text differs: descriptions, titles and group names. The English `categories/x.md` matches the Vietnamese `vi/categories/x.md`.
 
-Thêm ngôn ngữ mới sau này: tạo thư mục `<mã>/` (vd. `ja/`) có cùng cấu trúc như `en/`, rồi thêm mã đó vào `LANGS` trong `site/scripts/sync-content.mjs` và `locales` trong `site/astro.config.mjs`.
+To add another language later, create a `<code>/` folder (e.g. `ja/`) with the same structure as `vi/`, then add the code to `LANGS` in `site/scripts/sync-content.mjs` and to `locales` in `site/astro.config.mjs`, and the UI strings to `STRINGS` in `site/src/author.ts`.
 
-## Cấu trúc
+## Structure
 
-Mỗi ngôn ngữ có cùng bộ file (bản tiếng Việt ở gốc, bản tiếng Anh trong `en/`):
+Each language has the same set of files (English at the root, Vietnamese in `vi/`):
 
-- `README.md` — giới thiệu, bảng danh mục (kèm số mục), mục "🆕 Mới cập nhật" / "🆕 Latest update" chỉ chứa các mục của **lần chạy gần nhất**, dòng "Cập nhật lần cuối" / "Last updated".
-- `categories/<slug>.md` — mỗi danh mục một file, chia thành các nhóm `##`.
-- `CHANGELOG.md` — mỗi lần chạy thêm một mục ở đầu: ngày giờ (UTC), số mục mới theo danh mục.
-- `CURATION.md` — file này (bản tiếng Anh `en/CURATION.md` là bản dịch; nếu sửa quy tắc thì sửa cả hai).
+- `README.md` — intro, category table (with entry counts), a "🆕 Latest update" section listing only the entries from **the most recent run**, and a "Last updated" line.
+- `categories/<slug>.md` — one file per category, split into `##` groups.
+- `CHANGELOG.md` — every run adds an entry at the top: date and time (UTC), new entries per category.
+- `CURATION.md` — this file.
 
-## Định dạng một mục
+## Entry format
 
-Tiếng Việt:
+Vietnamese:
 
 ```
 - [owner/repo](https://github.com/owner/repo) — Mô tả tiếng Việt, 1 câu, nói nó làm gì và vì sao hay. ⭐ 12k · Ngôn ngữ · _thêm YYYY-MM-DD_
 ```
 
-Tiếng Anh:
+English:
 
 ```
 - [owner/repo](https://github.com/owner/repo) — One-sentence English description of what it does and why it's great. ⭐ 12k · Language · _added YYYY-MM-DD_
 ```
 
-Website (không phải repo): `- [Tên](https://url) — Mô tả. _thêm YYYY-MM-DD_` / `- [Name](https://url) — Description. _added YYYY-MM-DD_`
+Websites (not repos): `- [Name](https://url) — Description. _added YYYY-MM-DD_`
 
-Số sao làm tròn (1.2k, 45k), lấy tại thời điểm thêm, không cần cập nhật lại. Mô tả tiếng Anh viết tự nhiên như người bản xứ, không dịch word-by-word.
+Round star counts (1.2k, 45k), taken when the entry is added; no need to refresh them. Write English descriptions naturally, not as word-for-word translations.
 
-## Tiêu chí chọn
+## Selection criteria
 
-- Hữu ích thực tế cho dev/designer: tech, AI, web dev, UI design, dev tools, self-hosted, học tập.
-- Repo: còn được maintain (có commit trong ~3 tháng), thường ≥ 1k sao; repo mới nổi tăng sao nhanh cũng được.
-- Ưu tiên chất lượng hơn số lượng: mỗi lần chạy thêm khoảng **5–15 mục mới**.
-- Bỏ qua: repo bị archive, meme/spam, nội dung leak, công cụ crack/vi phạm, link không truy cập được.
+- Practically useful for developers and designers: tech, AI, web dev, UI design, dev tools, self-hosted, learning.
+- Repos: still maintained (commits within ~3 months), usually ≥ 1k stars; fast-rising new repos are fine too.
+- Quality over quantity: about **5–15 new entries** per run.
+- Skip: archived repos, memes/spam, leaked content, cracking or infringing tools, unreachable links.
 
-## Chống trùng
+## Deduplication
 
-Trước khi thêm, so URL (không phân biệt hoa thường, bỏ `/` cuối) với tất cả link trong `categories/*.md`. Đã có thì bỏ qua.
+Before adding, compare the URL (case-insensitive, trailing `/` removed) against every link in `categories/*.md` (the English list; the Vietnamese one has the same URLs). Skip it if it already exists.
 
-## Kiểm tra đồng bộ trước khi commit
+## Sync check before committing
 
-Với mỗi danh mục, số dòng mục (`- [`) trong `categories/x.md` và `en/categories/x.md` phải bằng nhau, và tập URL giống hệt nhau. Số mục trong bảng README, tổng số mục và mục mới nhất của CHANGELOG phải khớp ở cả hai bản.
+For every category, `categories/x.md` and `vi/categories/x.md` must have the same number of entry lines (`- [`) and exactly the same set of URLs. The README table counts, the total and the latest CHANGELOG entry must match in both versions.
 
-## Danh mục mới
+## New categories
 
-Chỉ tạo file danh mục mới khi có ít nhất 3 mục phù hợp không thuộc danh mục nào hiện có. Tạo ở **cả hai** thư mục với cùng tên file, và thêm dòng vào bảng trong cả hai README.
+Only create a new category file when there are at least 3 fitting entries that don't belong to any existing category. Create it in **both** folders with the same file name and add a row to both README tables.
 
 ## Website
 
-Thư mục `site/` là site [Astro Starlight](https://starlight.astro.build/) đọc trực tiếp các file Markdown ở trên và tự deploy lên GitHub Pages mỗi khi push lên `main` (workflow `.github/workflows/deploy-site.yml`). Để site không lỗi:
+The `site/` folder is an [Astro Starlight](https://starlight.astro.build/) site that reads the Markdown files above directly and deploys to GitHub Pages on every push to `main` (workflow `.github/workflows/deploy-site.yml`). To keep the site working:
 
-- Mỗi file `.md` phải có đúng **một** tiêu đề `# ` ở đầu file; nó được dùng làm tiêu đề trang và tên trong sidebar.
-- Đoạn văn đầu tiên sau tiêu đề được dùng làm mô tả SEO của trang, nên viết nó gọn, có nghĩa.
-- Link nội bộ dùng đường dẫn tương đối tới file `.md` (vd. `categories/ai-llm.md`, `../README.md`); script `site/scripts/sync-content.mjs` tự đổi sang URL của site đúng ngôn ngữ.
-- Tên file danh mục mới: chữ thường, gạch ngang (`ten-danh-muc.md`). Sidebar tự thêm, không cần sửa `site/`.
-- Không sửa thư mục `site/` khi cập nhật danh sách.
+- Each `.md` file must have exactly **one** `# ` heading at the top; it becomes the page title and sidebar label.
+- The first paragraph after the heading becomes the page's SEO description, so keep it short and meaningful.
+- Internal links use relative paths to `.md` files (e.g. `categories/ai-llm.md`, `../README.md`); `site/scripts/sync-content.mjs` turns them into site URLs for the right language.
+- New category file names: lowercase with hyphens (`category-name.md`). The sidebar picks them up automatically; no changes to `site/` needed.
+- Don't touch `site/` when updating the list.

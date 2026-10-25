@@ -1,22 +1,22 @@
 # 🛠️ Dev Tools & CLI
 
-Công cụ dòng lệnh, tiện ích và năng suất cho lập trình viên.
+Command-line tools, utilities and productivity boosters for developers.
 
-[← Về README](../README.md)
+[← Back to README](../README.md)
 
 ## CLI & terminal
 
-- [junegunn/fzf](https://github.com/junegunn/fzf) — Fuzzy finder cho dòng lệnh, tích hợp shell, vim, tmux. ⭐ 84k · Go · _thêm 2026-10-25_
-- [jesseduffield/lazygit](https://github.com/jesseduffield/lazygit) — Giao diện terminal đơn giản cho các lệnh git. ⭐ 83k · Go · _thêm 2026-10-25_
-- [BurntSushi/ripgrep](https://github.com/BurntSushi/ripgrep) — Tìm kiếm regex trong thư mục cực nhanh, tôn trọng .gitignore. ⭐ 69k · Rust · _thêm 2026-10-25_
-- [sharkdp/bat](https://github.com/sharkdp/bat) — `cat` có tô màu cú pháp và tích hợp git. ⭐ 61k · Rust · _thêm 2026-10-25_
-- [tldr-pages/tldr](https://github.com/tldr-pages/tldr) — Cheatsheet ngắn gọn, có ví dụ cho các lệnh console. ⭐ 64k · Markdown · _thêm 2026-10-25_
-- [cli/cli](https://github.com/cli/cli) — CLI chính thức của GitHub: PR, issue, release từ terminal. ⭐ 47k · Go · _thêm 2026-10-25_
-- [sxyazi/yazi](https://github.com/sxyazi/yazi) — Trình quản lý file trong terminal cực nhanh nhờ async I/O, xem trước ảnh và code, phím tắt kiểu Vim. ⭐ 43k · Rust · _thêm 2026-10-25_
-- [ajeetdsouza/zoxide](https://github.com/ajeetdsouza/zoxide) — Lệnh `cd` thông minh, nhớ thư mục hay dùng để nhảy đến chỉ bằng vài ký tự, chạy trên mọi shell. ⭐ 40k · Rust · _thêm 2026-10-25_
+- [junegunn/fzf](https://github.com/junegunn/fzf) — Command-line fuzzy finder with shell, vim and tmux integration. ⭐ 84k · Go · _added 2026-10-25_
+- [jesseduffield/lazygit](https://github.com/jesseduffield/lazygit) — Simple terminal UI for git commands. ⭐ 83k · Go · _added 2026-10-25_
+- [BurntSushi/ripgrep](https://github.com/BurntSushi/ripgrep) — Blazing-fast recursive regex search that respects .gitignore. ⭐ 69k · Rust · _added 2026-10-25_
+- [sharkdp/bat](https://github.com/sharkdp/bat) — A `cat` clone with syntax highlighting and git integration. ⭐ 61k · Rust · _added 2026-10-25_
+- [tldr-pages/tldr](https://github.com/tldr-pages/tldr) — Short, example-driven cheatsheets for console commands. ⭐ 64k · Markdown · _added 2026-10-25_
+- [cli/cli](https://github.com/cli/cli) — GitHub's official CLI: PRs, issues and releases from your terminal. ⭐ 47k · Go · _added 2026-10-25_
+- [sxyazi/yazi](https://github.com/sxyazi/yazi) — Blazing-fast terminal file manager built on async I/O, with image and code previews and Vim-style keys. ⭐ 43k · Rust · _added 2026-10-25_
+- [ajeetdsouza/zoxide](https://github.com/ajeetdsouza/zoxide) — A smarter `cd` that remembers your frequent directories so you can jump with a few keystrokes, on any shell. ⭐ 40k · Rust · _added 2026-10-25_
 
-## Tiện ích
+## Utilities
 
-- [CorentinTh/it-tools](https://github.com/CorentinTh/it-tools) — Bộ công cụ online cho dev (encode, convert, generate...) giao diện đẹp, tự host được. ⭐ 41k · Vue · _thêm 2026-10-25_
-- [tw93/Pake](https://github.com/tw93/Pake) — Biến bất kỳ website nào thành app desktop nhẹ bằng một lệnh. ⭐ 62k · Rust · _thêm 2026-10-25_
-- [n8n-io/n8n](https://github.com/n8n-io/n8n) — Nền tảng tự động hoá workflow có AI, 400+ tích hợp, tự host được. ⭐ 209k · TypeScript · _thêm 2026-10-25_
+- [CorentinTh/it-tools](https://github.com/CorentinTh/it-tools) — Handy online tools for developers (encode, convert, generate...) with a great UI, self-hostable. ⭐ 41k · Vue · _added 2026-10-25_
+- [tw93/Pake](https://github.com/tw93/Pake) — Turn any website into a lightweight desktop app with one command. ⭐ 62k · Rust · _added 2026-10-25_
+- [n8n-io/n8n](https://github.com/n8n-io/n8n) — Self-hostable workflow automation platform with AI and 400+ integrations. ⭐ 209k · TypeScript · _added 2026-10-25_

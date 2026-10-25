@@ -1,30 +1,30 @@
 # 🧠 AI Agents, Coding Agents & MCP
 
-Agent tự động, trợ lý lập trình, MCP server và agent skills.
+Autonomous agents, coding assistants, MCP servers and agent skills.
 
-[← Về README](../README.md)
+[← Back to README](../README.md)
 
 ## Coding agents
 
-- [anthropics/claude-code](https://github.com/anthropics/claude-code) — Agent lập trình chạy trong terminal, hiểu codebase, sửa code và xử lý git bằng ngôn ngữ tự nhiên. ⭐ 153k · TypeScript · _thêm 2026-10-25_
-- [google-gemini/gemini-cli](https://github.com/google-gemini/gemini-cli) — Agent AI mã nguồn mở của Google mang Gemini vào terminal. ⭐ 108k · TypeScript · _thêm 2026-10-25_
-- [OpenHands/OpenHands](https://github.com/OpenHands/OpenHands) — Nền tảng phát triển phần mềm bằng AI agent, mã nguồn mở. ⭐ 92k · TypeScript · _thêm 2026-10-25_
-- [xai-org/grok-build](https://github.com/xai-org/grok-build) — Agent lập trình chính chủ của xAI với giao diện TUI toàn màn hình, hỗ trợ chuột và dễ mở rộng. ⭐ 27k · Rust · _thêm 2026-10-25_
+- [anthropics/claude-code](https://github.com/anthropics/claude-code) — Agentic coding tool that lives in your terminal, understands your codebase, edits code and handles git through natural language. ⭐ 153k · TypeScript · _added 2026-10-25_
+- [google-gemini/gemini-cli](https://github.com/google-gemini/gemini-cli) — Google's open-source AI agent that brings Gemini into your terminal. ⭐ 108k · TypeScript · _added 2026-10-25_
+- [OpenHands/OpenHands](https://github.com/OpenHands/OpenHands) — Open-source platform for AI-driven software development with agents. ⭐ 92k · TypeScript · _added 2026-10-25_
+- [xai-org/grok-build](https://github.com/xai-org/grok-build) — xAI's official coding agent with a full-screen TUI, mouse support and easy extensibility. ⭐ 27k · Rust · _added 2026-10-25_
 
-## Agent đa năng & điều phối
+## General-purpose agents & orchestration
 
-- [NousResearch/hermes-agent](https://github.com/NousResearch/hermes-agent) — Agent cá nhân có bộ nhớ, học dần theo người dùng. ⭐ 257k · Python · _thêm 2026-10-25_
-- [bytedance/deer-flow](https://github.com/bytedance/deer-flow) — "SuperAgent" của ByteDance cho tác vụ dài: nghiên cứu, viết code, tạo nội dung với sandbox và subagent. ⭐ 84k · Python · _thêm 2026-10-25_
-- [paperclipai/paperclip](https://github.com/paperclipai/paperclip) — App quản lý và điều phối nhiều agent cho công việc nhóm. ⭐ 107k · TypeScript · _thêm 2026-10-25_
-- [browser-use/browser-use](https://github.com/browser-use/browser-use) — Thư viện Python để AI agent điều khiển trình duyệt. ⭐ 119k · Python · _thêm 2026-10-25_
-- [HKUDS/nanobot](https://github.com/HKUDS/nanobot) — Framework agent cá nhân siêu nhẹ, tự host, có WebUI, MCP, kết nối Telegram/Discord. ⭐ 49k · Python · _thêm 2026-10-25_
+- [NousResearch/hermes-agent](https://github.com/NousResearch/hermes-agent) — Personal agent with memory that learns from its user over time. ⭐ 257k · Python · _added 2026-10-25_
+- [bytedance/deer-flow](https://github.com/bytedance/deer-flow) — ByteDance's "SuperAgent" for long-running tasks: research, coding and content creation with sandboxes and subagents. ⭐ 84k · Python · _added 2026-10-25_
+- [paperclipai/paperclip](https://github.com/paperclipai/paperclip) — App for managing and orchestrating many agents for team work. ⭐ 107k · TypeScript · _added 2026-10-25_
+- [browser-use/browser-use](https://github.com/browser-use/browser-use) — Python library that lets AI agents control a web browser. ⭐ 119k · Python · _added 2026-10-25_
+- [HKUDS/nanobot](https://github.com/HKUDS/nanobot) — Ultra-lightweight, self-hosted personal agent framework with a WebUI, MCP and Telegram/Discord integrations. ⭐ 49k · Python · _added 2026-10-25_
 
 ## MCP & agent skills
 
-- [modelcontextprotocol/servers](https://github.com/modelcontextprotocol/servers) — Bộ MCP server chính thức tham khảo (filesystem, git, fetch, memory...). ⭐ 92k · TypeScript · _thêm 2026-10-25_
-- [upstash/context7](https://github.com/upstash/context7) — MCP cung cấp tài liệu thư viện luôn cập nhật cho agent, giảm code "bịa API". ⭐ 64k · TypeScript · _thêm 2026-10-25_
-- [Graphify-Labs/graphify](https://github.com/Graphify-Labs/graphify) — Biến codebase và tài liệu thành knowledge graph truy vấn được, dùng như skill cho coding agent. ⭐ 135k · Python · _thêm 2026-10-25_
-- [rtk-ai/rtk](https://github.com/rtk-ai/rtk) — CLI proxy giảm 60–90% token khi agent chạy các lệnh dev thường gặp. ⭐ 85k · Rust · _thêm 2026-10-25_
-- [kepano/obsidian-skills](https://github.com/kepano/obsidian-skills) — Agent skills giúp agent làm việc với Obsidian, Markdown, JSON Canvas. ⭐ 50k · _thêm 2026-10-25_
-- [punkpeye/awesome-mcp-servers](https://github.com/punkpeye/awesome-mcp-servers) — Danh sách MCP server lớn nhất, chia theo lĩnh vực, giúp tìm nhanh công cụ để gắn vào agent. ⭐ 97k · _thêm 2026-10-25_
-- [langchain-ai/openwiki](https://github.com/langchain-ai/openwiki) — CLI tự viết và cập nhật tài liệu codebase dành cho coding agent, giúp agent hiểu dự án nhanh hơn. ⭐ 17k · TypeScript · _thêm 2026-10-25_
+- [modelcontextprotocol/servers](https://github.com/modelcontextprotocol/servers) — Official reference MCP servers (filesystem, git, fetch, memory...). ⭐ 92k · TypeScript · _added 2026-10-25_
+- [upstash/context7](https://github.com/upstash/context7) — MCP server that feeds agents up-to-date library docs, cutting down on hallucinated APIs. ⭐ 64k · TypeScript · _added 2026-10-25_
+- [Graphify-Labs/graphify](https://github.com/Graphify-Labs/graphify) — Turns codebases and docs into a queryable knowledge graph, usable as a skill for coding agents. ⭐ 135k · Python · _added 2026-10-25_
+- [rtk-ai/rtk](https://github.com/rtk-ai/rtk) — CLI proxy that cuts 60–90% of tokens when agents run common dev commands. ⭐ 85k · Rust · _added 2026-10-25_
+- [kepano/obsidian-skills](https://github.com/kepano/obsidian-skills) — Agent skills for working with Obsidian, Markdown and JSON Canvas. ⭐ 50k · _added 2026-10-25_
+- [punkpeye/awesome-mcp-servers](https://github.com/punkpeye/awesome-mcp-servers) — The largest list of MCP servers, organized by domain, for quickly finding tools to plug into your agent. ⭐ 97k · _added 2026-10-25_
+- [langchain-ai/openwiki](https://github.com/langchain-ai/openwiki) — CLI that writes and maintains codebase docs for coding agents so they understand projects faster. ⭐ 17k · TypeScript · _added 2026-10-25_

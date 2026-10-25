@@ -1,32 +1,32 @@
 # 🌐 Web Development
 
-Framework, runtime, backend và công cụ cho lập trình web.
+Frameworks, runtimes, backends and tooling for web development.
 
-[← Về README](../README.md)
+[← Back to README](../README.md)
 
-## Framework & runtime
+## Frameworks & runtimes
 
-- [vercel/next.js](https://github.com/vercel/next.js) — Framework React full-stack phổ biến nhất (SSR, SSG, Server Components). ⭐ 143k · JavaScript · _thêm 2026-10-25_
-- [withastro/astro](https://github.com/withastro/astro) — Framework cho website nặng nội dung, kiến trúc "islands", rất nhanh. ⭐ 63k · TypeScript · _thêm 2026-10-25_
-- [sveltejs/svelte](https://github.com/sveltejs/svelte) — Framework UI dạng compiler, code gọn, bundle nhỏ. ⭐ 88k · JavaScript · _thêm 2026-10-25_
-- [honojs/hono](https://github.com/honojs/hono) — Web framework nhỏ gọn theo Web Standards, chạy trên Cloudflare Workers, Bun, Deno, Node. ⭐ 33k · TypeScript · _thêm 2026-10-25_
-- [oven-sh/bun](https://github.com/oven-sh/bun) — Runtime JavaScript siêu nhanh kiêm bundler, test runner và package manager. ⭐ 96k · Rust · _thêm 2026-10-25_
+- [vercel/next.js](https://github.com/vercel/next.js) — The most popular full-stack React framework (SSR, SSG, Server Components). ⭐ 143k · JavaScript · _added 2026-10-25_
+- [withastro/astro](https://github.com/withastro/astro) — Very fast framework for content-heavy websites, built on the "islands" architecture. ⭐ 63k · TypeScript · _added 2026-10-25_
+- [sveltejs/svelte](https://github.com/sveltejs/svelte) — Compiler-based UI framework with concise code and small bundles. ⭐ 88k · JavaScript · _added 2026-10-25_
+- [honojs/hono](https://github.com/honojs/hono) — Small web framework built on Web Standards, runs on Cloudflare Workers, Bun, Deno and Node. ⭐ 33k · TypeScript · _added 2026-10-25_
+- [oven-sh/bun](https://github.com/oven-sh/bun) — Super-fast JavaScript runtime that is also a bundler, test runner and package manager. ⭐ 96k · Rust · _added 2026-10-25_
 
-## Công cụ build & chất lượng code
+## Build tools & code quality
 
-- [vitejs/vite](https://github.com/vitejs/vite) — Công cụ build frontend thế hệ mới, dev server khởi động tức thì. ⭐ 84k · TypeScript · _thêm 2026-10-25_
-- [biomejs/biome](https://github.com/biomejs/biome) — Formatter + linter viết bằng Rust, thay thế Prettier/ESLint với tốc độ cao. ⭐ 26k · Rust · _thêm 2026-10-25_
+- [vitejs/vite](https://github.com/vitejs/vite) — Next-generation frontend build tool with an instant dev server. ⭐ 84k · TypeScript · _added 2026-10-25_
+- [biomejs/biome](https://github.com/biomejs/biome) — Fast formatter and linter written in Rust, replacing Prettier/ESLint. ⭐ 26k · Rust · _added 2026-10-25_
 
-## Backend & triển khai
+## Backend & deployment
 
-- [supabase/supabase](https://github.com/supabase/supabase) — Nền tảng Postgres kèm auth, storage, realtime, vector; thay thế Firebase. ⭐ 114k · TypeScript · _thêm 2026-10-25_
-- [appwrite/appwrite](https://github.com/appwrite/appwrite) — Backend-as-a-Service mã nguồn mở: auth, database, storage, functions, hosting. ⭐ 58k · TypeScript · _thêm 2026-10-25_
-- [coollabsio/coolify](https://github.com/coollabsio/coolify) — PaaS tự host thay thế Vercel/Heroku/Netlify trên server của bạn. ⭐ 64k · PHP · _thêm 2026-10-25_
-- [Dokploy/dokploy](https://github.com/Dokploy/dokploy) — Nền tảng deploy tự host thay thế Vercel, Netlify, Heroku. ⭐ 38k · TypeScript · _thêm 2026-10-25_
+- [supabase/supabase](https://github.com/supabase/supabase) — Postgres platform with auth, storage, realtime and vectors; a Firebase alternative. ⭐ 114k · TypeScript · _added 2026-10-25_
+- [appwrite/appwrite](https://github.com/appwrite/appwrite) — Open-source Backend-as-a-Service: auth, database, storage, functions, hosting. ⭐ 58k · TypeScript · _added 2026-10-25_
+- [coollabsio/coolify](https://github.com/coollabsio/coolify) — Self-hosted PaaS that replaces Vercel/Heroku/Netlify on your own server. ⭐ 64k · PHP · _added 2026-10-25_
+- [Dokploy/dokploy](https://github.com/Dokploy/dokploy) — Self-hosted deployment platform, an alternative to Vercel, Netlify and Heroku. ⭐ 38k · TypeScript · _added 2026-10-25_
 
-## Website tham khảo
+## Reference websites
 
-- [MDN Web Docs](https://developer.mozilla.org/) — Tài liệu chuẩn về HTML, CSS, JavaScript và Web API. _thêm 2026-10-25_
-- [Can I use](https://caniuse.com/) — Kiểm tra trình duyệt nào hỗ trợ tính năng web nào. _thêm 2026-10-25_
-- [web.dev](https://web.dev/) — Hướng dẫn của Google về hiệu năng, Core Web Vitals và best practice. _thêm 2026-10-25_
-- [thedaviddias/Front-End-Checklist](https://github.com/thedaviddias/Front-End-Checklist) — Checklist đầy đủ cho phát triển web hiện đại, dùng được cho cả người và AI agent. ⭐ 75k · MDX · _thêm 2026-10-25_
+- [MDN Web Docs](https://developer.mozilla.org/) — The reference docs for HTML, CSS, JavaScript and Web APIs. _added 2026-10-25_
+- [Can I use](https://caniuse.com/) — Check which browsers support which web features. _added 2026-10-25_
+- [web.dev](https://web.dev/) — Google's guides on performance, Core Web Vitals and best practices. _added 2026-10-25_
+- [thedaviddias/Front-End-Checklist](https://github.com/thedaviddias/Front-End-Checklist) — Comprehensive checklist for modern web development, usable by both humans and AI agents. ⭐ 75k · MDX · _added 2026-10-25_
