@@ -1,0 +1,262 @@
+/*
+ * Giao diện kiểu craft.do (trang giấy trắng nổi trên nền, bo góc mềm, nhiều khoảng trắng)
+ * với bảng màu ấm của Claude (cam đất #D97757 trên nền kem).
+ */
+
+/* ---------- Màu: chế độ tối (mặc định của Starlight) ---------- */
+:root {
+	--sl-font: 'Inter Variable', system-ui, sans-serif;
+	--aw-font-serif: 'Source Serif 4 Variable', Georgia, serif;
+
+	--sl-color-accent-low: #4a2b20;
+	--sl-color-accent: #d97757;
+	--sl-color-accent-high: #f2b8a0;
+
+	--sl-color-white: #f5f4ee;
+	--sl-color-gray-1: #e8e6dc;
+	--sl-color-gray-2: #c2c0b6;
+	--sl-color-gray-3: #9c9a92;
+	--sl-color-gray-4: #6b6a65;
+	--sl-color-gray-5: #3e3d39;
+	--sl-color-gray-6: #2c2b28;
+	--sl-color-black: #1f1e1d;
+
+	--aw-canvas: #1a1918;
+	--aw-page: #262624;
+	--aw-card: #2c2b29;
+	--aw-border: rgba(245, 244, 238, 0.08);
+	--aw-shadow: 0 1px 2px rgba(0, 0, 0, 0.3), 0 8px 24px rgba(0, 0, 0, 0.25);
+	--aw-radius: 14px;
+
+	--sl-color-bg: var(--aw-canvas);
+	--sl-color-bg-nav: color-mix(in srgb, var(--aw-canvas) 80%, transparent);
+	--sl-color-bg-sidebar: var(--aw-canvas);
+	--sl-color-hairline: var(--aw-border);
+	--sl-color-hairline-light: var(--aw-border);
+	--sl-color-hairline-shade: var(--aw-border);
+	--sl-color-text-accent: var(--sl-color-accent);
+	--sl-color-bg-accent: var(--sl-color-accent);
+	--sl-color-text-invert: #ffffff;
+}
+
+/* ---------- Màu: chế độ sáng ---------- */
+:root[data-theme='light'] {
+	--sl-color-accent-low: #f7e4da;
+	--sl-color-accent: #c6613f;
+	--sl-color-accent-high: #9a4528;
+
+	--sl-color-white: #141413;
+	--sl-color-gray-1: #29261b;
+	--sl-color-gray-2: #3d3929;
+	--sl-color-gray-3: #5e5d59;
+	--sl-color-gray-4: #87867f;
+	--sl-color-gray-5: #c9c7bd;
+	--sl-color-gray-6: #ebe9e0;
+	--sl-color-gray-7: #f5f4ed;
+	--sl-color-black: #faf9f5;
+
+	--aw-canvas: #f3f1ea;
+	--aw-page: #fffefb;
+	--aw-card: #faf9f5;
+	--aw-border: rgba(20, 20, 19, 0.08);
+	--aw-shadow: 0 1px 2px rgba(60, 50, 30, 0.04), 0 10px 30px rgba(60, 50, 30, 0.07);
+
+	--sl-color-bg-accent: #d97757;
+	--sl-color-bg-inline-code: #f0ede4;
+}
+
+/* ---------- Bố cục: trang giấy nổi ---------- */
+body {
+	background: var(--aw-canvas);
+}
+
+.header {
+	backdrop-filter: saturate(160%) blur(14px);
+	-webkit-backdrop-filter: saturate(160%) blur(14px);
+	border-bottom-color: transparent !important;
+}
+
+.sidebar-pane {
+	border-inline-end: none !important;
+}
+
+@media (min-width: 50rem) {
+	.main-frame .main-pane {
+		padding: 1rem 1.25rem 2rem 0.25rem;
+	}
+	.main-pane > main {
+		background: var(--aw-page);
+		border: 1px solid var(--aw-border);
+		border-radius: calc(var(--aw-radius) + 6px);
+		box-shadow: var(--aw-shadow);
+		overflow: clip;
+	}
+}
+
+.content-panel {
+	padding-inline: clamp(1.25rem, 4vw, 3.5rem);
+}
+.content-panel + .content-panel {
+	border-top-color: var(--aw-border);
+}
+
+/* ---------- Chữ ---------- */
+.sl-markdown-content {
+	font-size: 1.0625rem;
+	line-height: 1.75;
+}
+
+h1#_top,
+.sl-markdown-content :is(h1, h2, h3) {
+	font-family: var(--aw-font-serif);
+	font-weight: 560;
+	letter-spacing: -0.015em;
+	color: var(--sl-color-white);
+}
+h1#_top {
+	font-size: clamp(2.2rem, 5vw, 3.1rem);
+	line-height: 1.15;
+}
+.sl-markdown-content h2 {
+	font-size: 1.65rem;
+	margin-top: 2.75rem;
+}
+
+.sl-markdown-content a:not(:where(.not-content *)) {
+	color: var(--sl-color-text-accent);
+	text-decoration-color: color-mix(in srgb, var(--sl-color-accent) 35%, transparent);
+	text-underline-offset: 0.2em;
+	text-decoration-thickness: 1.5px;
+	transition: text-decoration-color 0.15s;
+}
+.sl-markdown-content a:hover {
+	text-decoration-color: currentColor;
+}
+
+.sl-markdown-content blockquote {
+	border: none;
+	background: var(--sl-color-accent-low);
+	border-radius: var(--aw-radius);
+	padding: 0.9rem 1.2rem;
+	color: var(--sl-color-gray-1);
+}
+.sl-markdown-content blockquote a {
+	color: var(--sl-color-accent-high);
+}
+
+.sl-markdown-content code:not(pre code) {
+	border-radius: 6px;
+	padding: 0.1em 0.35em;
+}
+
+/* ---------- Danh sách mục: mỗi mục là một thẻ mềm ---------- */
+.sl-markdown-content > ul {
+	list-style: none;
+	padding-inline-start: 0;
+	display: grid;
+	gap: 0.6rem;
+}
+.sl-markdown-content > ul > li {
+	margin: 0;
+	padding: 0.85rem 1.1rem;
+	background: var(--aw-card);
+	border: 1px solid var(--aw-border);
+	border-radius: var(--aw-radius);
+	line-height: 1.6;
+	transition:
+		border-color 0.15s,
+		transform 0.15s,
+		box-shadow 0.15s;
+}
+.sl-markdown-content > ul > li:hover {
+	border-color: color-mix(in srgb, var(--sl-color-accent) 45%, transparent);
+	box-shadow: var(--aw-shadow);
+	transform: translateY(-1px);
+}
+.sl-markdown-content > ul > li > a:first-child {
+	font-weight: 600;
+	text-decoration: none;
+}
+.sl-markdown-content > ul > li em {
+	color: var(--sl-color-gray-3);
+	font-size: 0.9em;
+}
+
+/* ---------- Bảng ---------- */
+.sl-markdown-content table {
+	display: table;
+	width: 100%;
+	border-collapse: separate;
+	border-spacing: 0;
+	border: 1px solid var(--aw-border);
+	border-radius: var(--aw-radius);
+	overflow: hidden;
+}
+.sl-markdown-content :is(th, td) {
+	border: none;
+	border-bottom: 1px solid var(--aw-border);
+	padding: 0.75rem 1rem;
+}
+.sl-markdown-content tr:last-child td {
+	border-bottom: none;
+}
+.sl-markdown-content th {
+	background: var(--aw-card);
+	font-weight: 600;
+	font-size: 0.85rem;
+	text-transform: uppercase;
+	letter-spacing: 0.04em;
+	color: var(--sl-color-gray-3);
+}
+.sl-markdown-content tbody tr:hover {
+	background: var(--aw-card);
+}
+
+/* ---------- Sidebar & điều hướng ---------- */
+.sidebar-content a {
+	border-radius: 9px;
+	padding-block: 0.35rem;
+}
+.sidebar-content a[aria-current='page'],
+.sidebar-content a[aria-current='page']:hover {
+	background: var(--sl-color-accent-low);
+	color: var(--sl-color-accent-high);
+	font-weight: 600;
+}
+:root[data-theme='light'] .sidebar-content a[aria-current='page'] {
+	color: var(--sl-color-accent-high);
+}
+.sidebar-content a:not([aria-current='page']):hover {
+	background: color-mix(in srgb, var(--sl-color-gray-5) 35%, transparent);
+}
+.sidebar-content .top-level > li + li {
+	margin-top: 0.25rem;
+}
+
+site-search button[data-open-modal] {
+	border-radius: 999px;
+	background: var(--aw-page);
+	border-color: var(--aw-border);
+}
+
+.site-title {
+	font-family: var(--aw-font-serif);
+	font-weight: 600;
+	color: var(--sl-color-white);
+}
+
+.pagination-links a {
+	border-radius: var(--aw-radius);
+	border-color: var(--aw-border);
+	box-shadow: none;
+}
+.pagination-links a:hover {
+	border-color: var(--sl-color-accent);
+}
+
+.right-sidebar {
+	border-inline-start: none !important;
+}
+.sl-markdown-content th {
+	white-space: nowrap;
+}
