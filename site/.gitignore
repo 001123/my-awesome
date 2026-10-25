@@ -1,0 +1,5 @@
+node_modules/
+dist/
+.astro/
+# Sinh ra từ README.md, categories/*.md, CHANGELOG.md, CURATION.md khi build
+src/content/docs/

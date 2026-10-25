@@ -32,3 +32,12 @@ Trước khi thêm, so URL (không phân biệt hoa thường, bỏ `/` cuối) 
 ## Danh mục mới
 
 Chỉ tạo file danh mục mới khi có ít nhất 3 mục phù hợp không thuộc danh mục nào hiện có. Nhớ thêm dòng vào bảng trong README.
+
+## Website
+
+Thư mục `site/` là site [Astro Starlight](https://starlight.astro.build/) đọc trực tiếp các file Markdown ở trên và tự deploy lên GitHub Pages mỗi khi push lên `main` (workflow `.github/workflows/deploy-site.yml`). Để site không lỗi:
+
+- Mỗi file `.md` (README, CHANGELOG, `categories/*.md`) phải có đúng **một** tiêu đề `# ` ở đầu file; nó được dùng làm tiêu đề trang và tên trong sidebar.
+- Link nội bộ dùng đường dẫn tương đối tới file `.md` (vd. `categories/ai-llm.md`, `../README.md`); script `site/scripts/sync-content.mjs` tự đổi sang URL của site.
+- Tên file danh mục mới: chữ thường, gạch ngang (`ten-danh-muc.md`). Sidebar tự thêm, không cần sửa `site/`.
+- Không sửa thư mục `site/` khi cập nhật danh sách.
