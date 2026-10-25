@@ -1,0 +1,56 @@
+---
+// Thay ô chọn giao diện mặc định bằng một nút icon: bấm là đổi sáng/tối ngay.
+import { Icon } from '@astrojs/starlight/components';
+---
+
+<aw-theme-toggle>
+	<button type="button" aria-label="Đổi giao diện sáng/tối" title="Đổi giao diện sáng/tối">
+		<Icon name="sun" class="icon-light" />
+		<Icon name="moon" class="icon-dark" />
+	</button>
+</aw-theme-toggle>
+
+<style>
+	button {
+		display: grid;
+		place-items: center;
+		width: 2.25rem;
+		height: 2.25rem;
+		border: none;
+		border-radius: 999px;
+		background: transparent;
+		color: var(--sl-color-gray-2);
+		cursor: pointer;
+		transition:
+			background 0.15s,
+			color 0.15s;
+	}
+	button:hover {
+		background: var(--sl-color-accent-low);
+		color: var(--sl-color-accent-high);
+	}
+	button :global(svg) {
+		grid-area: 1 / 1;
+		font-size: 1.2rem;
+	}
+	:global([data-theme='light']) .icon-dark,
+	:global([data-theme='dark']) .icon-light {
+		display: none;
+	}
+</style>
+
+<script>
+	class AwThemeToggle extends HTMLElement {
+		constructor() {
+			super();
+			this.querySelector('button')?.addEventListener('click', () => {
+				const next = document.documentElement.dataset.theme === 'light' ? 'dark' : 'light';
+				document.documentElement.dataset.theme = next;
+				try {
+					localStorage.setItem('starlight-theme', next);
+				} catch {}
+			});
+		}
+	}
+	customElements.define('aw-theme-toggle', AwThemeToggle);
+</script>

@@ -14,6 +14,7 @@ export default defineConfig({
 			locales: { root: { label: 'Tiếng Việt', lang: 'vi' } },
 			social: [{ icon: 'github', label: 'GitHub', href: 'https://github.com/001123/my-awesome' }],
 			editLink: { baseUrl: 'https://github.com/001123/my-awesome/edit/main/' },
+			components: { ThemeSelect: './src/components/ThemeSelect.astro' },
 			customCss: [
 				'@fontsource-variable/inter',
 				'@fontsource-variable/source-serif-4',
