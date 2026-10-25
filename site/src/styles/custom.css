@@ -260,7 +260,3 @@ site-search button[data-open-modal] {
 .sl-markdown-content th {
 	white-space: nowrap;
 }
-
-starlight-lang-select {
-	--sl-select-width: 7.5em;
-}

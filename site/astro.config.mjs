@@ -36,6 +36,7 @@ export default defineConfig({
 			components: {
 				ThemeSelect: './src/components/ThemeSelect.astro',
 				Footer: './src/components/Footer.astro',
+				LanguageSelect: './src/components/LanguageSelect.astro',
 			},
 			customCss: [
 				'@fontsource-variable/inter',

@@ -1,0 +1,96 @@
+---
+// Nút chọn ngôn ngữ dạng pill, luôn hiện đủ tên ngôn ngữ.
+// Một <select> trong suốt phủ lên trên để dùng menu chọn gốc của trình duyệt.
+import { Icon } from '@astrojs/starlight/components';
+import config from 'virtual:starlight/user-config';
+
+const current = Astro.locals.starlightRoute.locale; // undefined = locale gốc
+const base = import.meta.env.BASE_URL.replace(/\/$/, '');
+// Bỏ tiền tố locale hiện tại khỏi đường dẫn, rồi gắn tiền tố của locale đích
+const rest = Astro.url.pathname.slice(base.length).replace(new RegExp(`^/${current ?? '#'}(?=/|$)`), '') || '/';
+const pathFor = (code: string) => `${base}${code === 'root' ? '' : '/' + code}${rest}`;
+const options = Object.entries(config.locales ?? {}).map(([code, locale]) => ({
+	value: pathFor(code),
+	selected: code === (current ?? 'root'),
+	label: locale!.label,
+}));
+const active = options.find((o) => o.selected) ?? options[0];
+---
+
+{
+	config.isMultilingual && active && (
+		<aw-lang-select>
+			<label>
+				<span class="sr-only">{Astro.locals.t('languageSelect.accessibleLabel')}</span>
+				<Icon name="translate" class="icon" />
+				<span aria-hidden="true">{active.label}</span>
+				<Icon name="down-caret" class="caret" />
+				<select autocomplete="off">
+					{options.map((o) => <option value={o.value} selected={o.selected}>{o.label}</option>)}
+				</select>
+			</label>
+		</aw-lang-select>
+	)
+}
+
+<style>
+	label {
+		position: relative;
+		display: inline-flex;
+		align-items: center;
+		gap: 0.35rem;
+		height: 2.25rem;
+		padding-inline: 0.7rem 0.45rem;
+		border-radius: 999px;
+		color: var(--sl-color-gray-2);
+		font-size: var(--sl-text-sm);
+		white-space: nowrap;
+		cursor: pointer;
+		transition:
+			background 0.15s,
+			color 0.15s;
+	}
+	label:hover,
+	label:focus-within {
+		background: var(--sl-color-accent-low);
+		color: var(--sl-color-accent-high);
+	}
+	label :global(.icon) {
+		font-size: 1rem;
+	}
+	label :global(.caret) {
+		font-size: 1.1rem;
+	}
+	select {
+		position: absolute;
+		inset: 0;
+		width: 100%;
+		opacity: 0;
+		cursor: pointer;
+		font-size: 1rem;
+	}
+	option {
+		background-color: var(--sl-color-bg-nav);
+		color: var(--sl-color-gray-1);
+	}
+</style>
+
+<script>
+	class AwLangSelect extends HTMLElement {
+		constructor() {
+			super();
+			const select = this.querySelector('select');
+			if (!select) return;
+			select.addEventListener('change', () => {
+				window.location.pathname = select.value;
+			});
+			// trang lấy từ bfcache: đưa select về đúng ngôn ngữ hiện tại
+			window.addEventListener('pageshow', (e) => {
+				if (!e.persisted) return;
+				const i = select.querySelector<HTMLOptionElement>('option[selected]')?.index;
+				if (i !== undefined) select.selectedIndex = i;
+			});
+		}
+	}
+	customElements.define('aw-lang-select', AwLangSelect);
+</script>
