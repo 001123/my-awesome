@@ -89,6 +89,8 @@ function convert(srcRel, destRel) {
 	text = text.replace(/^\[←[^\]]*\]\([^)]*README\.md\)\s*$/gm, '');
 	// bỏ dòng chuyển ngôn ngữ ở đầu README (site có nút chọn ngôn ngữ riêng)
 	text = text.replace(/^.*🌐 \[Website\]\([^)]*\)\s*$/gm, '');
+	// bỏ dòng badge (chỉ hợp với GitHub)
+	text = text.replace(/^\[!\[.*$/gm, '');
 	// bỏ dòng tác giả ở đầu README (site có khối tác giả ở footer)
 	text = text.replace(/^\*\*(Author|Tác giả):\*\*.*$/gm, '');
 	text = rewriteLinks(text, srcRel).replace(/^\n+/, '');

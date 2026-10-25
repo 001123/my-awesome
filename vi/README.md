@@ -1,5 +1,7 @@
 # ✨ My Awesome
 
+[![Awesome](https://awesome.re/badge.svg)](https://awesome.re) [![Deploy](https://img.shields.io/github/actions/workflow/status/001123/my-awesome/deploy-site.yml?branch=main&label=deploy&logo=githubactions&logoColor=white)](https://github.com/001123/my-awesome/actions/workflows/deploy-site.yml) [![Website](https://img.shields.io/website?url=https%3A%2F%2F001123.github.io%2Fmy-awesome%2F&label=website&up_message=online&down_message=offline&up_color=D97757)](https://001123.github.io/my-awesome/vi/) [![Cập nhật gần nhất](https://img.shields.io/github/last-commit/001123/my-awesome?label=c%E1%BA%ADp%20nh%E1%BA%ADt&color=D97757)](https://github.com/001123/my-awesome/commits/main) [![Sao](https://img.shields.io/github/stars/001123/my-awesome?style=flat&label=sao&logo=github&color=D97757)](https://github.com/001123/my-awesome/stargazers) [![Starlight](https://img.shields.io/badge/built%20with-Starlight-BC52EE?logo=astro&logoColor=white)](https://starlight.astro.build/) [![X](https://img.shields.io/badge/follow-%40khuongduy1897-000000?logo=x&logoColor=white)](https://x.com/khuongduy1897)
+
 [English](../README.md) · **Tiếng Việt** · 🌐 [Website](https://001123.github.io/my-awesome/vi/)
 
 **Tác giả:** [Bùi Khương Duy](https://kd.io.vn/) · [GitHub](https://github.com/001123) · [X](https://x.com/khuongduy1897)
