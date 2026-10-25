@@ -14,6 +14,7 @@ Công cụ dòng lệnh, tiện ích và năng suất cho lập trình viên.
 - [cli/cli](https://github.com/cli/cli) — CLI chính thức của GitHub: PR, issue, release từ terminal. ⭐ 47k · Go · _thêm 2026-10-25_
 - [sxyazi/yazi](https://github.com/sxyazi/yazi) — Trình quản lý file trong terminal cực nhanh nhờ async I/O, xem trước ảnh và code, phím tắt kiểu Vim. ⭐ 43k · Rust · _thêm 2026-10-25_
 - [ajeetdsouza/zoxide](https://github.com/ajeetdsouza/zoxide) — Lệnh `cd` thông minh, nhớ thư mục hay dùng để nhảy đến chỉ bằng vài ký tự, chạy trên mọi shell. ⭐ 40k · Rust · _thêm 2026-10-25_
+- [vercel-labs/portless](https://github.com/vercel-labs/portless) — Thay số port bằng URL cố định có tên như `https://myapp.localhost`, tự cấp HTTPS, mỗi git worktree có subdomain riêng, chạy với hầu hết dev server. ⭐ 13k · TypeScript · _thêm 2026-10-25_
 
 ## Tiện ích
 

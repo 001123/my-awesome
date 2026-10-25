@@ -2,6 +2,12 @@
 
 Every curation run is logged here, newest first.
 
+## 2026-10-25 19:45 UTC
+
+Added 1 entry (100 total):
+
+- Dev Tools (1): vercel-labs/portless
+
 ## 2026-10-25 12:35 UTC
 
 Added 14 entries (99 total):

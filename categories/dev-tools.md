@@ -14,6 +14,7 @@ Command-line tools, utilities and productivity boosters for developers.
 - [cli/cli](https://github.com/cli/cli) — GitHub's official CLI: PRs, issues and releases from your terminal. ⭐ 47k · Go · _added 2026-10-25_
 - [sxyazi/yazi](https://github.com/sxyazi/yazi) — Blazing-fast terminal file manager built on async I/O, with image and code previews and Vim-style keys. ⭐ 43k · Rust · _added 2026-10-25_
 - [ajeetdsouza/zoxide](https://github.com/ajeetdsouza/zoxide) — A smarter `cd` that remembers your frequent directories so you can jump with a few keystrokes, on any shell. ⭐ 40k · Rust · _added 2026-10-25_
+- [vercel-labs/portless](https://github.com/vercel-labs/portless) — Replaces port numbers with stable named URLs like `https://myapp.localhost`, with automatic HTTPS, per-worktree subdomains and support for most dev servers. ⭐ 13k · TypeScript · _added 2026-10-25_
 
 ## Utilities
 
