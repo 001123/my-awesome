@@ -19,7 +19,7 @@ To add another language later, create a `<code>/` folder (e.g. `ja/`) with the s
 
 Each language has the same set of files (English at the root, Vietnamese in `vi/`):
 
-- `README.md` — intro, category table (with entry counts), a "🆕 Latest update" section listing only the entries from **the most recent run**, and a "Last updated" line.
+- `README.md` — the language/website line and the author line at the top (keep them as they are), intro, category table (with entry counts), a "🆕 Latest update" section listing only the entries from **the most recent run**, and a "Last updated" line.
 - `categories/<slug>.md` — one file per category, split into `##` groups.
 - `CHANGELOG.md` — every run adds an entry at the top: date and time (UTC), new entries per category.
 - `CURATION.md` — this file.
@@ -56,6 +56,10 @@ Before adding, compare the URL (case-insensitive, trailing `/` removed) against 
 ## Sync check before committing
 
 For every category, `categories/x.md` and `vi/categories/x.md` must have the same number of entry lines (`- [`) and exactly the same set of URLs. The README table counts, the total and the latest CHANGELOG entry must match in both versions.
+
+## Commits
+
+Commit messages are in English and follow [Conventional Commits](https://www.conventionalcommits.org/), e.g. `docs(list): add 12 entries (2026-10-26)`. Use one commit per run, covering both languages.
 
 ## New categories
 

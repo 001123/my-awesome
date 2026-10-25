@@ -5,7 +5,7 @@ import fs from 'node:fs';
 import { createRequire } from 'node:module';
 import satori from 'satori';
 import sharp from 'sharp';
-import { AUTHOR, SITE_NAME, langOfId, t } from '../../author';
+import { SITE_NAME, langOfId, t } from '../../author';
 
 const require = createRequire(import.meta.url);
 const font = (pkg: string, file: string) => fs.readFileSync(require.resolve(`${pkg}/files/${file}`));
@@ -31,6 +31,7 @@ export const getStaticPaths = (async () => {
 			props: {
 				title: isHome ? t(lang).ogHeadline : entry.data.title.replace(/^[^\p{L}\p{N}]+/u, '').trim(),
 				description: entry.data.description ?? '',
+				author: t(lang).authorName,
 				url: `001123.github.io/my-awesome${lang === 'en' ? '' : '/' + lang}`,
 			},
 		};
@@ -44,7 +45,7 @@ const h = (type: string, style: Record<string, unknown>, children?: unknown, ext
 });
 
 export const GET: APIRoute = async ({ props }) => {
-	const p = props as { title: string; description: string; url: string };
+	const p = props as { title: string; description: string; author: string; url: string };
 	const title = p.title.normalize('NFC');
 	const description = p.description.normalize('NFC');
 	const tree = h(
@@ -84,7 +85,7 @@ export const GET: APIRoute = async ({ props }) => {
 				h('div', { display: 'flex', alignItems: 'center', justifyContent: 'space-between', fontSize: 26, color: '#87867F' }, [
 					h('div', { display: 'flex', alignItems: 'center', gap: 14 }, [
 						h('div', { width: 14, height: 14, borderRadius: 999, background: '#D97757' }),
-						AUTHOR.name,
+						p.author,
 					]),
 					p.url,
 				]),

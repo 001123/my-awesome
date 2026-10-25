@@ -1,5 +1,5 @@
 export const AUTHOR = {
-	name: 'Bùi Khương Duy',
+	name: 'Bùi Khương Duy', // tên gốc; tên hiển thị theo ngôn ngữ nằm ở STRINGS.authorName
 	url: 'https://kd.io.vn/',
 	github: 'https://github.com/001123',
 	x: 'https://x.com/khuongduy1897',
@@ -10,6 +10,7 @@ export const SITE_NAME = 'My Awesome';
 // Chuỗi giao diện tự thêm (ngoài chuỗi có sẵn của Starlight). Thêm ngôn ngữ mới: thêm một khoá.
 export const STRINGS = {
 	en: {
+		authorName: 'Bui Khuong Duy',
 		homeTitle: 'Great repos & websites on tech and AI',
 		ogHeadline: 'Great repos & sites on tech, AI, web dev, UI',
 		author: 'Author',
@@ -17,6 +18,7 @@ export const STRINGS = {
 		toggleTheme: 'Toggle light/dark theme',
 	},
 	vi: {
+		authorName: 'Bùi Khương Duy',
 		homeTitle: 'Repo & website hay về tech, AI',
 		ogHeadline: 'Repo & website hay về tech, AI, web dev, UI',
 		author: 'Tác giả',

@@ -19,7 +19,7 @@ Thêm ngôn ngữ mới sau này: tạo thư mục `<mã>/` (vd. `ja/`) có cùn
 
 Mỗi ngôn ngữ có cùng bộ file (bản tiếng Anh ở gốc repo, bản tiếng Việt trong `vi/`):
 
-- `README.md` — giới thiệu, bảng danh mục (kèm số mục), mục "🆕 Mới cập nhật" / "🆕 Latest update" chỉ chứa các mục của **lần chạy gần nhất**, dòng "Cập nhật lần cuối" / "Last updated".
+- `README.md` — dòng chuyển ngôn ngữ/website và dòng tác giả ở đầu (giữ nguyên), giới thiệu, bảng danh mục (kèm số mục), mục "🆕 Mới cập nhật" / "🆕 Latest update" chỉ chứa các mục của **lần chạy gần nhất**, dòng "Cập nhật lần cuối" / "Last updated".
 - `categories/<slug>.md` — mỗi danh mục một file, chia thành các nhóm `##`.
 - `CHANGELOG.md` — mỗi lần chạy thêm một mục ở đầu: ngày giờ (UTC), số mục mới theo danh mục.
 - `CURATION.md` — quy tắc này.
@@ -56,6 +56,10 @@ Trước khi thêm, so URL (không phân biệt hoa thường, bỏ `/` cuối) 
 ## Kiểm tra đồng bộ trước khi commit
 
 Với mỗi danh mục, số dòng mục (`- [`) trong `categories/x.md` và `vi/categories/x.md` phải bằng nhau, và tập URL giống hệt nhau. Số mục trong bảng README, tổng số mục và mục mới nhất của CHANGELOG phải khớp ở cả hai bản.
+
+## Commit
+
+Commit message viết bằng tiếng Anh theo [Conventional Commits](https://www.conventionalcommits.org/), vd. `docs(list): add 12 entries (2026-10-26)`. Mỗi lần chạy một commit, gồm cả hai ngôn ngữ.
 
 ## Danh mục mới
 

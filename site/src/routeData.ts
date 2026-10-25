@@ -8,11 +8,12 @@ export const onRequest = defineRouteMiddleware((context) => {
 	const route = context.locals.starlightRoute;
 	const { head, entry } = route;
 	const lang = langOfId(entry.id);
+	const authorName = t(lang).authorName;
 	const isHome = ['', 'index', lang].includes(entry.id);
 	const pageTitle = stripEmoji(entry.data.title);
 	const fullTitle = isHome
-		? `${SITE_NAME}: ${t(lang).homeTitle} | ${AUTHOR.name}`
-		: `${pageTitle} | ${SITE_NAME} · ${AUTHOR.name}`;
+		? `${SITE_NAME}: ${t(lang).homeTitle} | ${authorName}`
+		: `${pageTitle} | ${SITE_NAME} · ${authorName}`;
 
 	const set = (match: (t: (typeof head)[number]) => boolean, item: (typeof head)[number]) => {
 		const i = head.findIndex(match);
@@ -35,6 +36,7 @@ export const onRequest = defineRouteMiddleware((context) => {
 	meta('name', 'twitter:title', fullTitle);
 	meta('name', 'twitter:image', image);
 	meta('name', 'twitter:creator', AUTHOR.xHandle);
+	meta('name', 'author', authorName);
 	if (!isHome) meta('property', 'article:author', AUTHOR.url);
 
 	const pageUrl = new URL(context.url.pathname, context.site).href;
@@ -49,7 +51,8 @@ export const onRequest = defineRouteMiddleware((context) => {
 				{
 					'@type': 'Person',
 					'@id': `${AUTHOR.url}#person`,
-					name: AUTHOR.name,
+					name: authorName,
+					alternateName: [...new Set([AUTHOR.name, 'Bui Khuong Duy'])].filter((n) => n !== authorName),
 					url: AUTHOR.url,
 					sameAs: [AUTHOR.github, AUTHOR.x],
 				},

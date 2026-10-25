@@ -22,7 +22,6 @@ export default defineConfig({
 				{ icon: 'x.com', label: 'X', href: 'https://x.com/khuongduy1897' },
 			],
 			head: [
-				{ tag: 'meta', attrs: { name: 'author', content: 'Bùi Khương Duy' } },
 				{ tag: 'link', attrs: { rel: 'author', href: 'https://kd.io.vn/' } },
 				{ tag: 'link', attrs: { rel: 'icon', type: 'image/png', sizes: '32x32', href: '/my-awesome/favicon-32.png' } },
 				{ tag: 'link', attrs: { rel: 'apple-touch-icon', sizes: '180x180', href: '/my-awesome/apple-touch-icon.png' } },

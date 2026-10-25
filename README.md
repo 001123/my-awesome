@@ -2,6 +2,8 @@
 
 **English** · [Tiếng Việt](vi/README.md) · 🌐 [Website](https://001123.github.io/my-awesome/)
 
+**Author:** [Bui Khuong Duy](https://kd.io.vn/) · [GitHub](https://github.com/001123) · [X](https://x.com/khuongduy1897)
+
 A curated collection of great repos and websites on **tech, AI, web development, UI design** and more. The list is researched and updated automatically every 12 hours.
 
 > Last updated: **2026-10-25** · **99** entries in total · See the history in the [CHANGELOG](CHANGELOG.md)
