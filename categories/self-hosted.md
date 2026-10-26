@@ -14,3 +14,6 @@ Self-hosted software that replaces cloud services.
 - [glanceapp/glance](https://github.com/glanceapp/glance) — Self-hosted dashboard that puts RSS, Reddit, YouTube, weather and service status on one clean start page. ⭐ 38k · Go · _added 2026-10-25_
 - [TriliumNext/Trilium](https://github.com/TriliumNext/Trilium) — Hierarchical note-taking app for building a personal knowledge base, with scripting and sync via a self-hosted server. ⭐ 39k · TypeScript · _added 2026-10-25_
 - [dgtlmoon/changedetection.io](https://github.com/dgtlmoon/changedetection.io) — Monitors web pages for changes, price drops and restocks, with many notification channels. ⭐ 35k · Python · _added 2026-10-25_
+- [karakeep-app/karakeep](https://github.com/karakeep-app/karakeep) — Self-hostable bookmark-everything app for links, notes and images, with AI auto-tagging and full-text search. ⭐ 30k · TypeScript · _added 2026-10-26_
+- [plausible/analytics](https://github.com/plausible/analytics) — Lightweight, cookie-free, privacy-first web analytics, a self-hostable Google Analytics alternative. ⭐ 30k · Elixir · _added 2026-10-26_
+- [gethomepage/homepage](https://github.com/gethomepage/homepage) — Highly customizable start page and dashboard for your homelab, with Docker and 100+ service integrations. ⭐ 33k · JavaScript · _added 2026-10-26_

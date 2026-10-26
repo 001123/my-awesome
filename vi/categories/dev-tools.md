@@ -15,9 +15,12 @@ Công cụ dòng lệnh, tiện ích và năng suất cho lập trình viên.
 - [sxyazi/yazi](https://github.com/sxyazi/yazi) — Trình quản lý file trong terminal cực nhanh nhờ async I/O, xem trước ảnh và code, phím tắt kiểu Vim. ⭐ 43k · Rust · _thêm 2026-10-25_
 - [ajeetdsouza/zoxide](https://github.com/ajeetdsouza/zoxide) — Lệnh `cd` thông minh, nhớ thư mục hay dùng để nhảy đến chỉ bằng vài ký tự, chạy trên mọi shell. ⭐ 40k · Rust · _thêm 2026-10-25_
 - [vercel-labs/portless](https://github.com/vercel-labs/portless) — Thay số port bằng URL cố định có tên như `https://myapp.localhost`, tự cấp HTTPS, mỗi git worktree có subdomain riêng, chạy với hầu hết dev server. ⭐ 13k · TypeScript · _thêm 2026-10-25_
+- [sharkdp/fd](https://github.com/sharkdp/fd) — Thay thế `find` đơn giản, nhanh, dễ dùng, mặc định hợp lý và tôn trọng .gitignore. ⭐ 45k · Rust · _thêm 2026-10-26_
+- [sharkdp/hyperfine](https://github.com/sharkdp/hyperfine) — Công cụ benchmark lệnh trên terminal, có chạy khởi động, phân tích thống kê và xuất Markdown/JSON. ⭐ 29k · Rust · _thêm 2026-10-26_
 
 ## Tiện ích
 
 - [CorentinTh/it-tools](https://github.com/CorentinTh/it-tools) — Bộ công cụ online cho dev (encode, convert, generate...) giao diện đẹp, tự host được. ⭐ 41k · Vue · _thêm 2026-10-25_
 - [tw93/Pake](https://github.com/tw93/Pake) — Biến bất kỳ website nào thành app desktop nhẹ bằng một lệnh. ⭐ 62k · Rust · _thêm 2026-10-25_
 - [n8n-io/n8n](https://github.com/n8n-io/n8n) — Nền tảng tự động hoá workflow có AI, 400+ tích hợp, tự host được. ⭐ 209k · TypeScript · _thêm 2026-10-25_
+- [gitleaks/gitleaks](https://github.com/gitleaks/gitleaks) — Quét repo git, file và pipeline CI để tìm secret bị lộ như API key, mật khẩu trước khi đẩy lên. ⭐ 30k · Go · _thêm 2026-10-26_

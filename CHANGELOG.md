@@ -2,6 +2,17 @@
 
 Every curation run is logged here, newest first.
 
+## 2026-10-26 00:35 UTC
+
+Added 13 entries (113 total):
+
+- AI & LLM (1): deepseek-ai/DeepInfer
+- AI Agents & MCP (4): QwenLM/qwen-code, herdrdev/herdr, iOfficeAI/OfficeCLI, jarrodwatts/claude-hud
+- Web Development (1): nrwl/nx
+- UI Design (1): mui/base-ui
+- Dev Tools (3): sharkdp/fd, sharkdp/hyperfine, gitleaks/gitleaks
+- Self-hosted (3): karakeep-app/karakeep, plausible/analytics, gethomepage/homepage
+
 ## 2026-10-25 19:45 UTC
 
 Added 1 entry (100 total):

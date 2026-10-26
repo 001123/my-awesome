@@ -13,6 +13,7 @@ Thư viện component, animation, công cụ thiết kế và website lấy cả
 - [lucide-icons/lucide](https://github.com/lucide-icons/lucide) — Bộ icon SVG đẹp, đồng nhất, có bản cho React, Vue, Figma. ⭐ 25k · TypeScript · _thêm 2026-10-25_
 - [assistant-ui/assistant-ui](https://github.com/assistant-ui/assistant-ui) — Thư viện React/TypeScript dựng giao diện chat AI hoàn chỉnh, tương thích shadcn và Vercel AI SDK. ⭐ 13k · TypeScript · _thêm 2026-10-25_
 - [adobe/react-spectrum](https://github.com/adobe/react-spectrum) — Bộ thư viện của Adobe (React Aria…) để xây design system accessible, hỗ trợ đa nền tảng và đa ngôn ngữ. ⭐ 16k · TypeScript · _thêm 2026-10-25_
+- [mui/base-ui](https://github.com/mui/base-ui) — Component React không style sẵn, chuẩn accessibility để dựng design system, từ đội đứng sau Radix, Floating UI và Material UI. ⭐ 11k · TypeScript · _thêm 2026-10-26_
 
 ## Animation & hiệu ứng
 

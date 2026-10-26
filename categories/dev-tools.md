@@ -15,9 +15,12 @@ Command-line tools, utilities and productivity boosters for developers.
 - [sxyazi/yazi](https://github.com/sxyazi/yazi) — Blazing-fast terminal file manager built on async I/O, with image and code previews and Vim-style keys. ⭐ 43k · Rust · _added 2026-10-25_
 - [ajeetdsouza/zoxide](https://github.com/ajeetdsouza/zoxide) — A smarter `cd` that remembers your frequent directories so you can jump with a few keystrokes, on any shell. ⭐ 40k · Rust · _added 2026-10-25_
 - [vercel-labs/portless](https://github.com/vercel-labs/portless) — Replaces port numbers with stable named URLs like `https://myapp.localhost`, with automatic HTTPS, per-worktree subdomains and support for most dev servers. ⭐ 13k · TypeScript · _added 2026-10-25_
+- [sharkdp/fd](https://github.com/sharkdp/fd) — Simple, fast and user-friendly alternative to `find` with sensible defaults and .gitignore support. ⭐ 45k · Rust · _added 2026-10-26_
+- [sharkdp/hyperfine](https://github.com/sharkdp/hyperfine) — Command-line benchmarking tool with warmup runs, statistical analysis and export to Markdown/JSON. ⭐ 29k · Rust · _added 2026-10-26_
 
 ## Utilities
 
 - [CorentinTh/it-tools](https://github.com/CorentinTh/it-tools) — Handy online tools for developers (encode, convert, generate...) with a great UI, self-hostable. ⭐ 41k · Vue · _added 2026-10-25_
 - [tw93/Pake](https://github.com/tw93/Pake) — Turn any website into a lightweight desktop app with one command. ⭐ 62k · Rust · _added 2026-10-25_
 - [n8n-io/n8n](https://github.com/n8n-io/n8n) — Self-hostable workflow automation platform with AI and 400+ integrations. ⭐ 209k · TypeScript · _added 2026-10-25_
+- [gitleaks/gitleaks](https://github.com/gitleaks/gitleaks) — Scans git repos, files and CI pipelines for leaked secrets like API keys and passwords before they ship. ⭐ 30k · Go · _added 2026-10-26_

@@ -18,6 +18,7 @@ Mô hình, công cụ chạy model local, inference, fine-tune và framework xâ
 - [unslothai/unsloth](https://github.com/unslothai/unsloth) — Fine-tune và chạy LLM nhanh hơn, ít VRAM hơn, giờ có cả UI local. ⭐ 79k · Python · _thêm 2026-10-25_
 - [hiyouga/LlamaFactory](https://github.com/hiyouga/LlamaFactory) — Fine-tune hơn 100 LLM/VLM với LoRA, QLoRA, RLHF qua một giao diện thống nhất. ⭐ 76k · Python · _thêm 2026-10-25_
 - [huggingface/transformers](https://github.com/huggingface/transformers) — Thư viện chuẩn để dùng và huấn luyện model văn bản, hình ảnh, âm thanh. ⭐ 168k · Python · _thêm 2026-10-25_
+- [deepseek-ai/DeepInfer](https://github.com/deepseek-ai/DeepInfer) — Framework inference hiệu năng cao chính chủ DeepSeek, dùng để phục vụ các model DeepSeek ở quy mô lớn. ⭐ 22k · Python · _thêm 2026-10-26_
 
 ## Framework xây ứng dụng LLM
 

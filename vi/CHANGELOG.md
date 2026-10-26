@@ -2,6 +2,17 @@
 
 Mỗi lần tổng hợp được ghi ở đây, mới nhất ở trên cùng.
 
+## 2026-10-26 00:35 UTC
+
+Thêm 13 mục (tổng 113):
+
+- AI & LLM (1): deepseek-ai/DeepInfer
+- AI Agents & MCP (4): QwenLM/qwen-code, herdrdev/herdr, iOfficeAI/OfficeCLI, jarrodwatts/claude-hud
+- Web Development (1): nrwl/nx
+- UI Design (1): mui/base-ui
+- Dev Tools (3): sharkdp/fd, sharkdp/hyperfine, gitleaks/gitleaks
+- Self-hosted (3): karakeep-app/karakeep, plausible/analytics, gethomepage/homepage
+
 ## 2026-10-25 19:45 UTC
 
 Thêm 1 mục (tổng 100):

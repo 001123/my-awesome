@@ -8,25 +8,37 @@
 
 Tổng hợp các repo, website hay và hữu ích về **tech, AI, web development, UI design** và hơn thế nữa. Danh sách được tự động research và cập nhật mỗi 12 giờ.
 
-> Cập nhật lần cuối: **2026-10-25** · Tổng cộng **100** mục · Xem lịch sử ở [CHANGELOG](CHANGELOG.md)
+> Cập nhật lần cuối: **2026-10-26** · Tổng cộng **113** mục · Xem lịch sử ở [CHANGELOG](CHANGELOG.md)
 
 ## 📂 Danh mục
 
 | Danh mục | Nội dung | Số mục |
 |---|---|---|
-| [🤖 AI & LLM](categories/ai-llm.md) | Model, chạy local, inference, fine-tune, framework LLM | 18 |
-| [🧠 AI Agents & MCP](categories/ai-agents.md) | Coding agent, agent đa năng, MCP server, agent skills | 16 |
-| [🌐 Web Development](categories/web-dev.md) | Framework, runtime, build tool, backend, deploy | 15 |
-| [🎨 UI Design & Components](categories/ui-design.md) | Component, animation, công cụ thiết kế, website cảm hứng | 21 |
-| [🛠️ Dev Tools & CLI](categories/dev-tools.md) | Công cụ dòng lệnh, tiện ích, tự động hoá | 12 |
-| [🏠 Self-hosted](categories/self-hosted.md) | Phần mềm tự host thay thế dịch vụ cloud | 10 |
+| [🤖 AI & LLM](categories/ai-llm.md) | Model, chạy local, inference, fine-tune, framework LLM | 19 |
+| [🧠 AI Agents & MCP](categories/ai-agents.md) | Coding agent, agent đa năng, MCP server, agent skills | 20 |
+| [🌐 Web Development](categories/web-dev.md) | Framework, runtime, build tool, backend, deploy | 16 |
+| [🎨 UI Design & Components](categories/ui-design.md) | Component, animation, công cụ thiết kế, website cảm hứng | 22 |
+| [🛠️ Dev Tools & CLI](categories/dev-tools.md) | Công cụ dòng lệnh, tiện ích, tự động hoá | 15 |
+| [🏠 Self-hosted](categories/self-hosted.md) | Phần mềm tự host thay thế dịch vụ cloud | 13 |
 | [📚 Học tập & Tài liệu](categories/learning.md) | Khoá học, lộ trình, cheatsheet | 8 |
 
-## 🆕 Mới cập nhật (2026-10-25)
+## 🆕 Mới cập nhật (2026-10-26)
 
-Lần chạy này thêm 1 mục:
+Lần chạy này thêm 13 mục:
 
-- [vercel-labs/portless](https://github.com/vercel-labs/portless) — URL `.localhost` cố định có tên thay cho số port. → [Dev Tools](categories/dev-tools.md)
+- [deepseek-ai/DeepInfer](https://github.com/deepseek-ai/DeepInfer) — Framework inference quy mô lớn chính chủ DeepSeek. → [AI & LLM](categories/ai-llm.md)
+- [QwenLM/qwen-code](https://github.com/QwenLM/qwen-code) — Coding agent mã nguồn mở của Qwen trong terminal. → [AI Agents](categories/ai-agents.md)
+- [herdrdev/herdr](https://github.com/herdrdev/herdr) — Workspace terminal để chạy nhiều coding agent song song. → [AI Agents](categories/ai-agents.md)
+- [iOfficeAI/OfficeCLI](https://github.com/iOfficeAI/OfficeCLI) — Bộ Office cho agent sửa Word, Excel, PowerPoint. → [AI Agents](categories/ai-agents.md)
+- [jarrodwatts/claude-hud](https://github.com/jarrodwatts/claude-hud) — Status line cho Claude Code: context, tool, tiến độ agent. → [AI Agents](categories/ai-agents.md)
+- [nrwl/nx](https://github.com/nrwl/nx) — Hệ thống build monorepo với cache thông minh. → [Web Development](categories/web-dev.md)
+- [mui/base-ui](https://github.com/mui/base-ui) — Component React không style, chuẩn a11y từ đội Radix/MUI. → [UI Design](categories/ui-design.md)
+- [sharkdp/fd](https://github.com/sharkdp/fd) — Thay thế `find` nhanh và dễ dùng. → [Dev Tools](categories/dev-tools.md)
+- [sharkdp/hyperfine](https://github.com/sharkdp/hyperfine) — Công cụ benchmark lệnh trên terminal. → [Dev Tools](categories/dev-tools.md)
+- [gitleaks/gitleaks](https://github.com/gitleaks/gitleaks) — Tìm secret bị lộ trong repo git và CI. → [Dev Tools](categories/dev-tools.md)
+- [karakeep-app/karakeep](https://github.com/karakeep-app/karakeep) — App lưu bookmark mọi thứ tự host, AI gắn tag. → [Self-hosted](categories/self-hosted.md)
+- [plausible/analytics](https://github.com/plausible/analytics) — Thống kê website không cookie, thay Google Analytics. → [Self-hosted](categories/self-hosted.md)
+- [gethomepage/homepage](https://github.com/gethomepage/homepage) — Dashboard/trang chủ homelab tuỳ biến cao. → [Self-hosted](categories/self-hosted.md)
 
 ## 📏 Quy ước
 

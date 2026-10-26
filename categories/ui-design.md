@@ -13,6 +13,7 @@ Component libraries, animation, design tools and websites for inspiration.
 - [lucide-icons/lucide](https://github.com/lucide-icons/lucide) — Beautiful, consistent SVG icon set with packages for React, Vue and Figma. ⭐ 25k · TypeScript · _added 2026-10-25_
 - [assistant-ui/assistant-ui](https://github.com/assistant-ui/assistant-ui) — React/TypeScript library for complete AI chat interfaces, compatible with shadcn and the Vercel AI SDK. ⭐ 13k · TypeScript · _added 2026-10-25_
 - [adobe/react-spectrum](https://github.com/adobe/react-spectrum) — Adobe's libraries (React Aria…) for building accessible, cross-platform, internationalized design systems. ⭐ 16k · TypeScript · _added 2026-10-25_
+- [mui/base-ui](https://github.com/mui/base-ui) — Unstyled, accessible React components for building design systems, from the creators of Radix, Floating UI and Material UI. ⭐ 11k · TypeScript · _added 2026-10-26_
 
 ## Animation & effects
 

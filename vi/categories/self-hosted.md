@@ -14,3 +14,6 @@ Phần mềm tự host thay thế dịch vụ đám mây.
 - [glanceapp/glance](https://github.com/glanceapp/glance) — Dashboard tự host gom RSS, Reddit, YouTube, thời tiết, trạng thái dịch vụ vào một trang khởi đầu gọn nhẹ. ⭐ 38k · Go · _thêm 2026-10-25_
 - [TriliumNext/Trilium](https://github.com/TriliumNext/Trilium) — App ghi chú phân cấp xây kho kiến thức cá nhân, có scripting và đồng bộ qua server tự host. ⭐ 39k · TypeScript · _thêm 2026-10-25_
 - [dgtlmoon/changedetection.io](https://github.com/dgtlmoon/changedetection.io) — Theo dõi thay đổi trang web, báo giảm giá hay có hàng lại qua nhiều kênh thông báo. ⭐ 35k · Python · _thêm 2026-10-25_
+- [karakeep-app/karakeep](https://github.com/karakeep-app/karakeep) — Ứng dụng lưu mọi thứ (link, ghi chú, ảnh) tự host được, có AI tự gắn tag và tìm kiếm toàn văn. ⭐ 30k · TypeScript · _thêm 2026-10-26_
+- [plausible/analytics](https://github.com/plausible/analytics) — Công cụ thống kê website nhẹ, không cookie, tôn trọng quyền riêng tư, thay thế Google Analytics và tự host được. ⭐ 30k · Elixir · _thêm 2026-10-26_
+- [gethomepage/homepage](https://github.com/gethomepage/homepage) — Trang chủ/dashboard cho homelab tuỳ biến cao, tích hợp Docker và hàng trăm dịch vụ. ⭐ 33k · JavaScript · _thêm 2026-10-26_

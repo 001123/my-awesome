@@ -18,6 +18,7 @@ Models, local model runners, inference, fine-tuning and frameworks for building 
 - [unslothai/unsloth](https://github.com/unslothai/unsloth) — Fine-tune and run LLMs faster with less VRAM, now with a local UI. ⭐ 79k · Python · _added 2026-10-25_
 - [hiyouga/LlamaFactory](https://github.com/hiyouga/LlamaFactory) — Fine-tune 100+ LLMs/VLMs with LoRA, QLoRA and RLHF through one unified interface. ⭐ 76k · Python · _added 2026-10-25_
 - [huggingface/transformers](https://github.com/huggingface/transformers) — The standard library for using and training text, vision and audio models. ⭐ 168k · Python · _added 2026-10-25_
+- [deepseek-ai/DeepInfer](https://github.com/deepseek-ai/DeepInfer) — DeepSeek's official high-performance inference framework for serving DeepSeek models at large scale. ⭐ 22k · Python · _added 2026-10-26_
 
 ## Frameworks for LLM apps
 

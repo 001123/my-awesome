@@ -10,6 +10,8 @@ Autonomous agents, coding assistants, MCP servers and agent skills.
 - [google-gemini/gemini-cli](https://github.com/google-gemini/gemini-cli) — Google's open-source AI agent that brings Gemini into your terminal. ⭐ 108k · TypeScript · _added 2026-10-25_
 - [OpenHands/OpenHands](https://github.com/OpenHands/OpenHands) — Open-source platform for AI-driven software development with agents. ⭐ 92k · TypeScript · _added 2026-10-25_
 - [xai-org/grok-build](https://github.com/xai-org/grok-build) — xAI's official coding agent with a full-screen TUI, mouse support and easy extensibility. ⭐ 27k · Rust · _added 2026-10-25_
+- [QwenLM/qwen-code](https://github.com/QwenLM/qwen-code) — Qwen's open-source AI coding agent that lives in your terminal, with MCP support. ⭐ 29k · TypeScript · _added 2026-10-26_
+- [herdrdev/herdr](https://github.com/herdrdev/herdr) — Terminal workspace manager and multiplexer built for running and orchestrating many coding agents (Claude Code, Codex...) side by side. ⭐ 46k · Rust · _added 2026-10-26_
 
 ## General-purpose agents & orchestration
 
@@ -28,3 +30,5 @@ Autonomous agents, coding assistants, MCP servers and agent skills.
 - [kepano/obsidian-skills](https://github.com/kepano/obsidian-skills) — Agent skills for working with Obsidian, Markdown and JSON Canvas. ⭐ 50k · _added 2026-10-25_
 - [punkpeye/awesome-mcp-servers](https://github.com/punkpeye/awesome-mcp-servers) — The largest list of MCP servers, organized by domain, for quickly finding tools to plug into your agent. ⭐ 97k · _added 2026-10-25_
 - [langchain-ai/openwiki](https://github.com/langchain-ai/openwiki) — CLI that writes and maintains codebase docs for coding agents so they understand projects faster. ⭐ 17k · TypeScript · _added 2026-10-25_
+- [iOfficeAI/OfficeCLI](https://github.com/iOfficeAI/OfficeCLI) — Single-binary Office suite built for AI agents to read, edit and automate Word, Excel and PowerPoint files without Office installed. ⭐ 32k · C# · _added 2026-10-26_
+- [jarrodwatts/claude-hud](https://github.com/jarrodwatts/claude-hud) — Claude Code plugin that shows context usage, active tools, running agents and todo progress right in the status line. ⭐ 29k · JavaScript · _added 2026-10-26_
