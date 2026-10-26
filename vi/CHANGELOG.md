@@ -2,6 +2,12 @@
 
 Mỗi lần tổng hợp được ghi ở đây, mới nhất ở trên cùng.
 
+## 2026-10-26 17:25 UTC
+
+Thêm 2 mục (tổng 128):
+
+- AI Agents & MCP (2): makecindy/cindy, zeronsh/zeron
+
 ## 2026-10-26 12:37 UTC
 
 Thêm 13 mục (tổng 126):

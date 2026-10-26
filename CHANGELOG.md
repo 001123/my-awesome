@@ -2,6 +2,12 @@
 
 Every curation run is logged here, newest first.
 
+## 2026-10-26 17:25 UTC
+
+Added 2 entries (128 total):
+
+- AI Agents & MCP (2): makecindy/cindy, zeronsh/zeron
+
 ## 2026-10-26 12:37 UTC
 
 Added 13 entries (126 total):

@@ -13,6 +13,7 @@ Agent tự động, trợ lý lập trình, MCP server và agent skills.
 - [QwenLM/qwen-code](https://github.com/QwenLM/qwen-code) — Coding agent mã nguồn mở của Qwen chạy ngay trong terminal, hỗ trợ MCP. ⭐ 29k · TypeScript · _thêm 2026-10-26_
 - [herdrdev/herdr](https://github.com/herdrdev/herdr) — Trình quản lý workspace kiểu tmux trong terminal, chuyên để chạy và điều phối nhiều coding agent (Claude Code, Codex...) song song. ⭐ 46k · Rust · _thêm 2026-10-26_
 - [continuedev/continue](https://github.com/continuedev/continue) — Coding agent mã nguồn mở chạy trong VS Code, JetBrains và CLI, dùng được với bất kỳ model nào bạn chọn. ⭐ 36k · TypeScript · _thêm 2026-10-26_
+- [zeronsh/zeron](https://github.com/zeronsh/zeron) — "Bảng điều khiển" native trên desktop để chạy, theo dõi và chuyển qua lại giữa Claude Code, Codex, Cursor, Devin và các coding agent khác ở cùng một chỗ. ⭐ 3.4k · Rust · _thêm 2026-10-26_
 
 ## Agent đa năng & điều phối
 
@@ -22,6 +23,7 @@ Agent tự động, trợ lý lập trình, MCP server và agent skills.
 - [browser-use/browser-use](https://github.com/browser-use/browser-use) — Thư viện Python để AI agent điều khiển trình duyệt. ⭐ 119k · Python · _thêm 2026-10-25_
 - [HKUDS/nanobot](https://github.com/HKUDS/nanobot) — Framework agent cá nhân siêu nhẹ, tự host, có WebUI, MCP, kết nối Telegram/Discord. ⭐ 49k · Python · _thêm 2026-10-25_
 - [browser-use/jev-ultrafast](https://github.com/browser-use/jev-ultrafast) — Web agent nhanh và rẻ của nhóm browser-use, tối ưu để hoàn thành tác vụ trên trình duyệt thật nhanh. ⭐ 24k · Python · _thêm 2026-10-26_
+- [makecindy/cindy](https://github.com/makecindy/cindy) — AI agent mã nguồn mở dùng được ngay, có app cho cả desktop lẫn điện thoại (macOS, Windows, iOS, Android), chạy trên nền Claude Code và Codex. ⭐ 6.1k · TypeScript · _thêm 2026-10-26_
 
 ## MCP & agent skills
 

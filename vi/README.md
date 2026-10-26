@@ -8,14 +8,14 @@
 
 Tổng hợp các repo, website hay và hữu ích về **tech, AI, web development, UI design** và hơn thế nữa. Danh sách được tự động research và cập nhật mỗi 12 giờ.
 
-> Cập nhật lần cuối: **2026-10-26** · Tổng cộng **126** mục · Xem lịch sử ở [CHANGELOG](CHANGELOG.md)
+> Cập nhật lần cuối: **2026-10-26** · Tổng cộng **128** mục · Xem lịch sử ở [CHANGELOG](CHANGELOG.md)
 
 ## 📂 Danh mục
 
 | Danh mục | Nội dung | Số mục |
 |---|---|---|
 | [🤖 AI & LLM](categories/ai-llm.md) | Model, chạy local, inference, fine-tune, framework LLM | 19 |
-| [🧠 AI Agents & MCP](categories/ai-agents.md) | Coding agent, agent đa năng, MCP server, agent skills | 23 |
+| [🧠 AI Agents & MCP](categories/ai-agents.md) | Coding agent, agent đa năng, MCP server, agent skills | 25 |
 | [🌐 Web Development](categories/web-dev.md) | Framework, runtime, build tool, backend, deploy | 17 |
 | [🎨 UI Design & Components](categories/ui-design.md) | Component, animation, công cụ thiết kế, website cảm hứng | 22 |
 | [🛠️ Dev Tools & CLI](categories/dev-tools.md) | Công cụ dòng lệnh, tiện ích, tự động hoá | 18 |
@@ -24,21 +24,10 @@ Tổng hợp các repo, website hay và hữu ích về **tech, AI, web developm
 
 ## 🆕 Mới cập nhật (2026-10-26)
 
-Lần chạy này thêm 13 mục:
+Lần chạy này thêm 2 mục:
 
-- [continuedev/continue](https://github.com/continuedev/continue) — Coding agent mã nguồn mở cho VS Code, JetBrains và CLI. → [AI Agents](categories/ai-agents.md)
-- [browser-use/jev-ultrafast](https://github.com/browser-use/jev-ultrafast) — Web agent nhanh và rẻ của nhóm browser-use. → [AI Agents](categories/ai-agents.md)
-- [yetone/magpie](https://github.com/yetone/magpie) — App menu bar để chạy coding agent bằng model tuỳ chọn. → [AI Agents](categories/ai-agents.md)
-- [drizzle-team/drizzle-orm](https://github.com/drizzle-team/drizzle-orm) — ORM TypeScript nhẹ và type-safe. → [Web Development](categories/web-dev.md)
-- [yt-dlp/yt-dlp](https://github.com/yt-dlp/yt-dlp) — Công cụ dòng lệnh tải audio/video từ hàng nghìn trang. → [Dev Tools](categories/dev-tools.md)
-- [charmbracelet/bubbletea](https://github.com/charmbracelet/bubbletea) — Framework Go để xây giao diện terminal. → [Dev Tools](categories/dev-tools.md)
-- [google/zx](https://github.com/google/zx) — Viết shell script bằng JavaScript. → [Dev Tools](categories/dev-tools.md)
-- [reactive-resume/reactive-resume](https://github.com/reactive-resume/reactive-resume) — Công cụ tạo CV tự host, tôn trọng quyền riêng tư. → [Self-hosted](categories/self-hosted.md)
-- [photoprism/photoprism](https://github.com/photoprism/photoprism) — Ứng dụng quản lý ảnh tự host có AI. → [Self-hosted](categories/self-hosted.md)
-- [luongnv89/claude-howto](https://github.com/luongnv89/claude-howto) — Hướng dẫn Claude Code trực quan qua ví dụ. → [Học tập](categories/learning.md)
-- [practical-tutorials/project-based-learning](https://github.com/practical-tutorials/project-based-learning) — Học lập trình bằng cách làm dự án thật. → [Học tập](categories/learning.md)
-- [leandromoreira/digital_video_introduction](https://github.com/leandromoreira/digital_video_introduction) — Nhập môn codec video, streaming và ffmpeg có thực hành. → [Học tập](categories/learning.md)
-- [github/opensource.guide](https://github.com/github/opensource.guide) — Hướng dẫn của GitHub về làm và đóng góp mã nguồn mở. → [Học tập](categories/learning.md)
+- [makecindy/cindy](https://github.com/makecindy/cindy) — AI agent mã nguồn mở dùng ngay được, cho desktop và điện thoại. → [AI Agents](categories/ai-agents.md)
+- [zeronsh/zeron](https://github.com/zeronsh/zeron) — Bảng điều khiển native cho Claude Code, Codex, Cursor và các coding agent khác. → [AI Agents](categories/ai-agents.md)
 
 ## 📏 Quy ước
 
