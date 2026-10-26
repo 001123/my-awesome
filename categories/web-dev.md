@@ -24,6 +24,7 @@ Frameworks, runtimes, backends and tooling for web development.
 - [appwrite/appwrite](https://github.com/appwrite/appwrite) — Open-source Backend-as-a-Service: auth, database, storage, functions, hosting. ⭐ 58k · TypeScript · _added 2026-10-25_
 - [coollabsio/coolify](https://github.com/coollabsio/coolify) — Self-hosted PaaS that replaces Vercel/Heroku/Netlify on your own server. ⭐ 64k · PHP · _added 2026-10-25_
 - [Dokploy/dokploy](https://github.com/Dokploy/dokploy) — Self-hosted deployment platform, an alternative to Vercel, Netlify and Heroku. ⭐ 38k · TypeScript · _added 2026-10-25_
+- [drizzle-team/drizzle-orm](https://github.com/drizzle-team/drizzle-orm) — Lightweight, type-safe TypeScript ORM with SQL-like queries for Postgres, MySQL and SQLite, and great on serverless. ⭐ 36k · TypeScript · _added 2026-10-26_
 
 ## Reference websites
 

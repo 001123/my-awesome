@@ -17,3 +17,5 @@ Self-hosted software that replaces cloud services.
 - [karakeep-app/karakeep](https://github.com/karakeep-app/karakeep) — Self-hostable bookmark-everything app for links, notes and images, with AI auto-tagging and full-text search. ⭐ 30k · TypeScript · _added 2026-10-26_
 - [plausible/analytics](https://github.com/plausible/analytics) — Lightweight, cookie-free, privacy-first web analytics, a self-hostable Google Analytics alternative. ⭐ 30k · Elixir · _added 2026-10-26_
 - [gethomepage/homepage](https://github.com/gethomepage/homepage) — Highly customizable start page and dashboard for your homelab, with Docker and 100+ service integrations. ⭐ 33k · JavaScript · _added 2026-10-26_
+- [reactive-resume/reactive-resume](https://github.com/reactive-resume/reactive-resume) — Free, privacy-friendly resume builder you can self-host, with templates, real-time preview and PDF export. ⭐ 45k · TypeScript · _added 2026-10-26_
+- [photoprism/photoprism](https://github.com/photoprism/photoprism) — AI-powered self-hosted photo app that auto-tags, recognizes faces and maps where your photos were taken. ⭐ 40k · Go · _added 2026-10-26_

@@ -24,6 +24,7 @@ Framework, runtime, backend và công cụ cho lập trình web.
 - [appwrite/appwrite](https://github.com/appwrite/appwrite) — Backend-as-a-Service mã nguồn mở: auth, database, storage, functions, hosting. ⭐ 58k · TypeScript · _thêm 2026-10-25_
 - [coollabsio/coolify](https://github.com/coollabsio/coolify) — PaaS tự host thay thế Vercel/Heroku/Netlify trên server của bạn. ⭐ 64k · PHP · _thêm 2026-10-25_
 - [Dokploy/dokploy](https://github.com/Dokploy/dokploy) — Nền tảng deploy tự host thay thế Vercel, Netlify, Heroku. ⭐ 38k · TypeScript · _thêm 2026-10-25_
+- [drizzle-team/drizzle-orm](https://github.com/drizzle-team/drizzle-orm) — ORM TypeScript nhẹ, type-safe, cú pháp gần với SQL, hỗ trợ Postgres, MySQL, SQLite và chạy tốt trên serverless. ⭐ 36k · TypeScript · _thêm 2026-10-26_
 
 ## Website tham khảo
 

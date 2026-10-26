@@ -17,6 +17,8 @@ Công cụ dòng lệnh, tiện ích và năng suất cho lập trình viên.
 - [vercel-labs/portless](https://github.com/vercel-labs/portless) — Thay số port bằng URL cố định có tên như `https://myapp.localhost`, tự cấp HTTPS, mỗi git worktree có subdomain riêng, chạy với hầu hết dev server. ⭐ 13k · TypeScript · _thêm 2026-10-25_
 - [sharkdp/fd](https://github.com/sharkdp/fd) — Thay thế `find` đơn giản, nhanh, dễ dùng, mặc định hợp lý và tôn trọng .gitignore. ⭐ 45k · Rust · _thêm 2026-10-26_
 - [sharkdp/hyperfine](https://github.com/sharkdp/hyperfine) — Công cụ benchmark lệnh trên terminal, có chạy khởi động, phân tích thống kê và xuất Markdown/JSON. ⭐ 29k · Rust · _thêm 2026-10-26_
+- [yt-dlp/yt-dlp](https://github.com/yt-dlp/yt-dlp) — Công cụ dòng lệnh tải audio và video từ YouTube cùng hàng nghìn trang khác, rất nhiều tuỳ chọn. ⭐ 202k · Python · _thêm 2026-10-26_
+- [charmbracelet/bubbletea](https://github.com/charmbracelet/bubbletea) — Framework Go để xây giao diện terminal theo kiến trúc Elm, nền tảng của rất nhiều ứng dụng TUI nổi tiếng. ⭐ 46k · Go · _thêm 2026-10-26_
 
 ## Tiện ích
 
@@ -24,3 +26,4 @@ Công cụ dòng lệnh, tiện ích và năng suất cho lập trình viên.
 - [tw93/Pake](https://github.com/tw93/Pake) — Biến bất kỳ website nào thành app desktop nhẹ bằng một lệnh. ⭐ 62k · Rust · _thêm 2026-10-25_
 - [n8n-io/n8n](https://github.com/n8n-io/n8n) — Nền tảng tự động hoá workflow có AI, 400+ tích hợp, tự host được. ⭐ 209k · TypeScript · _thêm 2026-10-25_
 - [gitleaks/gitleaks](https://github.com/gitleaks/gitleaks) — Quét repo git, file và pipeline CI để tìm secret bị lộ như API key, mật khẩu trước khi đẩy lên. ⭐ 30k · Go · _thêm 2026-10-26_
+- [google/zx](https://github.com/google/zx) — Viết shell script bằng JavaScript với các hàm tiện lợi cho tiến trình con, pipe và tham số dòng lệnh. ⭐ 46k · JavaScript · _thêm 2026-10-26_

@@ -17,3 +17,5 @@ Phần mềm tự host thay thế dịch vụ đám mây.
 - [karakeep-app/karakeep](https://github.com/karakeep-app/karakeep) — Ứng dụng lưu mọi thứ (link, ghi chú, ảnh) tự host được, có AI tự gắn tag và tìm kiếm toàn văn. ⭐ 30k · TypeScript · _thêm 2026-10-26_
 - [plausible/analytics](https://github.com/plausible/analytics) — Công cụ thống kê website nhẹ, không cookie, tôn trọng quyền riêng tư, thay thế Google Analytics và tự host được. ⭐ 30k · Elixir · _thêm 2026-10-26_
 - [gethomepage/homepage](https://github.com/gethomepage/homepage) — Trang chủ/dashboard cho homelab tuỳ biến cao, tích hợp Docker và hàng trăm dịch vụ. ⭐ 33k · JavaScript · _thêm 2026-10-26_
+- [reactive-resume/reactive-resume](https://github.com/reactive-resume/reactive-resume) — Công cụ tạo CV miễn phí, tôn trọng quyền riêng tư, tự host được, có nhiều mẫu, xem trước trực tiếp và xuất PDF. ⭐ 45k · TypeScript · _thêm 2026-10-26_
+- [photoprism/photoprism](https://github.com/photoprism/photoprism) — Ứng dụng quản lý ảnh tự host có AI tự gắn thẻ, nhận diện khuôn mặt và hiển thị ảnh trên bản đồ. ⭐ 40k · Go · _thêm 2026-10-26_

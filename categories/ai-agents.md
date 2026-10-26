@@ -12,6 +12,7 @@ Autonomous agents, coding assistants, MCP servers and agent skills.
 - [xai-org/grok-build](https://github.com/xai-org/grok-build) — xAI's official coding agent with a full-screen TUI, mouse support and easy extensibility. ⭐ 27k · Rust · _added 2026-10-25_
 - [QwenLM/qwen-code](https://github.com/QwenLM/qwen-code) — Qwen's open-source AI coding agent that lives in your terminal, with MCP support. ⭐ 29k · TypeScript · _added 2026-10-26_
 - [herdrdev/herdr](https://github.com/herdrdev/herdr) — Terminal workspace manager and multiplexer built for running and orchestrating many coding agents (Claude Code, Codex...) side by side. ⭐ 46k · Rust · _added 2026-10-26_
+- [continuedev/continue](https://github.com/continuedev/continue) — Open-source coding agent that runs in VS Code, JetBrains and the CLI, and works with any model you choose. ⭐ 36k · TypeScript · _added 2026-10-26_
 
 ## General-purpose agents & orchestration
 
@@ -20,6 +21,7 @@ Autonomous agents, coding assistants, MCP servers and agent skills.
 - [paperclipai/paperclip](https://github.com/paperclipai/paperclip) — App for managing and orchestrating many agents for team work. ⭐ 107k · TypeScript · _added 2026-10-25_
 - [browser-use/browser-use](https://github.com/browser-use/browser-use) — Python library that lets AI agents control a web browser. ⭐ 119k · Python · _added 2026-10-25_
 - [HKUDS/nanobot](https://github.com/HKUDS/nanobot) — Ultra-lightweight, self-hosted personal agent framework with a WebUI, MCP and Telegram/Discord integrations. ⭐ 49k · Python · _added 2026-10-25_
+- [browser-use/jev-ultrafast](https://github.com/browser-use/jev-ultrafast) — browser-use's fast, low-cost web agent built for completing browser tasks quickly. ⭐ 24k · Python · _added 2026-10-26_
 
 ## MCP & agent skills
 
@@ -32,3 +34,4 @@ Autonomous agents, coding assistants, MCP servers and agent skills.
 - [langchain-ai/openwiki](https://github.com/langchain-ai/openwiki) — CLI that writes and maintains codebase docs for coding agents so they understand projects faster. ⭐ 17k · TypeScript · _added 2026-10-25_
 - [iOfficeAI/OfficeCLI](https://github.com/iOfficeAI/OfficeCLI) — Single-binary Office suite built for AI agents to read, edit and automate Word, Excel and PowerPoint files without Office installed. ⭐ 32k · C# · _added 2026-10-26_
 - [jarrodwatts/claude-hud](https://github.com/jarrodwatts/claude-hud) — Claude Code plugin that shows context usage, active tools, running agents and todo progress right in the status line. ⭐ 29k · JavaScript · _added 2026-10-26_
+- [yetone/magpie](https://github.com/yetone/magpie) — macOS menu bar app that points your coding agents at any model, like Codex on DeepSeek or Claude Code on Kimi. ⭐ 22k · Go · _added 2026-10-26_

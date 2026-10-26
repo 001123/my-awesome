@@ -17,6 +17,8 @@ Command-line tools, utilities and productivity boosters for developers.
 - [vercel-labs/portless](https://github.com/vercel-labs/portless) — Replaces port numbers with stable named URLs like `https://myapp.localhost`, with automatic HTTPS, per-worktree subdomains and support for most dev servers. ⭐ 13k · TypeScript · _added 2026-10-25_
 - [sharkdp/fd](https://github.com/sharkdp/fd) — Simple, fast and user-friendly alternative to `find` with sensible defaults and .gitignore support. ⭐ 45k · Rust · _added 2026-10-26_
 - [sharkdp/hyperfine](https://github.com/sharkdp/hyperfine) — Command-line benchmarking tool with warmup runs, statistical analysis and export to Markdown/JSON. ⭐ 29k · Rust · _added 2026-10-26_
+- [yt-dlp/yt-dlp](https://github.com/yt-dlp/yt-dlp) — Feature-packed command-line audio and video downloader for YouTube and thousands of other sites. ⭐ 202k · Python · _added 2026-10-26_
+- [charmbracelet/bubbletea](https://github.com/charmbracelet/bubbletea) — Go framework for building terminal UIs based on the Elm architecture, the engine behind many popular TUIs. ⭐ 46k · Go · _added 2026-10-26_
 
 ## Utilities
 
@@ -24,3 +26,4 @@ Command-line tools, utilities and productivity boosters for developers.
 - [tw93/Pake](https://github.com/tw93/Pake) — Turn any website into a lightweight desktop app with one command. ⭐ 62k · Rust · _added 2026-10-25_
 - [n8n-io/n8n](https://github.com/n8n-io/n8n) — Self-hostable workflow automation platform with AI and 400+ integrations. ⭐ 209k · TypeScript · _added 2026-10-25_
 - [gitleaks/gitleaks](https://github.com/gitleaks/gitleaks) — Scans git repos, files and CI pipelines for leaked secrets like API keys and passwords before they ship. ⭐ 30k · Go · _added 2026-10-26_
+- [google/zx](https://github.com/google/zx) — Write shell scripts in JavaScript with handy wrappers around child processes, pipes and arguments. ⭐ 46k · JavaScript · _added 2026-10-26_

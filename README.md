@@ -8,37 +8,37 @@
 
 A curated collection of great repos and websites on **tech, AI, web development, UI design** and more. The list is researched and updated automatically every 12 hours.
 
-> Last updated: **2026-10-26** · **113** entries in total · See the history in the [CHANGELOG](CHANGELOG.md)
+> Last updated: **2026-10-26** · **126** entries in total · See the history in the [CHANGELOG](CHANGELOG.md)
 
 ## 📂 Categories
 
 | Category | What's inside | Entries |
 |---|---|---|
 | [🤖 AI & LLM](categories/ai-llm.md) | Models, local runners, inference, fine-tuning, LLM frameworks | 19 |
-| [🧠 AI Agents & MCP](categories/ai-agents.md) | Coding agents, general agents, MCP servers, agent skills | 20 |
-| [🌐 Web Development](categories/web-dev.md) | Frameworks, runtimes, build tools, backend, deployment | 16 |
+| [🧠 AI Agents & MCP](categories/ai-agents.md) | Coding agents, general agents, MCP servers, agent skills | 23 |
+| [🌐 Web Development](categories/web-dev.md) | Frameworks, runtimes, build tools, backend, deployment | 17 |
 | [🎨 UI Design & Components](categories/ui-design.md) | Components, animation, design tools, inspiration sites | 22 |
-| [🛠️ Dev Tools & CLI](categories/dev-tools.md) | Command-line tools, utilities, automation | 15 |
-| [🏠 Self-hosted](categories/self-hosted.md) | Self-hosted replacements for cloud services | 13 |
-| [📚 Learning & Resources](categories/learning.md) | Courses, roadmaps, cheatsheets | 8 |
+| [🛠️ Dev Tools & CLI](categories/dev-tools.md) | Command-line tools, utilities, automation | 18 |
+| [🏠 Self-hosted](categories/self-hosted.md) | Self-hosted replacements for cloud services | 15 |
+| [📚 Learning & Resources](categories/learning.md) | Courses, roadmaps, cheatsheets | 12 |
 
 ## 🆕 Latest update (2026-10-26)
 
 This run added 13 entries:
 
-- [deepseek-ai/DeepInfer](https://github.com/deepseek-ai/DeepInfer) — DeepSeek's official large-scale inference framework. → [AI & LLM](categories/ai-llm.md)
-- [QwenLM/qwen-code](https://github.com/QwenLM/qwen-code) — Qwen's open-source coding agent for the terminal. → [AI Agents](categories/ai-agents.md)
-- [herdrdev/herdr](https://github.com/herdrdev/herdr) — Terminal workspace for running many coding agents side by side. → [AI Agents](categories/ai-agents.md)
-- [iOfficeAI/OfficeCLI](https://github.com/iOfficeAI/OfficeCLI) — Office suite that lets agents edit Word, Excel and PowerPoint. → [AI Agents](categories/ai-agents.md)
-- [jarrodwatts/claude-hud](https://github.com/jarrodwatts/claude-hud) — Claude Code status line with context, tools and agent progress. → [AI Agents](categories/ai-agents.md)
-- [nrwl/nx](https://github.com/nrwl/nx) — Monorepo build system with smart caching. → [Web Development](categories/web-dev.md)
-- [mui/base-ui](https://github.com/mui/base-ui) — Unstyled, accessible React components from the Radix/MUI team. → [UI Design](categories/ui-design.md)
-- [sharkdp/fd](https://github.com/sharkdp/fd) — A fast, friendly `find` alternative. → [Dev Tools](categories/dev-tools.md)
-- [sharkdp/hyperfine](https://github.com/sharkdp/hyperfine) — Command-line benchmarking tool. → [Dev Tools](categories/dev-tools.md)
-- [gitleaks/gitleaks](https://github.com/gitleaks/gitleaks) — Finds leaked secrets in git repos and CI. → [Dev Tools](categories/dev-tools.md)
-- [karakeep-app/karakeep](https://github.com/karakeep-app/karakeep) — Self-hosted bookmark-everything app with AI tagging. → [Self-hosted](categories/self-hosted.md)
-- [plausible/analytics](https://github.com/plausible/analytics) — Privacy-first, cookie-free Google Analytics alternative. → [Self-hosted](categories/self-hosted.md)
-- [gethomepage/homepage](https://github.com/gethomepage/homepage) — Customizable homelab dashboard and start page. → [Self-hosted](categories/self-hosted.md)
+- [continuedev/continue](https://github.com/continuedev/continue) — Open-source coding agent for VS Code, JetBrains and the CLI. → [AI Agents](categories/ai-agents.md)
+- [browser-use/jev-ultrafast](https://github.com/browser-use/jev-ultrafast) — browser-use's fast, low-cost web agent. → [AI Agents](categories/ai-agents.md)
+- [yetone/magpie](https://github.com/yetone/magpie) — Menu bar app to run any coding agent on any model. → [AI Agents](categories/ai-agents.md)
+- [drizzle-team/drizzle-orm](https://github.com/drizzle-team/drizzle-orm) — Lightweight, type-safe TypeScript ORM. → [Web Development](categories/web-dev.md)
+- [yt-dlp/yt-dlp](https://github.com/yt-dlp/yt-dlp) — Command-line audio and video downloader for thousands of sites. → [Dev Tools](categories/dev-tools.md)
+- [charmbracelet/bubbletea](https://github.com/charmbracelet/bubbletea) — Go framework for building terminal UIs. → [Dev Tools](categories/dev-tools.md)
+- [google/zx](https://github.com/google/zx) — Write shell scripts in JavaScript. → [Dev Tools](categories/dev-tools.md)
+- [reactive-resume/reactive-resume](https://github.com/reactive-resume/reactive-resume) — Privacy-friendly, self-hostable resume builder. → [Self-hosted](categories/self-hosted.md)
+- [photoprism/photoprism](https://github.com/photoprism/photoprism) — AI-powered self-hosted photo app. → [Self-hosted](categories/self-hosted.md)
+- [luongnv89/claude-howto](https://github.com/luongnv89/claude-howto) — Visual, example-driven guide to Claude Code. → [Learning](categories/learning.md)
+- [practical-tutorials/project-based-learning](https://github.com/practical-tutorials/project-based-learning) — Learn programming by building real projects. → [Learning](categories/learning.md)
+- [leandromoreira/digital_video_introduction](https://github.com/leandromoreira/digital_video_introduction) — Hands-on intro to video codecs, streaming and ffmpeg. → [Learning](categories/learning.md)
+- [github/opensource.guide](https://github.com/github/opensource.guide) — GitHub's guides to running and contributing to open source. → [Learning](categories/learning.md)
 
 ## 📏 Conventions
 

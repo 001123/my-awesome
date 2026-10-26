@@ -8,37 +8,37 @@
 
 Tổng hợp các repo, website hay và hữu ích về **tech, AI, web development, UI design** và hơn thế nữa. Danh sách được tự động research và cập nhật mỗi 12 giờ.
 
-> Cập nhật lần cuối: **2026-10-26** · Tổng cộng **113** mục · Xem lịch sử ở [CHANGELOG](CHANGELOG.md)
+> Cập nhật lần cuối: **2026-10-26** · Tổng cộng **126** mục · Xem lịch sử ở [CHANGELOG](CHANGELOG.md)
 
 ## 📂 Danh mục
 
 | Danh mục | Nội dung | Số mục |
 |---|---|---|
 | [🤖 AI & LLM](categories/ai-llm.md) | Model, chạy local, inference, fine-tune, framework LLM | 19 |
-| [🧠 AI Agents & MCP](categories/ai-agents.md) | Coding agent, agent đa năng, MCP server, agent skills | 20 |
-| [🌐 Web Development](categories/web-dev.md) | Framework, runtime, build tool, backend, deploy | 16 |
+| [🧠 AI Agents & MCP](categories/ai-agents.md) | Coding agent, agent đa năng, MCP server, agent skills | 23 |
+| [🌐 Web Development](categories/web-dev.md) | Framework, runtime, build tool, backend, deploy | 17 |
 | [🎨 UI Design & Components](categories/ui-design.md) | Component, animation, công cụ thiết kế, website cảm hứng | 22 |
-| [🛠️ Dev Tools & CLI](categories/dev-tools.md) | Công cụ dòng lệnh, tiện ích, tự động hoá | 15 |
-| [🏠 Self-hosted](categories/self-hosted.md) | Phần mềm tự host thay thế dịch vụ cloud | 13 |
-| [📚 Học tập & Tài liệu](categories/learning.md) | Khoá học, lộ trình, cheatsheet | 8 |
+| [🛠️ Dev Tools & CLI](categories/dev-tools.md) | Công cụ dòng lệnh, tiện ích, tự động hoá | 18 |
+| [🏠 Self-hosted](categories/self-hosted.md) | Phần mềm tự host thay thế dịch vụ cloud | 15 |
+| [📚 Học tập & Tài liệu](categories/learning.md) | Khoá học, lộ trình, cheatsheet | 12 |
 
 ## 🆕 Mới cập nhật (2026-10-26)
 
 Lần chạy này thêm 13 mục:
 
-- [deepseek-ai/DeepInfer](https://github.com/deepseek-ai/DeepInfer) — Framework inference quy mô lớn chính chủ DeepSeek. → [AI & LLM](categories/ai-llm.md)
-- [QwenLM/qwen-code](https://github.com/QwenLM/qwen-code) — Coding agent mã nguồn mở của Qwen trong terminal. → [AI Agents](categories/ai-agents.md)
-- [herdrdev/herdr](https://github.com/herdrdev/herdr) — Workspace terminal để chạy nhiều coding agent song song. → [AI Agents](categories/ai-agents.md)
-- [iOfficeAI/OfficeCLI](https://github.com/iOfficeAI/OfficeCLI) — Bộ Office cho agent sửa Word, Excel, PowerPoint. → [AI Agents](categories/ai-agents.md)
-- [jarrodwatts/claude-hud](https://github.com/jarrodwatts/claude-hud) — Status line cho Claude Code: context, tool, tiến độ agent. → [AI Agents](categories/ai-agents.md)
-- [nrwl/nx](https://github.com/nrwl/nx) — Hệ thống build monorepo với cache thông minh. → [Web Development](categories/web-dev.md)
-- [mui/base-ui](https://github.com/mui/base-ui) — Component React không style, chuẩn a11y từ đội Radix/MUI. → [UI Design](categories/ui-design.md)
-- [sharkdp/fd](https://github.com/sharkdp/fd) — Thay thế `find` nhanh và dễ dùng. → [Dev Tools](categories/dev-tools.md)
-- [sharkdp/hyperfine](https://github.com/sharkdp/hyperfine) — Công cụ benchmark lệnh trên terminal. → [Dev Tools](categories/dev-tools.md)
-- [gitleaks/gitleaks](https://github.com/gitleaks/gitleaks) — Tìm secret bị lộ trong repo git và CI. → [Dev Tools](categories/dev-tools.md)
-- [karakeep-app/karakeep](https://github.com/karakeep-app/karakeep) — App lưu bookmark mọi thứ tự host, AI gắn tag. → [Self-hosted](categories/self-hosted.md)
-- [plausible/analytics](https://github.com/plausible/analytics) — Thống kê website không cookie, thay Google Analytics. → [Self-hosted](categories/self-hosted.md)
-- [gethomepage/homepage](https://github.com/gethomepage/homepage) — Dashboard/trang chủ homelab tuỳ biến cao. → [Self-hosted](categories/self-hosted.md)
+- [continuedev/continue](https://github.com/continuedev/continue) — Coding agent mã nguồn mở cho VS Code, JetBrains và CLI. → [AI Agents](categories/ai-agents.md)
+- [browser-use/jev-ultrafast](https://github.com/browser-use/jev-ultrafast) — Web agent nhanh và rẻ của nhóm browser-use. → [AI Agents](categories/ai-agents.md)
+- [yetone/magpie](https://github.com/yetone/magpie) — App menu bar để chạy coding agent bằng model tuỳ chọn. → [AI Agents](categories/ai-agents.md)
+- [drizzle-team/drizzle-orm](https://github.com/drizzle-team/drizzle-orm) — ORM TypeScript nhẹ và type-safe. → [Web Development](categories/web-dev.md)
+- [yt-dlp/yt-dlp](https://github.com/yt-dlp/yt-dlp) — Công cụ dòng lệnh tải audio/video từ hàng nghìn trang. → [Dev Tools](categories/dev-tools.md)
+- [charmbracelet/bubbletea](https://github.com/charmbracelet/bubbletea) — Framework Go để xây giao diện terminal. → [Dev Tools](categories/dev-tools.md)
+- [google/zx](https://github.com/google/zx) — Viết shell script bằng JavaScript. → [Dev Tools](categories/dev-tools.md)
+- [reactive-resume/reactive-resume](https://github.com/reactive-resume/reactive-resume) — Công cụ tạo CV tự host, tôn trọng quyền riêng tư. → [Self-hosted](categories/self-hosted.md)
+- [photoprism/photoprism](https://github.com/photoprism/photoprism) — Ứng dụng quản lý ảnh tự host có AI. → [Self-hosted](categories/self-hosted.md)
+- [luongnv89/claude-howto](https://github.com/luongnv89/claude-howto) — Hướng dẫn Claude Code trực quan qua ví dụ. → [Học tập](categories/learning.md)
+- [practical-tutorials/project-based-learning](https://github.com/practical-tutorials/project-based-learning) — Học lập trình bằng cách làm dự án thật. → [Học tập](categories/learning.md)
+- [leandromoreira/digital_video_introduction](https://github.com/leandromoreira/digital_video_introduction) — Nhập môn codec video, streaming và ffmpeg có thực hành. → [Học tập](categories/learning.md)
+- [github/opensource.guide](https://github.com/github/opensource.guide) — Hướng dẫn của GitHub về làm và đóng góp mã nguồn mở. → [Học tập](categories/learning.md)
 
 ## 📏 Quy ước
 

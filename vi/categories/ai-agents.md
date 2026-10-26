@@ -12,6 +12,7 @@ Agent tự động, trợ lý lập trình, MCP server và agent skills.
 - [xai-org/grok-build](https://github.com/xai-org/grok-build) — Agent lập trình chính chủ của xAI với giao diện TUI toàn màn hình, hỗ trợ chuột và dễ mở rộng. ⭐ 27k · Rust · _thêm 2026-10-25_
 - [QwenLM/qwen-code](https://github.com/QwenLM/qwen-code) — Coding agent mã nguồn mở của Qwen chạy ngay trong terminal, hỗ trợ MCP. ⭐ 29k · TypeScript · _thêm 2026-10-26_
 - [herdrdev/herdr](https://github.com/herdrdev/herdr) — Trình quản lý workspace kiểu tmux trong terminal, chuyên để chạy và điều phối nhiều coding agent (Claude Code, Codex...) song song. ⭐ 46k · Rust · _thêm 2026-10-26_
+- [continuedev/continue](https://github.com/continuedev/continue) — Coding agent mã nguồn mở chạy trong VS Code, JetBrains và CLI, dùng được với bất kỳ model nào bạn chọn. ⭐ 36k · TypeScript · _thêm 2026-10-26_
 
 ## Agent đa năng & điều phối
 
@@ -20,6 +21,7 @@ Agent tự động, trợ lý lập trình, MCP server và agent skills.
 - [paperclipai/paperclip](https://github.com/paperclipai/paperclip) — App quản lý và điều phối nhiều agent cho công việc nhóm. ⭐ 107k · TypeScript · _thêm 2026-10-25_
 - [browser-use/browser-use](https://github.com/browser-use/browser-use) — Thư viện Python để AI agent điều khiển trình duyệt. ⭐ 119k · Python · _thêm 2026-10-25_
 - [HKUDS/nanobot](https://github.com/HKUDS/nanobot) — Framework agent cá nhân siêu nhẹ, tự host, có WebUI, MCP, kết nối Telegram/Discord. ⭐ 49k · Python · _thêm 2026-10-25_
+- [browser-use/jev-ultrafast](https://github.com/browser-use/jev-ultrafast) — Web agent nhanh và rẻ của nhóm browser-use, tối ưu để hoàn thành tác vụ trên trình duyệt thật nhanh. ⭐ 24k · Python · _thêm 2026-10-26_
 
 ## MCP & agent skills
 
@@ -32,3 +34,4 @@ Agent tự động, trợ lý lập trình, MCP server và agent skills.
 - [langchain-ai/openwiki](https://github.com/langchain-ai/openwiki) — CLI tự viết và cập nhật tài liệu codebase dành cho coding agent, giúp agent hiểu dự án nhanh hơn. ⭐ 17k · TypeScript · _thêm 2026-10-25_
 - [iOfficeAI/OfficeCLI](https://github.com/iOfficeAI/OfficeCLI) — Bộ Office dạng một file chạy, làm riêng cho AI agent đọc, sửa và tự động hoá Word, Excel, PowerPoint mà không cần cài Office. ⭐ 32k · C# · _thêm 2026-10-26_
 - [jarrodwatts/claude-hud](https://github.com/jarrodwatts/claude-hud) — Plugin cho Claude Code hiện mức dùng context, tool đang chạy, agent và tiến độ todo ngay trên status line. ⭐ 29k · JavaScript · _thêm 2026-10-26_
+- [yetone/magpie](https://github.com/yetone/magpie) — Ứng dụng menu bar trên macOS cho phép đổi model của các coding agent, ví dụ chạy Codex bằng DeepSeek hay Claude Code bằng Kimi. ⭐ 22k · Go · _thêm 2026-10-26_

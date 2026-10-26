@@ -2,6 +2,16 @@
 
 Mỗi lần tổng hợp được ghi ở đây, mới nhất ở trên cùng.
 
+## 2026-10-26 12:37 UTC
+
+Thêm 13 mục (tổng 126):
+
+- AI Agents & MCP (3): continuedev/continue, browser-use/jev-ultrafast, yetone/magpie
+- Web Development (1): drizzle-team/drizzle-orm
+- Dev Tools (3): yt-dlp/yt-dlp, charmbracelet/bubbletea, google/zx
+- Self-hosted (2): reactive-resume/reactive-resume, photoprism/photoprism
+- Học tập (4): luongnv89/claude-howto, practical-tutorials/project-based-learning, leandromoreira/digital_video_introduction, github/opensource.guide
+
 ## 2026-10-26 00:35 UTC
 
 Thêm 13 mục (tổng 113):
