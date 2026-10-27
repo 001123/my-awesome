@@ -28,6 +28,8 @@ Thư viện component, animation, công cụ thiết kế và website lấy cả
 - [penpot/penpot](https://github.com/penpot/penpot) — Công cụ thiết kế và prototype mã nguồn mở, thay thế Figma. ⭐ 62k · Clojure · _thêm 2026-10-25_
 - [excalidraw/excalidraw](https://github.com/excalidraw/excalidraw) — Bảng trắng vẽ sơ đồ phong cách vẽ tay, cộng tác realtime. ⭐ 135k · TypeScript · _thêm 2026-10-25_
 - [Leonxlnx/taste-skill](https://github.com/Leonxlnx/taste-skill) — Agent skills giúp coding agent thiết kế UI có "gu", tránh trang web AI chung chung. ⭐ 102k · JavaScript · _thêm 2026-10-25_
+- [pbakaus/impeccable](https://github.com/pbakaus/impeccable) — Bộ ngôn ngữ thiết kế và lệnh giúp AI coding agent làm UI tốt hơn hẳn về typography, bố cục và độ hoàn thiện. ⭐ 89k · _thêm 2026-10-27_
+- [tldraw/tldraw](https://github.com/tldraw/tldraw) — SDK React để xây ứng dụng canvas vô hạn như bảng trắng, trình vẽ sơ đồ hay canvas cho AI. ⭐ 51k · TypeScript · _thêm 2026-10-27_
 
 ## Website cảm hứng & tài nguyên
 

@@ -24,6 +24,7 @@ Agent tự động, trợ lý lập trình, MCP server và agent skills.
 - [HKUDS/nanobot](https://github.com/HKUDS/nanobot) — Framework agent cá nhân siêu nhẹ, tự host, có WebUI, MCP, kết nối Telegram/Discord. ⭐ 49k · Python · _thêm 2026-10-25_
 - [browser-use/jev-ultrafast](https://github.com/browser-use/jev-ultrafast) — Web agent nhanh và rẻ của nhóm browser-use, tối ưu để hoàn thành tác vụ trên trình duyệt thật nhanh. ⭐ 24k · Python · _thêm 2026-10-26_
 - [makecindy/cindy](https://github.com/makecindy/cindy) — AI agent mã nguồn mở dùng được ngay, có app cho cả desktop lẫn điện thoại (macOS, Windows, iOS, Android), chạy trên nền Claude Code và Codex. ⭐ 6.1k · TypeScript · _thêm 2026-10-26_
+- [NVIDIA/OpenShell](https://github.com/NVIDIA/OpenShell) — Runtime an toàn, riêng tư của NVIDIA cho agent tự hành, sandbox những gì agent được chạy, đọc và truy cập mạng. ⭐ 19k · Rust · _thêm 2026-10-27_
 
 ## MCP & agent skills
 
@@ -37,3 +38,5 @@ Agent tự động, trợ lý lập trình, MCP server và agent skills.
 - [iOfficeAI/OfficeCLI](https://github.com/iOfficeAI/OfficeCLI) — Bộ Office dạng một file chạy, làm riêng cho AI agent đọc, sửa và tự động hoá Word, Excel, PowerPoint mà không cần cài Office. ⭐ 32k · C# · _thêm 2026-10-26_
 - [jarrodwatts/claude-hud](https://github.com/jarrodwatts/claude-hud) — Plugin cho Claude Code hiện mức dùng context, tool đang chạy, agent và tiến độ todo ngay trên status line. ⭐ 29k · JavaScript · _thêm 2026-10-26_
 - [yetone/magpie](https://github.com/yetone/magpie) — Ứng dụng menu bar trên macOS cho phép đổi model của các coding agent, ví dụ chạy Codex bằng DeepSeek hay Claude Code bằng Kimi. ⭐ 22k · Go · _thêm 2026-10-26_
+- [cloudflare/security-audit-skill](https://github.com/cloudflare/security-audit-skill) — Skill của Cloudflare giúp coding agent audit bảo mật nhiều giai đoạn, mỗi lỗ hổng đều được một agent khác kiểm chứng trước khi báo cáo. ⭐ 48k · JavaScript · _thêm 2026-10-27_
+- [anthropics/knowledge-work-plugins](https://github.com/anthropics/knowledge-work-plugins) — Bộ plugin mã nguồn mở của Anthropic cho Claude Cowork, phục vụ các vai trò sales, tài chính, pháp lý, hỗ trợ khách hàng… ⭐ 31k · Python · _thêm 2026-10-27_

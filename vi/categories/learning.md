@@ -21,3 +21,4 @@ Khoá học, lộ trình, sách và tài liệu tự học.
 - [practical-tutorials/project-based-learning](https://github.com/practical-tutorials/project-based-learning) — Danh sách khổng lồ các tutorial theo dự án, học ngôn ngữ lập trình bằng cách tự làm sản phẩm thật. ⭐ 288k · Python · _thêm 2026-10-26_
 - [leandromoreira/digital_video_introduction](https://github.com/leandromoreira/digital_video_introduction) — Nhập môn công nghệ video có thực hành: ảnh, codec như H.264 và AV1, streaming và ffmpeg. ⭐ 16k · Jupyter Notebook · _thêm 2026-10-26_
 - [github/opensource.guide](https://github.com/github/opensource.guide) — Bộ hướng dẫn của GitHub về cách khởi tạo, đóng góp, bảo trì và phát triển dự án mã nguồn mở. ⭐ 16k · HTML · _thêm 2026-10-26_
+- [ossu/computer-science](https://github.com/ossu/computer-science) — Lộ trình tự học khoa học máy tính đầy đủ và miễn phí, ghép từ các khoá học online tốt nhất. ⭐ 210k · _thêm 2026-10-27_

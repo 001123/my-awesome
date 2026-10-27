@@ -21,3 +21,4 @@ Courses, roadmaps, books and self-study material.
 - [practical-tutorials/project-based-learning](https://github.com/practical-tutorials/project-based-learning) — Huge list of project-based tutorials where you learn a language by building real things. ⭐ 288k · Python · _added 2026-10-26_
 - [leandromoreira/digital_video_introduction](https://github.com/leandromoreira/digital_video_introduction) — Hands-on introduction to digital video: images, codecs like H.264 and AV1, streaming and ffmpeg. ⭐ 16k · Jupyter Notebook · _added 2026-10-26_
 - [github/opensource.guide](https://github.com/github/opensource.guide) — GitHub's community guides on starting, contributing to, maintaining and growing open source projects. ⭐ 16k · HTML · _added 2026-10-26_
+- [ossu/computer-science](https://github.com/ossu/computer-science) — A full, free self-taught computer science curriculum built from the best online courses. ⭐ 210k · _added 2026-10-27_

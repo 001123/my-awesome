@@ -19,3 +19,4 @@ Phần mềm tự host thay thế dịch vụ đám mây.
 - [gethomepage/homepage](https://github.com/gethomepage/homepage) — Trang chủ/dashboard cho homelab tuỳ biến cao, tích hợp Docker và hàng trăm dịch vụ. ⭐ 33k · JavaScript · _thêm 2026-10-26_
 - [reactive-resume/reactive-resume](https://github.com/reactive-resume/reactive-resume) — Công cụ tạo CV miễn phí, tôn trọng quyền riêng tư, tự host được, có nhiều mẫu, xem trước trực tiếp và xuất PDF. ⭐ 45k · TypeScript · _thêm 2026-10-26_
 - [photoprism/photoprism](https://github.com/photoprism/photoprism) — Ứng dụng quản lý ảnh tự host có AI tự gắn thẻ, nhận diện khuôn mặt và hiển thị ảnh trên bản đồ. ⭐ 40k · Go · _thêm 2026-10-26_
+- [jellyfin/jellyfin](https://github.com/jellyfin/jellyfin) — Media server miễn phí tự host để stream phim, series và nhạc tới mọi thiết bị, không theo dõi, không gói trả phí. ⭐ 58k · C# · _thêm 2026-10-27_

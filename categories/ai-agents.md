@@ -24,6 +24,7 @@ Autonomous agents, coding assistants, MCP servers and agent skills.
 - [HKUDS/nanobot](https://github.com/HKUDS/nanobot) — Ultra-lightweight, self-hosted personal agent framework with a WebUI, MCP and Telegram/Discord integrations. ⭐ 49k · Python · _added 2026-10-25_
 - [browser-use/jev-ultrafast](https://github.com/browser-use/jev-ultrafast) — browser-use's fast, low-cost web agent built for completing browser tasks quickly. ⭐ 24k · Python · _added 2026-10-26_
 - [makecindy/cindy](https://github.com/makecindy/cindy) — Open-source AI agent that works out of the box on desktop and mobile (macOS, Windows, iOS, Android), built on top of Claude Code and Codex. ⭐ 6.1k · TypeScript · _added 2026-10-26_
+- [NVIDIA/OpenShell](https://github.com/NVIDIA/OpenShell) — NVIDIA's safe, private runtime for autonomous agents, sandboxing what they can run, read and reach on the network. ⭐ 19k · Rust · _added 2026-10-27_
 
 ## MCP & agent skills
 
@@ -37,3 +38,5 @@ Autonomous agents, coding assistants, MCP servers and agent skills.
 - [iOfficeAI/OfficeCLI](https://github.com/iOfficeAI/OfficeCLI) — Single-binary Office suite built for AI agents to read, edit and automate Word, Excel and PowerPoint files without Office installed. ⭐ 32k · C# · _added 2026-10-26_
 - [jarrodwatts/claude-hud](https://github.com/jarrodwatts/claude-hud) — Claude Code plugin that shows context usage, active tools, running agents and todo progress right in the status line. ⭐ 29k · JavaScript · _added 2026-10-26_
 - [yetone/magpie](https://github.com/yetone/magpie) — macOS menu bar app that points your coding agents at any model, like Codex on DeepSeek or Claude Code on Kimi. ⭐ 22k · Go · _added 2026-10-26_
+- [cloudflare/security-audit-skill](https://github.com/cloudflare/security-audit-skill) — Cloudflare's coding-agent skill for multi-phase security audits, where a second agent tries to disprove every finding before it's reported. ⭐ 48k · JavaScript · _added 2026-10-27_
+- [anthropics/knowledge-work-plugins](https://github.com/anthropics/knowledge-work-plugins) — Anthropic's open-source plugins for Claude Cowork covering sales, finance, legal, support and other knowledge-work roles. ⭐ 31k · Python · _added 2026-10-27_

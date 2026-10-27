@@ -19,6 +19,8 @@ Command-line tools, utilities and productivity boosters for developers.
 - [sharkdp/hyperfine](https://github.com/sharkdp/hyperfine) — Command-line benchmarking tool with warmup runs, statistical analysis and export to Markdown/JSON. ⭐ 29k · Rust · _added 2026-10-26_
 - [yt-dlp/yt-dlp](https://github.com/yt-dlp/yt-dlp) — Feature-packed command-line audio and video downloader for YouTube and thousands of other sites. ⭐ 202k · Python · _added 2026-10-26_
 - [charmbracelet/bubbletea](https://github.com/charmbracelet/bubbletea) — Go framework for building terminal UIs based on the Elm architecture, the engine behind many popular TUIs. ⭐ 46k · Go · _added 2026-10-26_
+- [astral-sh/uv](https://github.com/astral-sh/uv) — Blazing-fast Python package and project manager in Rust that replaces pip, pip-tools, pipx, poetry and pyenv. ⭐ 91k · Rust · _added 2026-10-27_
+- [atuinsh/atuin](https://github.com/atuinsh/atuin) — Replaces your shell history with a searchable SQLite database, with optional end-to-end encrypted sync across machines. ⭐ 31k · Rust · _added 2026-10-27_
 
 ## Utilities
 

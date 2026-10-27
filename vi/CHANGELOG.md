@@ -2,6 +2,17 @@
 
 Mỗi lần tổng hợp được ghi ở đây, mới nhất ở trên cùng.
 
+## 2026-10-27 00:37 UTC
+
+Thêm 12 mục (tổng 140):
+
+- AI & LLM (3): ggml-org/llama.cpp, OpenBMB/VoxCPM, qdrant/qdrant
+- AI Agents & MCP (3): NVIDIA/OpenShell, cloudflare/security-audit-skill, anthropics/knowledge-work-plugins
+- UI Design (2): pbakaus/impeccable, tldraw/tldraw
+- Dev Tools (2): astral-sh/uv, atuinsh/atuin
+- Self-hosted (1): jellyfin/jellyfin
+- Học tập (1): ossu/computer-science
+
 ## 2026-10-26 17:25 UTC
 
 Thêm 2 mục (tổng 128):

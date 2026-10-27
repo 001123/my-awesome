@@ -28,6 +28,8 @@ Component libraries, animation, design tools and websites for inspiration.
 - [penpot/penpot](https://github.com/penpot/penpot) — Open-source design and prototyping tool, a Figma alternative. ⭐ 62k · Clojure · _added 2026-10-25_
 - [excalidraw/excalidraw](https://github.com/excalidraw/excalidraw) — Hand-drawn style whiteboard for diagrams, with real-time collaboration. ⭐ 135k · TypeScript · _added 2026-10-25_
 - [Leonxlnx/taste-skill](https://github.com/Leonxlnx/taste-skill) — Agent skills that give coding agents design taste, so they avoid generic AI-looking websites. ⭐ 102k · JavaScript · _added 2026-10-25_
+- [pbakaus/impeccable](https://github.com/pbakaus/impeccable) — A design language and command set that makes AI coding harnesses noticeably better at typography, layout and polish. ⭐ 89k · _added 2026-10-27_
+- [tldraw/tldraw](https://github.com/tldraw/tldraw) — React SDK for building infinite-canvas apps such as whiteboards, diagram editors and AI canvases. ⭐ 51k · TypeScript · _added 2026-10-27_
 
 ## Inspiration & resources
 

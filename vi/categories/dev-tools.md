@@ -19,6 +19,8 @@ Công cụ dòng lệnh, tiện ích và năng suất cho lập trình viên.
 - [sharkdp/hyperfine](https://github.com/sharkdp/hyperfine) — Công cụ benchmark lệnh trên terminal, có chạy khởi động, phân tích thống kê và xuất Markdown/JSON. ⭐ 29k · Rust · _thêm 2026-10-26_
 - [yt-dlp/yt-dlp](https://github.com/yt-dlp/yt-dlp) — Công cụ dòng lệnh tải audio và video từ YouTube cùng hàng nghìn trang khác, rất nhiều tuỳ chọn. ⭐ 202k · Python · _thêm 2026-10-26_
 - [charmbracelet/bubbletea](https://github.com/charmbracelet/bubbletea) — Framework Go để xây giao diện terminal theo kiến trúc Elm, nền tảng của rất nhiều ứng dụng TUI nổi tiếng. ⭐ 46k · Go · _thêm 2026-10-26_
+- [astral-sh/uv](https://github.com/astral-sh/uv) — Trình quản lý package và dự án Python viết bằng Rust, cực nhanh, thay thế pip, pip-tools, pipx, poetry và pyenv. ⭐ 91k · Rust · _thêm 2026-10-27_
+- [atuinsh/atuin](https://github.com/atuinsh/atuin) — Thay lịch sử shell bằng database SQLite tìm kiếm được, có đồng bộ mã hoá đầu cuối giữa các máy nếu muốn. ⭐ 31k · Rust · _thêm 2026-10-27_
 
 ## Tiện ích
 

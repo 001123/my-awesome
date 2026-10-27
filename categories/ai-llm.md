@@ -10,6 +10,8 @@ Models, local model runners, inference, fine-tuning and frameworks for building 
 - [open-webui/open-webui](https://github.com/open-webui/open-webui) — Self-hosted ChatGPT-style chat UI for Ollama or OpenAI-compatible APIs, with RAG and MCP. ⭐ 157k · Python · _added 2026-10-25_
 - [janhq/jan](https://github.com/janhq/jan) — Desktop ChatGPT alternative that runs 100% offline. ⭐ 45k · Rust · _added 2026-10-25_
 - [Mintplex-Labs/anything-llm](https://github.com/Mintplex-Labs/anything-llm) — Local-first AI platform: chat with your documents, agents, RAG. ⭐ 68k · JavaScript · _added 2026-10-25_
+- [ggml-org/llama.cpp](https://github.com/ggml-org/llama.cpp) — The C/C++ LLM inference engine behind most local AI tools, running GGUF models fast on CPUs, Apple Silicon and GPUs. ⭐ 132k · C++ · _added 2026-10-27_
+- [OpenBMB/VoxCPM](https://github.com/OpenBMB/VoxCPM) — Tokenizer-free open TTS model for multilingual speech, voice design from a text prompt and realistic voice cloning. ⭐ 41k · Python · _added 2026-10-27_
 
 ## Inference, gateways & fine-tuning
 
@@ -27,6 +29,7 @@ Models, local model runners, inference, fine-tuning and frameworks for building 
 - [mem0ai/mem0](https://github.com/mem0ai/mem0) — Long-term memory layer for agents and AI apps. ⭐ 68k · Python · _added 2026-10-25_
 - [headroomlabs-ai/headroom](https://github.com/headroomlabs-ai/headroom) — Compresses logs, files and RAG chunks before they reach the LLM, saving tokens without changing results. ⭐ 78k · Python · _added 2026-10-25_
 - [langfuse/langfuse](https://github.com/langfuse/langfuse) — Self-hostable observability and eval platform for LLM apps and agents: tracing, scoring, prompt management. ⭐ 36k · TypeScript · _added 2026-10-25_
+- [qdrant/qdrant](https://github.com/qdrant/qdrant) — Fast vector database and similarity search engine written in Rust, a solid backbone for RAG and semantic search. ⭐ 35k · Rust · _added 2026-10-27_
 
 ## Web data for AI
 

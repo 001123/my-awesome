@@ -2,6 +2,17 @@
 
 Every curation run is logged here, newest first.
 
+## 2026-10-27 00:37 UTC
+
+Added 12 entries (140 total):
+
+- AI & LLM (3): ggml-org/llama.cpp, OpenBMB/VoxCPM, qdrant/qdrant
+- AI Agents & MCP (3): NVIDIA/OpenShell, cloudflare/security-audit-skill, anthropics/knowledge-work-plugins
+- UI Design (2): pbakaus/impeccable, tldraw/tldraw
+- Dev Tools (2): astral-sh/uv, atuinsh/atuin
+- Self-hosted (1): jellyfin/jellyfin
+- Learning (1): ossu/computer-science
+
 ## 2026-10-26 17:25 UTC
 
 Added 2 entries (128 total):
