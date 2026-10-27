@@ -2,6 +2,12 @@
 
 Every curation run is logged here, newest first.
 
+## 2026-10-27 18:35 UTC
+
+Added 1 entry (155 total):
+
+- AI Agents & MCP (1): AFK-surf/still.fail
+
 ## 2026-10-27 12:42 UTC
 
 Added 13 entries (154 total):

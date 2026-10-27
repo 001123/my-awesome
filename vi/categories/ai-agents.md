@@ -17,6 +17,7 @@ Agent tự động, trợ lý lập trình, MCP server và agent skills.
 - [usecornercase/cornercase-terminal](https://github.com/usecornercase/cornercase-terminal) — Terminal multiplexer điều khiển bằng chuột để chạy nhiều coding agent song song, mỗi agent có git worktree và tab riêng, diff hiện ngay bên cạnh, server chạy nền giữ mọi thứ chạy tiếp kể cả khi đóng cửa sổ. ⭐ 33 · Rust · _thêm 2026-10-27_
 - [anomalyco/opencode](https://github.com/anomalyco/opencode) — Coding agent mã nguồn mở chạy trong terminal với TUI đẹp, dùng được với Claude, GPT, Gemini hay model chạy local. ⭐ 222k · TypeScript · _thêm 2026-10-27_
 - [cline/cline](https://github.com/cline/cline) — Coding agent tự hành dùng được dưới dạng extension VS Code, CLI hoặc SDK, xin phép trước mỗi lần sửa file hay chạy lệnh. ⭐ 68k · TypeScript · _thêm 2026-10-27_
+- [AFK-surf/still.fail](https://github.com/AFK-surf/still.fail) — Chạy Claude Code, Codex và các coding agent khác trên máy của chính bạn, dùng từ app web, desktop, Android hoặc một thread Slack, kết nối peer-to-peer nên hội thoại chỉ nằm trên máy bạn. ⭐ 14 · MoonBit · _thêm 2026-10-27_
 
 ## Agent đa năng & điều phối
 

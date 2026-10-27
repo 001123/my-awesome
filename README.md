@@ -8,14 +8,14 @@
 
 A curated collection of great repos and websites on **tech, AI, web development, UI design** and more. The list is researched and updated automatically every 12 hours.
 
-> Last updated: **2026-10-27** · **154** entries in total · See the history in the [CHANGELOG](CHANGELOG.md)
+> Last updated: **2026-10-27** · **155** entries in total · See the history in the [CHANGELOG](CHANGELOG.md)
 
 ## 📂 Categories
 
 | Category | What's inside | Entries |
 |---|---|---|
 | [🤖 AI & LLM](categories/ai-llm.md) | Models, local runners, inference, fine-tuning, LLM frameworks | 24 |
-| [🧠 AI Agents & MCP](categories/ai-agents.md) | Coding agents, general agents, MCP servers, agent skills | 33 |
+| [🧠 AI Agents & MCP](categories/ai-agents.md) | Coding agents, general agents, MCP servers, agent skills | 34 |
 | [🌐 Web Development](categories/web-dev.md) | Frameworks, runtimes, build tools, backend, deployment | 18 |
 | [🎨 UI Design & Components](categories/ui-design.md) | Components, animation, design tools, inspiration sites | 24 |
 | [🛠️ Dev Tools & CLI](categories/dev-tools.md) | Command-line tools, utilities, automation | 22 |
@@ -24,21 +24,9 @@ A curated collection of great repos and websites on **tech, AI, web development,
 
 ## 🆕 Latest update (2026-10-27)
 
-This run added 13 entries:
+This run added 1 entry:
 
-- [Comfy-Org/ComfyUI](https://github.com/Comfy-Org/ComfyUI) — Node-based GUI, API and backend for diffusion models, the go-to tool for building image and video generation workflows. → [AI & LLM](categories/ai-llm.md)
-- [ggml-org/whisper.cpp](https://github.com/ggml-org/whisper.cpp) — Fast C/C++ port of OpenAI's Whisper that runs speech-to-text fully offline on CPUs, Apple Silicon and phones. → [AI & LLM](categories/ai-llm.md)
-- [anomalyco/opencode](https://github.com/anomalyco/opencode) — Open-source terminal coding agent with a polished TUI that works with Claude, GPT, Gemini or local models. → [AI Agents](categories/ai-agents.md)
-- [cline/cline](https://github.com/cline/cline) — Autonomous coding agent available as a VS Code extension, CLI or SDK, asking for approval before each file edit or command. → [AI Agents](categories/ai-agents.md)
-- [microsoft/playwright-mcp](https://github.com/microsoft/playwright-mcp) — Microsoft's official MCP server that lets agents drive a real browser through Playwright using the accessibility tree instead of screenshots. → [AI Agents](categories/ai-agents.md)
-- [github/github-mcp-server](https://github.com/github/github-mcp-server) — GitHub's official MCP server for reading code, managing issues and PRs, and checking Actions straight from your agent. → [AI Agents](categories/ai-agents.md)
-- [TanStack/router](https://github.com/TanStack/router) — Fully type-safe router and the TanStack Start full-stack framework for React and more, with typed search params and data loading. → [Web Dev](categories/web-dev.md)
-- [zellij-org/zellij](https://github.com/zellij-org/zellij) — Terminal workspace and multiplexer with sensible defaults, floating panes, layouts and WebAssembly plugins, a friendlier tmux. → [Dev Tools](categories/dev-tools.md)
-- [jdx/mise](https://github.com/jdx/mise) — One fast tool to manage per-project runtime versions, env vars and tasks, replacing asdf, nvm, pyenv and make scripts. → [Dev Tools](categories/dev-tools.md)
-- [paperless-ngx/paperless-ngx](https://github.com/paperless-ngx/paperless-ngx) — Document management system that scans, OCRs, auto-tags and indexes your paper documents so you can go paperless. → [Self-hosted](categories/self-hosted.md)
-- [dani-garcia/vaultwarden](https://github.com/dani-garcia/vaultwarden) — Lightweight Bitwarden-compatible password manager server written in Rust, easy to run on a small VPS or Raspberry Pi. → [Self-hosted](categories/self-hosted.md)
-- [donnemartin/system-design-primer](https://github.com/donnemartin/system-design-primer) — The classic guide to designing large-scale systems and preparing for system design interviews, with Anki flashcards. → [Learning](categories/learning.md)
-- [codecrafters-io/build-your-own-x](https://github.com/codecrafters-io/build-your-own-x) — Huge collection of tutorials for rebuilding Git, Redis, Docker, databases and more from scratch to learn how they work. → [Learning](categories/learning.md)
+- [AFK-surf/still.fail](https://github.com/AFK-surf/still.fail) — Runs Claude Code, Codex and other coding agents on machines you control and lets you use them from web, desktop and Android apps or a Slack thread, connecting peer to peer so conversations stay on your own machines. → [AI Agents](categories/ai-agents.md)
 
 ## 📏 Conventions
 

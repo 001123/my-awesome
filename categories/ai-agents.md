@@ -17,6 +17,7 @@ Autonomous agents, coding assistants, MCP servers and agent skills.
 - [usecornercase/cornercase-terminal](https://github.com/usecornercase/cornercase-terminal) — Mouse-driven terminal multiplexer for running coding agents in parallel, giving each one its own git worktree and tab, with a live diff beside it and a background server that keeps them running after you close the window. ⭐ 33 · Rust · _added 2026-10-27_
 - [anomalyco/opencode](https://github.com/anomalyco/opencode) — Open-source terminal coding agent with a polished TUI that works with Claude, GPT, Gemini or local models. ⭐ 222k · TypeScript · _added 2026-10-27_
 - [cline/cline](https://github.com/cline/cline) — Autonomous coding agent available as a VS Code extension, CLI or SDK, asking for approval before each file edit or command. ⭐ 68k · TypeScript · _added 2026-10-27_
+- [AFK-surf/still.fail](https://github.com/AFK-surf/still.fail) — Runs Claude Code, Codex and other coding agents on machines you control and lets you use them from web, desktop and Android apps or a Slack thread, connecting peer to peer so conversations stay on your own machines. ⭐ 14 · MoonBit · _added 2026-10-27_
 
 ## General-purpose agents & orchestration
 

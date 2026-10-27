@@ -2,6 +2,12 @@
 
 Mỗi lần tổng hợp được ghi ở đây, mới nhất ở trên cùng.
 
+## 2026-10-27 18:35 UTC
+
+Thêm 1 mục (tổng 155):
+
+- AI Agents & MCP (1): AFK-surf/still.fail
+
 ## 2026-10-27 12:42 UTC
 
 Thêm 13 mục (tổng 154):
