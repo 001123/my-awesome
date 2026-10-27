@@ -21,6 +21,8 @@ Command-line tools, utilities and productivity boosters for developers.
 - [charmbracelet/bubbletea](https://github.com/charmbracelet/bubbletea) — Go framework for building terminal UIs based on the Elm architecture, the engine behind many popular TUIs. ⭐ 46k · Go · _added 2026-10-26_
 - [astral-sh/uv](https://github.com/astral-sh/uv) — Blazing-fast Python package and project manager in Rust that replaces pip, pip-tools, pipx, poetry and pyenv. ⭐ 91k · Rust · _added 2026-10-27_
 - [atuinsh/atuin](https://github.com/atuinsh/atuin) — Replaces your shell history with a searchable SQLite database, with optional end-to-end encrypted sync across machines. ⭐ 31k · Rust · _added 2026-10-27_
+- [zellij-org/zellij](https://github.com/zellij-org/zellij) — Terminal workspace and multiplexer with sensible defaults, floating panes, layouts and WebAssembly plugins, a friendlier tmux. ⭐ 36k · Rust · _added 2026-10-27_
+- [jdx/mise](https://github.com/jdx/mise) — One fast tool to manage per-project runtime versions, env vars and tasks, replacing asdf, nvm, pyenv and make scripts. ⭐ 35k · Rust · _added 2026-10-27_
 
 ## Utilities
 

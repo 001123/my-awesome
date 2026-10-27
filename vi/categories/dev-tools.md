@@ -21,6 +21,8 @@ Công cụ dòng lệnh, tiện ích và năng suất cho lập trình viên.
 - [charmbracelet/bubbletea](https://github.com/charmbracelet/bubbletea) — Framework Go để xây giao diện terminal theo kiến trúc Elm, nền tảng của rất nhiều ứng dụng TUI nổi tiếng. ⭐ 46k · Go · _thêm 2026-10-26_
 - [astral-sh/uv](https://github.com/astral-sh/uv) — Trình quản lý package và dự án Python viết bằng Rust, cực nhanh, thay thế pip, pip-tools, pipx, poetry và pyenv. ⭐ 91k · Rust · _thêm 2026-10-27_
 - [atuinsh/atuin](https://github.com/atuinsh/atuin) — Thay lịch sử shell bằng database SQLite tìm kiếm được, có đồng bộ mã hoá đầu cuối giữa các máy nếu muốn. ⭐ 31k · Rust · _thêm 2026-10-27_
+- [zellij-org/zellij](https://github.com/zellij-org/zellij) — Terminal workspace/multiplexer có sẵn cấu hình hợp lý, pane nổi, layout và plugin WebAssembly, một tmux dễ dùng hơn. ⭐ 36k · Rust · _thêm 2026-10-27_
+- [jdx/mise](https://github.com/jdx/mise) — Một công cụ nhanh để quản lý phiên bản runtime theo từng dự án, biến môi trường và task, thay cho asdf, nvm, pyenv và script make. ⭐ 35k · Rust · _thêm 2026-10-27_
 
 ## Tiện ích
 

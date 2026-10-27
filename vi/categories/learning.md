@@ -22,3 +22,5 @@ Khoá học, lộ trình, sách và tài liệu tự học.
 - [leandromoreira/digital_video_introduction](https://github.com/leandromoreira/digital_video_introduction) — Nhập môn công nghệ video có thực hành: ảnh, codec như H.264 và AV1, streaming và ffmpeg. ⭐ 16k · Jupyter Notebook · _thêm 2026-10-26_
 - [github/opensource.guide](https://github.com/github/opensource.guide) — Bộ hướng dẫn của GitHub về cách khởi tạo, đóng góp, bảo trì và phát triển dự án mã nguồn mở. ⭐ 16k · HTML · _thêm 2026-10-26_
 - [ossu/computer-science](https://github.com/ossu/computer-science) — Lộ trình tự học khoa học máy tính đầy đủ và miễn phí, ghép từ các khoá học online tốt nhất. ⭐ 210k · _thêm 2026-10-27_
+- [donnemartin/system-design-primer](https://github.com/donnemartin/system-design-primer) — Tài liệu kinh điển về thiết kế hệ thống quy mô lớn và luyện phỏng vấn system design, kèm bộ flashcard Anki. ⭐ 374k · Python · _thêm 2026-10-27_
+- [codecrafters-io/build-your-own-x](https://github.com/codecrafters-io/build-your-own-x) — Bộ sưu tập khổng lồ các hướng dẫn tự viết lại Git, Redis, Docker, database... từ đầu để hiểu chúng hoạt động thế nào. ⭐ 556k · _thêm 2026-10-27_

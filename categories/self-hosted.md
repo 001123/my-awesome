@@ -20,3 +20,5 @@ Self-hosted software that replaces cloud services.
 - [reactive-resume/reactive-resume](https://github.com/reactive-resume/reactive-resume) — Free, privacy-friendly resume builder you can self-host, with templates, real-time preview and PDF export. ⭐ 45k · TypeScript · _added 2026-10-26_
 - [photoprism/photoprism](https://github.com/photoprism/photoprism) — AI-powered self-hosted photo app that auto-tags, recognizes faces and maps where your photos were taken. ⭐ 40k · Go · _added 2026-10-26_
 - [jellyfin/jellyfin](https://github.com/jellyfin/jellyfin) — Free, self-hosted media server for streaming your movies, shows and music to any device, with no tracking or paid tiers. ⭐ 58k · C# · _added 2026-10-27_
+- [paperless-ngx/paperless-ngx](https://github.com/paperless-ngx/paperless-ngx) — Document management system that scans, OCRs, auto-tags and indexes your paper documents so you can go paperless. ⭐ 45k · Python · _added 2026-10-27_
+- [dani-garcia/vaultwarden](https://github.com/dani-garcia/vaultwarden) — Lightweight Bitwarden-compatible password manager server written in Rust, easy to run on a small VPS or Raspberry Pi. ⭐ 67k · Rust · _added 2026-10-27_

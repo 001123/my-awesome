@@ -12,6 +12,8 @@ Models, local model runners, inference, fine-tuning and frameworks for building 
 - [Mintplex-Labs/anything-llm](https://github.com/Mintplex-Labs/anything-llm) — Local-first AI platform: chat with your documents, agents, RAG. ⭐ 68k · JavaScript · _added 2026-10-25_
 - [ggml-org/llama.cpp](https://github.com/ggml-org/llama.cpp) — The C/C++ LLM inference engine behind most local AI tools, running GGUF models fast on CPUs, Apple Silicon and GPUs. ⭐ 132k · C++ · _added 2026-10-27_
 - [OpenBMB/VoxCPM](https://github.com/OpenBMB/VoxCPM) — Tokenizer-free open TTS model for multilingual speech, voice design from a text prompt and realistic voice cloning. ⭐ 41k · Python · _added 2026-10-27_
+- [Comfy-Org/ComfyUI](https://github.com/Comfy-Org/ComfyUI) — Node-based GUI, API and backend for diffusion models, the go-to tool for building image and video generation workflows. ⭐ 144k · Python · _added 2026-10-27_
+- [ggml-org/whisper.cpp](https://github.com/ggml-org/whisper.cpp) — Fast C/C++ port of OpenAI's Whisper that runs speech-to-text fully offline on CPUs, Apple Silicon and phones. ⭐ 55k · C++ · _added 2026-10-27_
 
 ## Inference, gateways & fine-tuning
 

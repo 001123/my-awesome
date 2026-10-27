@@ -12,6 +12,8 @@ Mô hình, công cụ chạy model local, inference, fine-tune và framework xâ
 - [Mintplex-Labs/anything-llm](https://github.com/Mintplex-Labs/anything-llm) — Nền tảng AI local-first: chat với tài liệu, agent, RAG. ⭐ 68k · JavaScript · _thêm 2026-10-25_
 - [ggml-org/llama.cpp](https://github.com/ggml-org/llama.cpp) — Engine inference LLM bằng C/C++ đứng sau hầu hết công cụ AI chạy local, chạy model GGUF nhanh trên CPU, Apple Silicon và GPU. ⭐ 132k · C++ · _thêm 2026-10-27_
 - [OpenBMB/VoxCPM](https://github.com/OpenBMB/VoxCPM) — Model TTS mở không cần tokenizer, đọc đa ngôn ngữ, thiết kế giọng bằng mô tả văn bản và clone giọng rất tự nhiên. ⭐ 41k · Python · _thêm 2026-10-27_
+- [Comfy-Org/ComfyUI](https://github.com/Comfy-Org/ComfyUI) — Giao diện node, API và backend cho các model diffusion, công cụ quen thuộc nhất để dựng workflow sinh ảnh và video. ⭐ 144k · Python · _thêm 2026-10-27_
+- [ggml-org/whisper.cpp](https://github.com/ggml-org/whisper.cpp) — Bản port C/C++ của Whisper (OpenAI), chuyển giọng nói thành văn bản hoàn toàn offline trên CPU, Apple Silicon và cả điện thoại. ⭐ 55k · C++ · _thêm 2026-10-27_
 
 ## Inference, gateway & fine-tune
 

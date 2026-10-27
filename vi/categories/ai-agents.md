@@ -15,6 +15,8 @@ Agent tự động, trợ lý lập trình, MCP server và agent skills.
 - [continuedev/continue](https://github.com/continuedev/continue) — Coding agent mã nguồn mở chạy trong VS Code, JetBrains và CLI, dùng được với bất kỳ model nào bạn chọn. ⭐ 36k · TypeScript · _thêm 2026-10-26_
 - [zeronsh/zeron](https://github.com/zeronsh/zeron) — "Bảng điều khiển" native trên desktop để chạy, theo dõi và chuyển qua lại giữa Claude Code, Codex, Cursor, Devin và các coding agent khác ở cùng một chỗ. ⭐ 3.4k · Rust · _thêm 2026-10-26_
 - [usecornercase/cornercase-terminal](https://github.com/usecornercase/cornercase-terminal) — Terminal multiplexer điều khiển bằng chuột để chạy nhiều coding agent song song, mỗi agent có git worktree và tab riêng, diff hiện ngay bên cạnh, server chạy nền giữ mọi thứ chạy tiếp kể cả khi đóng cửa sổ. ⭐ 33 · Rust · _thêm 2026-10-27_
+- [anomalyco/opencode](https://github.com/anomalyco/opencode) — Coding agent mã nguồn mở chạy trong terminal với TUI đẹp, dùng được với Claude, GPT, Gemini hay model chạy local. ⭐ 222k · TypeScript · _thêm 2026-10-27_
+- [cline/cline](https://github.com/cline/cline) — Coding agent tự hành dùng được dưới dạng extension VS Code, CLI hoặc SDK, xin phép trước mỗi lần sửa file hay chạy lệnh. ⭐ 68k · TypeScript · _thêm 2026-10-27_
 
 ## Agent đa năng & điều phối
 
@@ -41,3 +43,5 @@ Agent tự động, trợ lý lập trình, MCP server và agent skills.
 - [yetone/magpie](https://github.com/yetone/magpie) — Ứng dụng menu bar trên macOS cho phép đổi model của các coding agent, ví dụ chạy Codex bằng DeepSeek hay Claude Code bằng Kimi. ⭐ 22k · Go · _thêm 2026-10-26_
 - [cloudflare/security-audit-skill](https://github.com/cloudflare/security-audit-skill) — Skill của Cloudflare giúp coding agent audit bảo mật nhiều giai đoạn, mỗi lỗ hổng đều được một agent khác kiểm chứng trước khi báo cáo. ⭐ 48k · JavaScript · _thêm 2026-10-27_
 - [anthropics/knowledge-work-plugins](https://github.com/anthropics/knowledge-work-plugins) — Bộ plugin mã nguồn mở của Anthropic cho Claude Cowork, phục vụ các vai trò sales, tài chính, pháp lý, hỗ trợ khách hàng… ⭐ 31k · Python · _thêm 2026-10-27_
+- [microsoft/playwright-mcp](https://github.com/microsoft/playwright-mcp) — MCP server chính chủ của Microsoft cho agent điều khiển trình duyệt thật qua Playwright, dựa trên cây accessibility thay vì ảnh chụp màn hình. ⭐ 38k · TypeScript · _thêm 2026-10-27_
+- [github/github-mcp-server](https://github.com/github/github-mcp-server) — MCP server chính chủ của GitHub để agent đọc code, quản lý issue, PR và xem Actions ngay trong lúc làm việc. ⭐ 34k · Go · _thêm 2026-10-27_

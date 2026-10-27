@@ -11,6 +11,7 @@ Framework, runtime, backend và công cụ cho lập trình web.
 - [sveltejs/svelte](https://github.com/sveltejs/svelte) — Framework UI dạng compiler, code gọn, bundle nhỏ. ⭐ 88k · JavaScript · _thêm 2026-10-25_
 - [honojs/hono](https://github.com/honojs/hono) — Web framework nhỏ gọn theo Web Standards, chạy trên Cloudflare Workers, Bun, Deno, Node. ⭐ 33k · TypeScript · _thêm 2026-10-25_
 - [oven-sh/bun](https://github.com/oven-sh/bun) — Runtime JavaScript siêu nhanh kiêm bundler, test runner và package manager. ⭐ 96k · Rust · _thêm 2026-10-25_
+- [TanStack/router](https://github.com/TanStack/router) — Router type-safe hoàn toàn kèm framework full-stack TanStack Start cho React và hơn thế, có search params và data loading đều được định kiểu. ⭐ 15k · TypeScript · _thêm 2026-10-27_
 
 ## Công cụ build & chất lượng code
 

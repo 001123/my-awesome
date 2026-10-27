@@ -20,3 +20,5 @@ Phần mềm tự host thay thế dịch vụ đám mây.
 - [reactive-resume/reactive-resume](https://github.com/reactive-resume/reactive-resume) — Công cụ tạo CV miễn phí, tôn trọng quyền riêng tư, tự host được, có nhiều mẫu, xem trước trực tiếp và xuất PDF. ⭐ 45k · TypeScript · _thêm 2026-10-26_
 - [photoprism/photoprism](https://github.com/photoprism/photoprism) — Ứng dụng quản lý ảnh tự host có AI tự gắn thẻ, nhận diện khuôn mặt và hiển thị ảnh trên bản đồ. ⭐ 40k · Go · _thêm 2026-10-26_
 - [jellyfin/jellyfin](https://github.com/jellyfin/jellyfin) — Media server miễn phí tự host để stream phim, series và nhạc tới mọi thiết bị, không theo dõi, không gói trả phí. ⭐ 58k · C# · _thêm 2026-10-27_
+- [paperless-ngx/paperless-ngx](https://github.com/paperless-ngx/paperless-ngx) — Hệ thống quản lý tài liệu: scan, OCR, tự gắn tag và đánh chỉ mục giấy tờ để bạn sống không giấy tờ. ⭐ 45k · Python · _thêm 2026-10-27_
+- [dani-garcia/vaultwarden](https://github.com/dani-garcia/vaultwarden) — Server quản lý mật khẩu tương thích Bitwarden, viết bằng Rust, rất nhẹ, chạy thoải mái trên VPS nhỏ hay Raspberry Pi. ⭐ 67k · Rust · _thêm 2026-10-27_

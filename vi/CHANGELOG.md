@@ -2,6 +2,17 @@
 
 Mỗi lần tổng hợp được ghi ở đây, mới nhất ở trên cùng.
 
+## 2026-10-27 12:42 UTC
+
+Thêm 13 mục (tổng 154):
+
+- AI & LLM (2): Comfy-Org/ComfyUI, ggml-org/whisper.cpp
+- AI Agents & MCP (4): anomalyco/opencode, cline/cline, microsoft/playwright-mcp, github/github-mcp-server
+- Web Development (1): TanStack/router
+- Dev Tools (2): zellij-org/zellij, jdx/mise
+- Self-hosted (2): paperless-ngx/paperless-ngx, dani-garcia/vaultwarden
+- Học tập (2): donnemartin/system-design-primer, codecrafters-io/build-your-own-x
+
 ## 2026-10-27 07:15 UTC
 
 Thêm 1 mục (tổng 141):

@@ -11,6 +11,7 @@ Frameworks, runtimes, backends and tooling for web development.
 - [sveltejs/svelte](https://github.com/sveltejs/svelte) — Compiler-based UI framework with concise code and small bundles. ⭐ 88k · JavaScript · _added 2026-10-25_
 - [honojs/hono](https://github.com/honojs/hono) — Small web framework built on Web Standards, runs on Cloudflare Workers, Bun, Deno and Node. ⭐ 33k · TypeScript · _added 2026-10-25_
 - [oven-sh/bun](https://github.com/oven-sh/bun) — Super-fast JavaScript runtime that is also a bundler, test runner and package manager. ⭐ 96k · Rust · _added 2026-10-25_
+- [TanStack/router](https://github.com/TanStack/router) — Fully type-safe router and the TanStack Start full-stack framework for React and more, with typed search params and data loading. ⭐ 15k · TypeScript · _added 2026-10-27_
 
 ## Build tools & code quality
 

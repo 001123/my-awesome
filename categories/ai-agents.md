@@ -15,6 +15,8 @@ Autonomous agents, coding assistants, MCP servers and agent skills.
 - [continuedev/continue](https://github.com/continuedev/continue) — Open-source coding agent that runs in VS Code, JetBrains and the CLI, and works with any model you choose. ⭐ 36k · TypeScript · _added 2026-10-26_
 - [zeronsh/zeron](https://github.com/zeronsh/zeron) — Native desktop control plane for running, tracking and switching between Claude Code, Codex, Cursor, Devin and other coding agents in one place. ⭐ 3.4k · Rust · _added 2026-10-26_
 - [usecornercase/cornercase-terminal](https://github.com/usecornercase/cornercase-terminal) — Mouse-driven terminal multiplexer for running coding agents in parallel, giving each one its own git worktree and tab, with a live diff beside it and a background server that keeps them running after you close the window. ⭐ 33 · Rust · _added 2026-10-27_
+- [anomalyco/opencode](https://github.com/anomalyco/opencode) — Open-source terminal coding agent with a polished TUI that works with Claude, GPT, Gemini or local models. ⭐ 222k · TypeScript · _added 2026-10-27_
+- [cline/cline](https://github.com/cline/cline) — Autonomous coding agent available as a VS Code extension, CLI or SDK, asking for approval before each file edit or command. ⭐ 68k · TypeScript · _added 2026-10-27_
 
 ## General-purpose agents & orchestration
 
@@ -41,3 +43,5 @@ Autonomous agents, coding assistants, MCP servers and agent skills.
 - [yetone/magpie](https://github.com/yetone/magpie) — macOS menu bar app that points your coding agents at any model, like Codex on DeepSeek or Claude Code on Kimi. ⭐ 22k · Go · _added 2026-10-26_
 - [cloudflare/security-audit-skill](https://github.com/cloudflare/security-audit-skill) — Cloudflare's coding-agent skill for multi-phase security audits, where a second agent tries to disprove every finding before it's reported. ⭐ 48k · JavaScript · _added 2026-10-27_
 - [anthropics/knowledge-work-plugins](https://github.com/anthropics/knowledge-work-plugins) — Anthropic's open-source plugins for Claude Cowork covering sales, finance, legal, support and other knowledge-work roles. ⭐ 31k · Python · _added 2026-10-27_
+- [microsoft/playwright-mcp](https://github.com/microsoft/playwright-mcp) — Microsoft's official MCP server that lets agents drive a real browser through Playwright using the accessibility tree instead of screenshots. ⭐ 38k · TypeScript · _added 2026-10-27_
+- [github/github-mcp-server](https://github.com/github/github-mcp-server) — GitHub's official MCP server for reading code, managing issues and PRs, and checking Actions straight from your agent. ⭐ 34k · Go · _added 2026-10-27_
