@@ -2,6 +2,12 @@
 
 Every curation run is logged here, newest first.
 
+## 2026-10-27 07:15 UTC
+
+Added 1 entry (141 total):
+
+- AI Agents & MCP (1): usecornercase/cornercase-terminal
+
 ## 2026-10-27 00:37 UTC
 
 Added 12 entries (140 total):

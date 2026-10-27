@@ -2,6 +2,12 @@
 
 Mỗi lần tổng hợp được ghi ở đây, mới nhất ở trên cùng.
 
+## 2026-10-27 07:15 UTC
+
+Thêm 1 mục (tổng 141):
+
+- AI Agents & MCP (1): usecornercase/cornercase-terminal
+
 ## 2026-10-27 00:37 UTC
 
 Thêm 12 mục (tổng 140):

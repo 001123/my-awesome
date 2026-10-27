@@ -14,6 +14,7 @@ Autonomous agents, coding assistants, MCP servers and agent skills.
 - [herdrdev/herdr](https://github.com/herdrdev/herdr) — Terminal workspace manager and multiplexer built for running and orchestrating many coding agents (Claude Code, Codex...) side by side. ⭐ 46k · Rust · _added 2026-10-26_
 - [continuedev/continue](https://github.com/continuedev/continue) — Open-source coding agent that runs in VS Code, JetBrains and the CLI, and works with any model you choose. ⭐ 36k · TypeScript · _added 2026-10-26_
 - [zeronsh/zeron](https://github.com/zeronsh/zeron) — Native desktop control plane for running, tracking and switching between Claude Code, Codex, Cursor, Devin and other coding agents in one place. ⭐ 3.4k · Rust · _added 2026-10-26_
+- [usecornercase/cornercase-terminal](https://github.com/usecornercase/cornercase-terminal) — Mouse-driven terminal multiplexer for running coding agents in parallel, giving each one its own git worktree and tab, with a live diff beside it and a background server that keeps them running after you close the window. ⭐ 33 · Rust · _added 2026-10-27_
 
 ## General-purpose agents & orchestration
 
