@@ -8,7 +8,7 @@
 
 Tổng hợp các repo, website hay và hữu ích về **tech, AI, web development, UI design** và hơn thế nữa. Danh sách được tự động research và cập nhật mỗi 12 giờ.
 
-> Cập nhật lần cuối: **2026-10-28** · Tổng cộng **170** mục · Xem lịch sử ở [CHANGELOG](CHANGELOG.md)
+> Cập nhật lần cuối: **2026-10-28** · Tổng cộng **171** mục · Xem lịch sử ở [CHANGELOG](CHANGELOG.md)
 
 ## 📂 Danh mục
 
@@ -16,7 +16,7 @@ Tổng hợp các repo, website hay và hữu ích về **tech, AI, web developm
 |---|---|---|
 | [🤖 AI & LLM](categories/ai-llm.md) | Model, chạy local, inference, fine-tune, framework LLM | 26 |
 | [🧠 AI Agents & MCP](categories/ai-agents.md) | Coding agent, agent đa năng, MCP server, agent skills | 37 |
-| [🌐 Web Development](categories/web-dev.md) | Framework, runtime, build tool, backend, deploy | 21 |
+| [🌐 Web Development](categories/web-dev.md) | Framework, runtime, build tool, backend, deploy | 22 |
 | [🎨 UI Design & Components](categories/ui-design.md) | Component, animation, công cụ thiết kế, website cảm hứng | 25 |
 | [🛠️ Dev Tools & CLI](categories/dev-tools.md) | Công cụ dòng lệnh, tiện ích, tự động hoá | 26 |
 | [🏠 Self-hosted](categories/self-hosted.md) | Phần mềm tự host thay thế dịch vụ cloud | 19 |
@@ -26,7 +26,7 @@ Tổng hợp các repo, website hay và hữu ích về **tech, AI, web developm
 
 Lần chạy này thêm 1 mục:
 
-- [oneo-me/nsgo](https://github.com/oneo-me/nsgo) — UI engine đa nền tảng (còn sớm): viết app bằng Go với signal và component, mỗi nền tảng tự vẽ bằng view native trên iOS, Android, macOS, Windows, Linux và web. → [Web Dev](categories/web-dev.md)
+- [colinhacks/motherload](https://github.com/colinhacks/motherload) — Import trực tiếp file dữ liệu (YAML, TOML, CSV, .env…) vào TypeScript với kiểu đầy đủ, dựa trên content mapper của TypeScript 7.1; của tác giả Zod. → [Web Dev](categories/web-dev.md)
 
 ## 📏 Quy ước
 

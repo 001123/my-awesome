@@ -19,6 +19,7 @@ Framework, runtime, backend và công cụ cho lập trình web.
 - [vitejs/vite](https://github.com/vitejs/vite) — Công cụ build frontend thế hệ mới, dev server khởi động tức thì. ⭐ 84k · TypeScript · _thêm 2026-10-25_
 - [biomejs/biome](https://github.com/biomejs/biome) — Formatter + linter viết bằng Rust, thay thế Prettier/ESLint với tốc độ cao. ⭐ 26k · Rust · _thêm 2026-10-25_
 - [nrwl/nx](https://github.com/nrwl/nx) — Hệ thống build cho monorepo với cache thông minh, đồ thị task và tăng tốc CI, hợp cả với dev lẫn AI agent. ⭐ 29k · TypeScript · _thêm 2026-10-26_
+- [colinhacks/motherload](https://github.com/colinhacks/motherload) — Import trực tiếp file dữ liệu (YAML, TOML, CSV, .env…) vào TypeScript với kiểu đầy đủ, dựa trên content mapper của TypeScript 7.1; của tác giả Zod. ⭐ 238 · TypeScript · _thêm 2026-10-28_
 
 ## Backend & triển khai
 

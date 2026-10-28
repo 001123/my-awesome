@@ -19,6 +19,7 @@ Frameworks, runtimes, backends and tooling for web development.
 - [vitejs/vite](https://github.com/vitejs/vite) — Next-generation frontend build tool with an instant dev server. ⭐ 84k · TypeScript · _added 2026-10-25_
 - [biomejs/biome](https://github.com/biomejs/biome) — Fast formatter and linter written in Rust, replacing Prettier/ESLint. ⭐ 26k · Rust · _added 2026-10-25_
 - [nrwl/nx](https://github.com/nrwl/nx) — Monorepo build system with smart caching, task graphs and CI scaling, working well with both developers and AI agents. ⭐ 29k · TypeScript · _added 2026-10-26_
+- [colinhacks/motherload](https://github.com/colinhacks/motherload) — Import YAML, TOML, CSV, .env and other data files straight from TypeScript with full types, powered by TypeScript 7.1 content mappers; from the creator of Zod. ⭐ 238 · TypeScript · _added 2026-10-28_
 
 ## Backend & deployment
 

@@ -8,7 +8,7 @@
 
 A curated collection of great repos and websites on **tech, AI, web development, UI design** and more. The list is researched and updated automatically every 12 hours.
 
-> Last updated: **2026-10-28** · **170** entries in total · See the history in the [CHANGELOG](CHANGELOG.md)
+> Last updated: **2026-10-28** · **171** entries in total · See the history in the [CHANGELOG](CHANGELOG.md)
 
 ## 📂 Categories
 
@@ -16,7 +16,7 @@ A curated collection of great repos and websites on **tech, AI, web development,
 |---|---|---|
 | [🤖 AI & LLM](categories/ai-llm.md) | Models, local runners, inference, fine-tuning, LLM frameworks | 26 |
 | [🧠 AI Agents & MCP](categories/ai-agents.md) | Coding agents, general agents, MCP servers, agent skills | 37 |
-| [🌐 Web Development](categories/web-dev.md) | Frameworks, runtimes, build tools, backend, deployment | 21 |
+| [🌐 Web Development](categories/web-dev.md) | Frameworks, runtimes, build tools, backend, deployment | 22 |
 | [🎨 UI Design & Components](categories/ui-design.md) | Components, animation, design tools, inspiration sites | 25 |
 | [🛠️ Dev Tools & CLI](categories/dev-tools.md) | Command-line tools, utilities, automation | 26 |
 | [🏠 Self-hosted](categories/self-hosted.md) | Self-hosted replacements for cloud services | 19 |
@@ -26,7 +26,7 @@ A curated collection of great repos and websites on **tech, AI, web development,
 
 This run added 1 entry:
 
-- [oneo-me/nsgo](https://github.com/oneo-me/nsgo) — Early-stage cross-platform UI engine where you write the app in Go with signals and components, and each platform renders it with native views on iOS, Android, macOS, Windows, Linux and the web. → [Web Dev](categories/web-dev.md)
+- [colinhacks/motherload](https://github.com/colinhacks/motherload) — Import YAML, TOML, CSV, .env and other data files straight from TypeScript with full types, powered by TypeScript 7.1 content mappers; from the creator of Zod. → [Web Dev](categories/web-dev.md)
 
 ## 📏 Conventions
 
