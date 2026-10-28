@@ -14,6 +14,7 @@ Mô hình, công cụ chạy model local, inference, fine-tune và framework xâ
 - [OpenBMB/VoxCPM](https://github.com/OpenBMB/VoxCPM) — Model TTS mở không cần tokenizer, đọc đa ngôn ngữ, thiết kế giọng bằng mô tả văn bản và clone giọng rất tự nhiên. ⭐ 41k · Python · _thêm 2026-10-27_
 - [Comfy-Org/ComfyUI](https://github.com/Comfy-Org/ComfyUI) — Giao diện node, API và backend cho các model diffusion, công cụ quen thuộc nhất để dựng workflow sinh ảnh và video. ⭐ 144k · Python · _thêm 2026-10-27_
 - [ggml-org/whisper.cpp](https://github.com/ggml-org/whisper.cpp) — Bản port C/C++ của Whisper (OpenAI), chuyển giọng nói thành văn bản hoàn toàn offline trên CPU, Apple Silicon và cả điện thoại. ⭐ 55k · C++ · _thêm 2026-10-27_
+- [debpalash/VoiceStudio](https://github.com/debpalash/VoiceStudio) — Thay thế ElevenLabs chạy hoàn toàn trên máy, mã nguồn mở: clone giọng, thiết kế giọng, lồng tiếng video, đọc chính tả, chép lời và làm audiobook. ⭐ 9.7k · Python · _thêm 2026-10-28_
 
 ## Inference, gateway & fine-tune
 
@@ -23,6 +24,7 @@ Mô hình, công cụ chạy model local, inference, fine-tune và framework xâ
 - [hiyouga/LlamaFactory](https://github.com/hiyouga/LlamaFactory) — Fine-tune hơn 100 LLM/VLM với LoRA, QLoRA, RLHF qua một giao diện thống nhất. ⭐ 76k · Python · _thêm 2026-10-25_
 - [huggingface/transformers](https://github.com/huggingface/transformers) — Thư viện chuẩn để dùng và huấn luyện model văn bản, hình ảnh, âm thanh. ⭐ 168k · Python · _thêm 2026-10-25_
 - [deepseek-ai/DeepInfer](https://github.com/deepseek-ai/DeepInfer) — Framework inference hiệu năng cao chính chủ DeepSeek, dùng để phục vụ các model DeepSeek ở quy mô lớn. ⭐ 22k · Python · _thêm 2026-10-26_
+- [maximhq/bifrost](https://github.com/maximhq/bifrost) — AI gateway hiệu năng cao gom hơn 1000 model sau một API tương thích OpenAI, có failover, cân bằng tải, cache ngữ nghĩa, guardrail và quản lý ngân sách với độ trễ chỉ vài micro giây. ⭐ 7.8k · Go · _thêm 2026-10-28_
 
 ## Framework xây ứng dụng LLM
 

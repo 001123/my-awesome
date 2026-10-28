@@ -2,6 +2,18 @@
 
 Mỗi lần tổng hợp được ghi ở đây, mới nhất ở trên cùng.
 
+## 2026-10-28 00:37 UTC
+
+Thêm 14 mục (tổng 169):
+
+- AI & LLM (2): debpalash/VoiceStudio, maximhq/bifrost
+- AI Agents & MCP (3): Panniantong/Agent-Reach, xerj-org/xerj, AgriciDaniel/claude-seo
+- Web Development (2): better-auth/better-auth, pocketbase/pocketbase
+- UI Design (1): Nutlope/hallmark
+- Dev Tools (4): starship/starship, jj-vcs/jj, typst/typst, localsend/localsend
+- Self-hosted (1): docmost/docmost
+- Học tập (1): HKUDS/DeepTutor
+
 ## 2026-10-27 18:35 UTC
 
 Thêm 1 mục (tổng 155):

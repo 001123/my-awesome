@@ -26,6 +26,8 @@ Frameworks, runtimes, backends and tooling for web development.
 - [coollabsio/coolify](https://github.com/coollabsio/coolify) — Self-hosted PaaS that replaces Vercel/Heroku/Netlify on your own server. ⭐ 64k · PHP · _added 2026-10-25_
 - [Dokploy/dokploy](https://github.com/Dokploy/dokploy) — Self-hosted deployment platform, an alternative to Vercel, Netlify and Heroku. ⭐ 38k · TypeScript · _added 2026-10-25_
 - [drizzle-team/drizzle-orm](https://github.com/drizzle-team/drizzle-orm) — Lightweight, type-safe TypeScript ORM with SQL-like queries for Postgres, MySQL and SQLite, and great on serverless. ⭐ 36k · TypeScript · _added 2026-10-26_
+- [better-auth/better-auth](https://github.com/better-auth/better-auth) — Framework-agnostic TypeScript auth library with email/password, OAuth, 2FA, passkeys, organizations and a plugin system, all stored in your own database. ⭐ 30k · TypeScript · _added 2026-10-28_
+- [pocketbase/pocketbase](https://github.com/pocketbase/pocketbase) — Open-source backend in a single file: SQLite database with realtime subscriptions, auth, file storage and an admin dashboard, extendable in Go or JavaScript. ⭐ 61k · Go · _added 2026-10-28_
 
 ## Reference websites
 

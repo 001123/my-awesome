@@ -23,6 +23,8 @@ Công cụ dòng lệnh, tiện ích và năng suất cho lập trình viên.
 - [atuinsh/atuin](https://github.com/atuinsh/atuin) — Thay lịch sử shell bằng database SQLite tìm kiếm được, có đồng bộ mã hoá đầu cuối giữa các máy nếu muốn. ⭐ 31k · Rust · _thêm 2026-10-27_
 - [zellij-org/zellij](https://github.com/zellij-org/zellij) — Terminal workspace/multiplexer có sẵn cấu hình hợp lý, pane nổi, layout và plugin WebAssembly, một tmux dễ dùng hơn. ⭐ 36k · Rust · _thêm 2026-10-27_
 - [jdx/mise](https://github.com/jdx/mise) — Một công cụ nhanh để quản lý phiên bản runtime theo từng dự án, biến môi trường và task, thay cho asdf, nvm, pyenv và script make. ⭐ 35k · Rust · _thêm 2026-10-27_
+- [starship/starship](https://github.com/starship/starship) — Prompt tối giản, cực nhanh cho mọi shell, hiện trạng thái git, phiên bản ngôn ngữ… và cấu hình bằng một file TOML. ⭐ 60k · Rust · _thêm 2026-10-28_
+- [jj-vcs/jj](https://github.com/jj-vcs/jj) — Jujutsu, hệ quản lý phiên bản tương thích Git: tự commit working copy, xử lý conflict như dữ liệu và có log thao tác để undo, sửa lịch sử dễ dàng. ⭐ 32k · Rust · _thêm 2026-10-28_
 
 ## Tiện ích
 
@@ -31,3 +33,5 @@ Công cụ dòng lệnh, tiện ích và năng suất cho lập trình viên.
 - [n8n-io/n8n](https://github.com/n8n-io/n8n) — Nền tảng tự động hoá workflow có AI, 400+ tích hợp, tự host được. ⭐ 209k · TypeScript · _thêm 2026-10-25_
 - [gitleaks/gitleaks](https://github.com/gitleaks/gitleaks) — Quét repo git, file và pipeline CI để tìm secret bị lộ như API key, mật khẩu trước khi đẩy lên. ⭐ 30k · Go · _thêm 2026-10-26_
 - [google/zx](https://github.com/google/zx) — Viết shell script bằng JavaScript với các hàm tiện lợi cho tiến trình con, pipe và tham số dòng lệnh. ⭐ 46k · JavaScript · _thêm 2026-10-26_
+- [typst/typst](https://github.com/typst/typst) — Hệ thống dàn trang dựa trên markup, thay thế LaTeX hiện đại: biên dịch tăng dần rất nhanh, cú pháp dễ đọc và có ngôn ngữ script tích hợp. ⭐ 56k · Rust · _thêm 2026-10-28_
+- [localsend/localsend](https://github.com/localsend/localsend) — Thay thế AirDrop mã nguồn mở, đa nền tảng, gửi file và văn bản giữa các thiết bị trong cùng mạng LAN, không cần internet hay tài khoản. ⭐ 93k · Dart · _thêm 2026-10-28_

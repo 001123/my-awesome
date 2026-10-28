@@ -12,6 +12,7 @@ Khoá học, lộ trình, sách và tài liệu tự học.
 - [shareAI-lab/learn-claude-code](https://github.com/shareAI-lab/learn-claude-code) — Tự xây một agent harness giống Claude Code từ 0 đến 1. ⭐ 79k · Python · _thêm 2026-10-25_
 - [f/prompts.chat](https://github.com/f/prompts.chat) — Kho prompt cộng đồng (trước là Awesome ChatGPT Prompts). ⭐ 174k · HTML · _thêm 2026-10-25_
 - [luongnv89/claude-howto](https://github.com/luongnv89/claude-howto) — Hướng dẫn Claude Code trực quan qua ví dụ, từ cơ bản đến agent nâng cao, kèm template copy dùng ngay. ⭐ 45k · Python · _thêm 2026-10-26_
+- [HKUDS/DeepTutor](https://github.com/HKUDS/DeepTutor) — Gia sư cá nhân dựa trên agent: hỏi đáp trên tài liệu của bạn, giải bài, tạo quiz, research và trực quan hoá, có bộ nhớ thích ứng với cách bạn học. ⭐ 43k · Python · _thêm 2026-10-28_
 
 ## Lập trình & web
 

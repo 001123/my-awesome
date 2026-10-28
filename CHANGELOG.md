@@ -2,6 +2,18 @@
 
 Every curation run is logged here, newest first.
 
+## 2026-10-28 00:37 UTC
+
+Added 14 entries (169 total):
+
+- AI & LLM (2): debpalash/VoiceStudio, maximhq/bifrost
+- AI Agents & MCP (3): Panniantong/Agent-Reach, xerj-org/xerj, AgriciDaniel/claude-seo
+- Web Development (2): better-auth/better-auth, pocketbase/pocketbase
+- UI Design (1): Nutlope/hallmark
+- Dev Tools (4): starship/starship, jj-vcs/jj, typst/typst, localsend/localsend
+- Self-hosted (1): docmost/docmost
+- Learning (1): HKUDS/DeepTutor
+
 ## 2026-10-27 18:35 UTC
 
 Added 1 entry (155 total):

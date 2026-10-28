@@ -22,3 +22,4 @@ Self-hosted software that replaces cloud services.
 - [jellyfin/jellyfin](https://github.com/jellyfin/jellyfin) — Free, self-hosted media server for streaming your movies, shows and music to any device, with no tracking or paid tiers. ⭐ 58k · C# · _added 2026-10-27_
 - [paperless-ngx/paperless-ngx](https://github.com/paperless-ngx/paperless-ngx) — Document management system that scans, OCRs, auto-tags and indexes your paper documents so you can go paperless. ⭐ 45k · Python · _added 2026-10-27_
 - [dani-garcia/vaultwarden](https://github.com/dani-garcia/vaultwarden) — Lightweight Bitwarden-compatible password manager server written in Rust, easy to run on a small VPS or Raspberry Pi. ⭐ 67k · Rust · _added 2026-10-27_
+- [docmost/docmost](https://github.com/docmost/docmost) — Collaborative wiki and documentation tool with real-time editing, spaces, permissions and diagrams, an open-source alternative to Confluence and Notion. ⭐ 22k · TypeScript · _added 2026-10-28_

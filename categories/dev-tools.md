@@ -23,6 +23,8 @@ Command-line tools, utilities and productivity boosters for developers.
 - [atuinsh/atuin](https://github.com/atuinsh/atuin) — Replaces your shell history with a searchable SQLite database, with optional end-to-end encrypted sync across machines. ⭐ 31k · Rust · _added 2026-10-27_
 - [zellij-org/zellij](https://github.com/zellij-org/zellij) — Terminal workspace and multiplexer with sensible defaults, floating panes, layouts and WebAssembly plugins, a friendlier tmux. ⭐ 36k · Rust · _added 2026-10-27_
 - [jdx/mise](https://github.com/jdx/mise) — One fast tool to manage per-project runtime versions, env vars and tasks, replacing asdf, nvm, pyenv and make scripts. ⭐ 35k · Rust · _added 2026-10-27_
+- [starship/starship](https://github.com/starship/starship) — Minimal, blazing-fast prompt for any shell that shows git status, language versions and more, configured with a single TOML file. ⭐ 60k · Rust · _added 2026-10-28_
+- [jj-vcs/jj](https://github.com/jj-vcs/jj) — Jujutsu, a Git-compatible version control system with automatic working-copy commits, first-class conflicts and an undoable operation log that makes rewriting history painless. ⭐ 32k · Rust · _added 2026-10-28_
 
 ## Utilities
 
@@ -31,3 +33,5 @@ Command-line tools, utilities and productivity boosters for developers.
 - [n8n-io/n8n](https://github.com/n8n-io/n8n) — Self-hostable workflow automation platform with AI and 400+ integrations. ⭐ 209k · TypeScript · _added 2026-10-25_
 - [gitleaks/gitleaks](https://github.com/gitleaks/gitleaks) — Scans git repos, files and CI pipelines for leaked secrets like API keys and passwords before they ship. ⭐ 30k · Go · _added 2026-10-26_
 - [google/zx](https://github.com/google/zx) — Write shell scripts in JavaScript with handy wrappers around child processes, pipes and arguments. ⭐ 46k · JavaScript · _added 2026-10-26_
+- [typst/typst](https://github.com/typst/typst) — Markup-based typesetting system that is a modern alternative to LaTeX, with fast incremental compilation, readable syntax and a built-in scripting language. ⭐ 56k · Rust · _added 2026-10-28_
+- [localsend/localsend](https://github.com/localsend/localsend) — Open-source, cross-platform alternative to AirDrop that sends files and text between nearby devices over the local network, with no internet or account needed. ⭐ 93k · Dart · _added 2026-10-28_

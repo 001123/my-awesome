@@ -30,6 +30,7 @@ Thư viện component, animation, công cụ thiết kế và website lấy cả
 - [Leonxlnx/taste-skill](https://github.com/Leonxlnx/taste-skill) — Agent skills giúp coding agent thiết kế UI có "gu", tránh trang web AI chung chung. ⭐ 102k · JavaScript · _thêm 2026-10-25_
 - [pbakaus/impeccable](https://github.com/pbakaus/impeccable) — Bộ ngôn ngữ thiết kế và lệnh giúp AI coding agent làm UI tốt hơn hẳn về typography, bố cục và độ hoàn thiện. ⭐ 89k · _thêm 2026-10-27_
 - [tldraw/tldraw](https://github.com/tldraw/tldraw) — SDK React để xây ứng dụng canvas vô hạn như bảng trắng, trình vẽ sơ đồ hay canvas cho AI. ⭐ 51k · TypeScript · _thêm 2026-10-27_
+- [Nutlope/hallmark](https://github.com/Nutlope/hallmark) — Skill thiết kế chống "AI slop" cho Claude Code, Cursor và Codex, giúp agent làm giao diện có cá tính, còn biết audit, redesign hoặc học phong cách từ một trang mẫu. ⭐ 28k · CSS · _thêm 2026-10-28_
 
 ## Website cảm hứng & tài nguyên
 

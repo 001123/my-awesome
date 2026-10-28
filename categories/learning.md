@@ -12,6 +12,7 @@ Courses, roadmaps, books and self-study material.
 - [shareAI-lab/learn-claude-code](https://github.com/shareAI-lab/learn-claude-code) — Build a Claude Code-like agent harness from 0 to 1. ⭐ 79k · Python · _added 2026-10-25_
 - [f/prompts.chat](https://github.com/f/prompts.chat) — Community prompt library (formerly Awesome ChatGPT Prompts). ⭐ 174k · HTML · _added 2026-10-25_
 - [luongnv89/claude-howto](https://github.com/luongnv89/claude-howto) — Visual, example-driven guide to Claude Code, from the basics to advanced agents, with copy-paste templates. ⭐ 45k · Python · _added 2026-10-26_
+- [HKUDS/DeepTutor](https://github.com/HKUDS/DeepTutor) — Agent-based personal tutor that combines Q&A over your own materials, problem solving, quiz generation, research and visualizations, with memory that adapts to how you learn. ⭐ 43k · Python · _added 2026-10-28_
 
 ## Programming & web
 

@@ -26,6 +26,8 @@ Framework, runtime, backend và công cụ cho lập trình web.
 - [coollabsio/coolify](https://github.com/coollabsio/coolify) — PaaS tự host thay thế Vercel/Heroku/Netlify trên server của bạn. ⭐ 64k · PHP · _thêm 2026-10-25_
 - [Dokploy/dokploy](https://github.com/Dokploy/dokploy) — Nền tảng deploy tự host thay thế Vercel, Netlify, Heroku. ⭐ 38k · TypeScript · _thêm 2026-10-25_
 - [drizzle-team/drizzle-orm](https://github.com/drizzle-team/drizzle-orm) — ORM TypeScript nhẹ, type-safe, cú pháp gần với SQL, hỗ trợ Postgres, MySQL, SQLite và chạy tốt trên serverless. ⭐ 36k · TypeScript · _thêm 2026-10-26_
+- [better-auth/better-auth](https://github.com/better-auth/better-auth) — Thư viện xác thực TypeScript không phụ thuộc framework: email/mật khẩu, OAuth, 2FA, passkey, tổ chức và hệ plugin, dữ liệu nằm trong database của bạn. ⭐ 30k · TypeScript · _thêm 2026-10-28_
+- [pocketbase/pocketbase](https://github.com/pocketbase/pocketbase) — Backend mã nguồn mở gói trong một file: database SQLite có realtime, xác thực, lưu file và trang admin, mở rộng được bằng Go hoặc JavaScript. ⭐ 61k · Go · _thêm 2026-10-28_
 
 ## Website tham khảo
 

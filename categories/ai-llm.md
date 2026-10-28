@@ -14,6 +14,7 @@ Models, local model runners, inference, fine-tuning and frameworks for building 
 - [OpenBMB/VoxCPM](https://github.com/OpenBMB/VoxCPM) — Tokenizer-free open TTS model for multilingual speech, voice design from a text prompt and realistic voice cloning. ⭐ 41k · Python · _added 2026-10-27_
 - [Comfy-Org/ComfyUI](https://github.com/Comfy-Org/ComfyUI) — Node-based GUI, API and backend for diffusion models, the go-to tool for building image and video generation workflows. ⭐ 144k · Python · _added 2026-10-27_
 - [ggml-org/whisper.cpp](https://github.com/ggml-org/whisper.cpp) — Fast C/C++ port of OpenAI's Whisper that runs speech-to-text fully offline on CPUs, Apple Silicon and phones. ⭐ 55k · C++ · _added 2026-10-27_
+- [debpalash/VoiceStudio](https://github.com/debpalash/VoiceStudio) — Fully local, open-source alternative to ElevenLabs that does voice cloning, voice design, video dubbing, dictation, transcription and audiobook creation on your own machine. ⭐ 9.7k · Python · _added 2026-10-28_
 
 ## Inference, gateways & fine-tuning
 
@@ -23,6 +24,7 @@ Models, local model runners, inference, fine-tuning and frameworks for building 
 - [hiyouga/LlamaFactory](https://github.com/hiyouga/LlamaFactory) — Fine-tune 100+ LLMs/VLMs with LoRA, QLoRA and RLHF through one unified interface. ⭐ 76k · Python · _added 2026-10-25_
 - [huggingface/transformers](https://github.com/huggingface/transformers) — The standard library for using and training text, vision and audio models. ⭐ 168k · Python · _added 2026-10-25_
 - [deepseek-ai/DeepInfer](https://github.com/deepseek-ai/DeepInfer) — DeepSeek's official high-performance inference framework for serving DeepSeek models at large scale. ⭐ 22k · Python · _added 2026-10-26_
+- [maximhq/bifrost](https://github.com/maximhq/bifrost) — High-performance AI gateway that puts 1000+ models behind one OpenAI-compatible API, with failover, load balancing, semantic caching, guardrails and budgets at microsecond overhead. ⭐ 7.8k · Go · _added 2026-10-28_
 
 ## Frameworks for LLM apps
 
