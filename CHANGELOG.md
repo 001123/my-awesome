@@ -2,6 +2,12 @@
 
 Every curation run is logged here, newest first.
 
+## 2026-10-28 10:30 UTC
+
+Added 1 entry (170 total):
+
+- Web Development (1): oneo-me/nsgo
+
 ## 2026-10-28 00:37 UTC
 
 Added 14 entries (169 total):

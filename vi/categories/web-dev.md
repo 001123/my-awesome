@@ -12,6 +12,7 @@ Framework, runtime, backend và công cụ cho lập trình web.
 - [honojs/hono](https://github.com/honojs/hono) — Web framework nhỏ gọn theo Web Standards, chạy trên Cloudflare Workers, Bun, Deno, Node. ⭐ 33k · TypeScript · _thêm 2026-10-25_
 - [oven-sh/bun](https://github.com/oven-sh/bun) — Runtime JavaScript siêu nhanh kiêm bundler, test runner và package manager. ⭐ 96k · Rust · _thêm 2026-10-25_
 - [TanStack/router](https://github.com/TanStack/router) — Router type-safe hoàn toàn kèm framework full-stack TanStack Start cho React và hơn thế, có search params và data loading đều được định kiểu. ⭐ 15k · TypeScript · _thêm 2026-10-27_
+- [oneo-me/nsgo](https://github.com/oneo-me/nsgo) — UI engine đa nền tảng (còn sớm): viết app bằng Go với signal và component, mỗi nền tảng tự vẽ bằng view native trên iOS, Android, macOS, Windows, Linux và web. ⭐ 24 · Go · _thêm 2026-10-28_
 
 ## Công cụ build & chất lượng code
 

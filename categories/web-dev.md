@@ -12,6 +12,7 @@ Frameworks, runtimes, backends and tooling for web development.
 - [honojs/hono](https://github.com/honojs/hono) — Small web framework built on Web Standards, runs on Cloudflare Workers, Bun, Deno and Node. ⭐ 33k · TypeScript · _added 2026-10-25_
 - [oven-sh/bun](https://github.com/oven-sh/bun) — Super-fast JavaScript runtime that is also a bundler, test runner and package manager. ⭐ 96k · Rust · _added 2026-10-25_
 - [TanStack/router](https://github.com/TanStack/router) — Fully type-safe router and the TanStack Start full-stack framework for React and more, with typed search params and data loading. ⭐ 15k · TypeScript · _added 2026-10-27_
+- [oneo-me/nsgo](https://github.com/oneo-me/nsgo) — Early-stage cross-platform UI engine where you write the app in Go with signals and components, and each platform renders it with native views on iOS, Android, macOS, Windows, Linux and the web. ⭐ 24 · Go · _added 2026-10-28_
 
 ## Build tools & code quality
 
